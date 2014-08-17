@@ -40,65 +40,39 @@ $(document).foundation();
 ***************************************************************************************************************************************************************/
 
 //esquina superior izquierda descripcion del curso
-$('.up-left').click(function(event) {
+$('.up-left').click(function(event) { /*************************************DESCRIPCION*********************************************/
     /* Act on the event */
    var nombreCurso=$(this).attr('data');
-   var curso;
-  if(nombreCurso=="Captura de imágenes digitales")
-   {
-        curso=capturaImagenesDigitales;
-   }
-
+   var curso =getCurso(nombreCurso);
    crearDescripcion(curso, nombreCurso);
-
-    $('#descripcion').foundation('reveal', 'open');
-
-    
+   $('#descripcion').foundation('reveal', 'open');
 });
 
 //esquina superior derecha objetivos del curso
-$('.up-right').click(function(event) {
+$('.up-right').click(function(event) { /*************************************OBJETIVOS*********************************************/
     /* Act on the event */
    var cursoNombre=$(this).attr('data');
-
-   var curso;
-  if(cursoNombre=="Captura de imágenes digitales")
-      {
-        
-        curso=capturaImagenesDigitales;
-      }
-   crearObjetivos(curso,cursoNombre);
-
+   var curso =getCurso(cursoNombre);
+    crearObjetivos(curso,cursoNombre);
     $('#objetivos').foundation('reveal', 'open');
-    
 });
 
 //esquina inferior izquierda contenidos del curso
-$('.down-left').click(function(event) {
+$('.down-left').click(function(event) {/*************************************CONTENIDOS*********************************************/
     /* Act on the event */
    var nombreCurso=$(this).attr('data');
-     var curso;
-  
-   
-   if(nombreCurso=="Captura de imágenes digitales")
-      {
-         curso=capturaImagenesDigitales;
-      }
-      crearContenidos(curso,nombreCurso);
+   var curso =getCurso(nombreCurso);
+   crearContenidos(curso,nombreCurso);
 
-        $('.punto').click(function(event) {
-    /* Act on the event */
+        $('.punto').click(function(event) {/***********PUNTOS CONTENIDOS***************/
+          /* Act on the event */
             var posContenido=$(this).attr('data');
             crearPuntos(curso,nombreCurso, posContenido);
             $('#contenidos').attr('data', 'true');
-              // $('#contenidos').foundation('reveal', 'close');
-                  $('#puntos').foundation('reveal', 'open');
-
-        });
+            $('#puntos').foundation('reveal', 'open');
+             });
 
     $('#contenidos').foundation('reveal', 'open');
-//$('#myModal').foundation('reveal', 'close');
-
 });
 
 
@@ -109,13 +83,14 @@ $('.down-left').click(function(event) {
    var id = $(this).attr('id');
    if(id=='descripcion')
    {
-
         $('div').remove('.descripcion-cont');
     }
+
     if(id=='objetivos')
    {
         $('div').remove('.objetivos-cont');
     }
+
     if(id=='contenidos')
    {      
        // alert($(this).attr('data'));
@@ -123,23 +98,25 @@ $('.down-left').click(function(event) {
         {
         $('div').remove('.contenidos-cont');
         }
-        else{
+     }
 
-        }
-   }
    if (id=='puntos') {
         $('div').remove('.puntos-cont');
         $('#contenidos').attr('data', 'false');
           $('#contenidos').foundation('reveal', 'open');
-
-   };
-
+        };
 });
 
-});
- 
+});  /**************************************************************** Fin del document ready*************************************************************/
+/*************************************************************************************************************************************************************/
+/*************************************************************************************************************************************************************/ 
 
-//crea la descripcion del curso en el modal de descripcion
+
+/*******************************************************************************************************************************************************************/
+/****************************************************Metodods que crean automaticamente el contenido del los cursos**********************************
+********************************************************************************************************************************************************************/
+
+/********crea la descripcion del curso en el modal de descripcion**************/
 function crearDescripcion(curso, nombreCurso)
 {
     
@@ -148,7 +125,7 @@ function crearDescripcion(curso, nombreCurso)
    
 }
 
-//crea los objetivos en el modal de objetivos
+/********crea los objetivos del curso en el modal de objetivos**************/
 function crearObjetivos(curso,cursoNombre)
 {
       
@@ -169,7 +146,7 @@ function crearObjetivos(curso,cursoNombre)
       
 }
 
-//crea los contenidos que se desarollan en el  curso
+/********crea los contenidos que se desarrollan el el curso**************/
 function crearContenidos(curso, nombreCurso)
 {
       
@@ -185,7 +162,7 @@ function crearContenidos(curso, nombreCurso)
 
 }
 
-//crea los puntos del contenido seleccionado de un curso
+/*****************crea los puntos del contenido seleccionado de un curso*****************/
 function crearPuntos (curso, nombreCurso,posContenido) {
     // body...
     var puntos="<div class='row puntos-cont'> <h4>"+curso[0].contenidos[posContenido].titulo+"</h4><ul class='square'>";
@@ -196,6 +173,23 @@ function crearPuntos (curso, nombreCurso,posContenido) {
     $('#puntos').append(puntos);
 
 }
+
+
+/***************************************************************************************************************************************************************
+***************************************************Devuelve el array del curso seleccionado************************************************************
+***************************************************************************************************************************************************************/
+
+function getCurso(nombreCurso)
+{
+    if(nombreCurso=='Captura de imágenes digitales')
+    {
+      return capturaImagenesDigitales;
+    }
+
+    return null;
+}
+
+
 /***************************************************************************************************************************************************************
 *****************************************Pinta las lineas que unen los cursos en el canvas************************************************************
 ***************************************************************************************************************************************************************/
