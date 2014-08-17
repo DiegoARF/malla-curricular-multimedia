@@ -59,9 +59,15 @@ $('.up-left').click(function(event) {
 //esquina superior derecha objetivos del curso
 $('.up-right').click(function(event) {
     /* Act on the event */
-   var curso=$(this).attr('data');
-  
-   crearObjetivos(curso);
+   var cursoNombre=$(this).attr('data');
+
+   var curso;
+  if(cursoNombre=="Captura de imágenes digitales")
+      {
+        
+        curso=capturaImagenesDigitales;
+      }
+   crearObjetivos(curso,cursoNombre);
 
     $('#objetivos').foundation('reveal', 'open');
     
@@ -143,25 +149,24 @@ function crearDescripcion(curso, nombreCurso)
 }
 
 //crea los objetivos en el modal de objetivos
-function crearObjetivos(curso)
+function crearObjetivos(curso,cursoNombre)
 {
-      if(curso=="Captura de imágenes digitales")
-      {
+      
             var objetivos="<div class='row objetivos-cont'><div class='small-4 column'><h4>Objetivos generales</h4><ol>";
-            for(var i=0; i<capturaImagenesDigitales[0].objetivosGenerales.length;i++)
+            for(var i=0; i<curso[0].objetivosGenerales.length;i++)
             {
-                objetivos+="<li>"+capturaImagenesDigitales[0].objetivosGenerales[i]+"</li>";
+                objetivos+="<li>"+curso[0].objetivosGenerales[i]+"</li>";
             }
 
         objetivos+="<ol></div>"
         objetivos+="<div class='small-4 column'><h4>Objetivos específicos</h4><ol>";
-        for(var i=0; i<capturaImagenesDigitales[0].objetivosEspecificos.length; i++)
+        for(var i=0; i<curso[0].objetivosEspecificos.length; i++)
         {
-            objetivos+="<li>"+capturaImagenesDigitales[0].objetivosEspecificos[i]+"</li>";
+            objetivos+="<li>"+curso[0].objetivosEspecificos[i]+"</li>";
         }
         objetivos+="</ol></div></div>";
         $('#objetivos').append(objetivos);
-      }
+      
 }
 
 //crea los contenidos que se desarollan en el  curso
