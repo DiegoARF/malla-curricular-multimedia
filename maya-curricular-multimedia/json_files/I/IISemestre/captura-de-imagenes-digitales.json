@@ -1,0 +1,91 @@
+[
+{
+  "siglas": "TM-2400",
+  "nombre": "Captura de imágenes digitales",
+  "descripcion": "Este curso le dará al o la estudiante los principios para que pueda realizar capturas de imágenes en formato digital y que estas sean buenas tanto desde el punto de vista de calidad así como de utilidad. Busca hacer que a través de la interiorización de las imágenes, por medio de los sentidos, el o la estudiante desarrolle habilidades para poder imaginar escenarios, también se le darán las bases para que pueda realizar manipulación de las imágenes fotográficas para que lleguen a tener las características que él necesita de acuerdo a los medios en las que serán utilizadas. Comprende la historia de la fotografía, su evolución y además se abordará el tema de la composición fotográfica y la iluminación. Se revisarán aspectos concernientes a la cámara fotográfica tanto análoga como la digital. También se abordará el tema del cuarto oscuro digital y las herramientas disponibles para el revelado digital.",
+  "objetivosGenerales": [
+    "Utilizar técnicas fotográficas en la toma de imágenes para su optimización.",
+    "Que el o la estudiante pueda imaginar escenarios para luego crearlos por medio de imágenes del medio que lo rodea."
+  ],
+  "objetivosEspecificos": [
+    "Conocer la historia y los tipos de fotografía.",
+    "Conocer los principios básicos para que una fotografía sea útil a sus necesidades.",
+    "Conocer las características de la cámara digital.",
+    "Dar tratamiento a las imágenes digitales tanto para corregir imperfecciones como para hacer una fotografía útil."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Introducción a la historia, evolución y aplicaciones de la fotografía.",
+      "temas": [
+        "Pioneros. Reportaje fotográfico.",
+        "Fotografía artística.",
+        "Fotografía comercial y publicitaria.",
+        "Fotografía cinematográfica."
+        
+      ]
+    },
+    {
+      "titulo": "Esquema básico del proceso fotográfico.",
+      "temas": [
+        "Factores cuantitativos (técnicos).",
+        "Factores cualitativos (históricos y estéticos)."
+      ]
+    },
+    {
+      "titulo": "La composición fotográfica.",
+      "temas": [
+        
+         "Elementos morfológicos, dinámicos y escalares de la imagen fija.",
+        "Principios compositivos"
+      ]
+    },
+    {
+      "titulo": " La iluminación.",
+      "temas": [
+        "Nociones básicas sobre la luz y la exposición.",
+        "Ley del cuadrado inverso.",
+        "Sistemas de iluminación."
+        
+      ]
+    },
+    {
+      "titulo": "La cámara fotográfica.",
+      "temas": [
+        "Componentes básicos de la cámara.",
+        "Tipos de cámaras.",
+        "Tipos de películas.",
+        "El enfoque, zoom, perspectiva y distancia.",
+        "Profundidad de campo y clasificación.",
+        "Tiempo de exposición.",
+        "Medición de la luz.",
+        "Compensación de la exposición.",
+        "El uso del flash.",
+        "Errores en fotografía.",
+        "Accesorios: El trípode, fotómetro.",
+        "Técnicas: los retratos, paisajes, objetos en movimiento, contraluz, Iglesias y monumentos."
+
+      ]
+    },
+    {
+      "titulo": "La cámara fotográfica digital.",
+      "temas": [
+       "Escoger el tipo de archivo, modos del flash, balance blanco, sharpness, contraste y saturación.",
+       "Tipos de tarjetas de memoria.",
+       "La luz (frontlight, backlight, sidelight), el flash, iluminación en interiores, control de velocidad del disparador.",
+       "Composición, regla de 3, curvas S, patrones repetitivos y de ritmo, línea del horizonte, capas, escala, tensión.",
+       "Fotografías que cuentan historias, de personas, documental, de la naturaleza."
+        
+      ]
+    },
+    {
+      "titulo": "El cuarto oscuro digital.",
+      "temas": [
+        "Herramientas de hardware y software necesarias, archivos RAW",
+        "Edición de fotografías, corrección de tono y de color, refinamiento de la imagen, corrección avanzada de imagen",
+        "Salida e impresión de las fotografías"
+       
+      ]
+    }
+  ]
+}
+]

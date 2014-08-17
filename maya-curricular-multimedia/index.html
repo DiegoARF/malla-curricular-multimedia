@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="//use.edgefonts.net/expletus-sans.js"></script>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	<script src="js/foundation.min.js"></script>
+	
+</head>
+<body ng-controller="appController">
+
+	<header class="clearfix">
+		<div class="row">
+			<img class="left" src="img/ucr.png" alt="">
+			<img class="multimedia-logo" src="img/logoITMhorizontal.png" alt="">
+			<img class="sede right" src="img/sede.png" alt="">
+		</div>
+	</header>
+
+	<section>
+	<canvas id="micanvas"></canvas>
+	<section class="info">
+		<a class="close">&#215;</a>
+	</section>
+	<div id=""></div>
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="head">
+					<p>I Ciclo</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="head">
+					<p>II Ciclo</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="head">
+					<p>III Ciclo</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="head">
+					<p>IV Ciclo</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="head">
+					<p>V Ciclo</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="head">
+					<p>VI Ciclo</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="head">
+					<p>VII Ciclo</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="head ">
+					<p>VII Ciclo</p>
+				</div>
+			</div>
+		</div>
+
+	
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<div class="btn up-left" data="EG-1"></div>
+					<div class="btn up-right" data="EG-1"></div>
+					
+					<p>EG-1</p>
+					<p>Humanidades I</p>
+					<div class="btn down-left" data="EG-1"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					
+					<p>EG-2</p>
+					<p>Humanidades II</p>
+
+					<div class="btn down-left"></div>
+				
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>SR-1</p>
+					<p>Seminario Realidad Nacional I</p>
+					<div class="btn down-left"></div>
+				
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<!-- <p>SR-2</p>
+					<p>Seminario Realidad Nacional II</p> -->
+					   <li ng-repeat="info in dat | filter: {nombre:'Captura de imágenes digitales'}">
+					 	 <p>Siglas: {{ info.siglas }} nombre: {{ info.nombre }}</p>
+					 </li>
+					<div class="btn down-left"></div>
+				
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left">
+					
+					
+					
+					</div>
+					<div class="btn up-right">
+						
+					</div>
+					<br>
+					<p>RP</p>
+					<p >Repertorio</p>
+					<div class="btn down-left"></div>
+					
+
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-1100</p>
+					<p>Introducción a la informática y a la tecnología multimedia</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-2100</p>
+					<p>Fundamentos de programación</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-3100</p>
+					<p>Programación</p>	
+					<div class="btn down-left"></div>
+				
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-4100</p>
+					<p>Desarrollo de aplicaciones interactivas I</p>
+					<div class="btn down-left"></div>
+					
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-5100</p>
+					<p>Desarrollo de aplicaciones interactivas II</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>OPT</p>
+					<p>Optativa I</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>OPT</p>
+					<p>Optativa II</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-8200</p>
+					<p>Responsabilidad social del informático</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="box otros box-shadow">
+					<div class="btn up-left "></div>
+					<div class="btn up-right"></div>
+					<p>TM-1500</p>
+					<p>Lógica matemática para computación</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-3200</p>
+					<p>Diseño bases de datos</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-4200</p>
+					<p>Seguridad en las aplicaciones interactivas</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-5400</p>
+					<p>Ingeniería de aplicaciones interactivas</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box otros">
+					<div class="btn up-left box-shadow"></div>
+					<div class="btn up-right"></div>
+					<p>TM-6400</p>
+					<p>Comunicación escrita I</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>OPT</p>
+					<p>Optativa III</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-8100</p>
+					<p>Práctica profesional supervisada</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="box">
+					<p></p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>EG</p>
+					<p>Curso de arte</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-3300</p>
+					<p>Redes y comunicaciones de datos</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-4500</p>
+					<p>Diseño gráfico para tecnología multimedia</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-5500</p>
+					<p>Diseño de sitios WEB</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box otros box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-6200</p>
+					<p>Desarrollo empresarial</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-7500</p>
+					<p>Comercio electrónico</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+					
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-1200</p>
+					<p>Taller de experimentación</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left" data="{{dat[0].nombre}}"></div>
+					<div class="btn up-right" data="{{dat[0].nombre}}"></div>
+					<p>TM-2400</p>
+					<p>Captura de imagenes digitales</p>
+					<div class="btn down-left" data="{{dat[0].nombre}}"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-3400</p>
+					<p>Manipulación de la imagen</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-4400</p>
+					<p>Imagen en movimiento</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-5200</p>
+					<p>Manipulación de audio y video</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-6100</p>
+					<p>Taller de multimedia</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box informatica box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-7200</p>
+					<p>Desarrollo rápido de aplicaciones</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+					
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-1300</p>
+					<p>Fundamentos de diseño</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-2200</p>
+					<p>Medios digitales para diseñar</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-3500</p>
+					<p>Historia de las artes visuales</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box otros box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-4300</p>
+					<p>Inglés oral I para informática</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box otros box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-5300</p>
+					 <p>Lectura en inglés para informática</p>
+					 <div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box otros box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-6300</p>
+					<p>Gramática y composición inglesa I</p>	
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box otros box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-7100</p>
+					<p>Gramática y composición inglesa II</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+					
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-1400</p>
+					<p>Fundamentos de dibujo</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box diseno box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TM-2300</p>
+					<p>Expresión artistica a través del dibujo</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>EG</p>
+					<p>Actividad deportiva</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+					
+				</div>
+			</div>
+			<div class="small-2 column">
+				<div class="box humanidades box-shadow">
+					<div class="btn up-left"></div>
+					<div class="btn up-right"></div>
+					<p>TCU Trabajo comunal universitario</p>
+					<div class="btn down-left"></div>
+					
+				</div>
+			</div>
+			
+			<div class="small-1 column ">
+				<div class="box ">
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box ">
+					
+				</div>
+			</div>
+
+		</div>
+	</section>
+	
+	<!-- modal de descripcion de los cursos -->
+	<div id="descripcion" class="reveal-modal" data-reveal>
+	<h2>Descripción del curso</h2>
+	<br/>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<!-- modal de objetivos de los cursos -->
+	<div id="objetivos" class="reveal-modal" data-reveal>
+	<h2>Objetivos del curso</h2>
+	<br/>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<!-- modal contenidos del curso -->
+	<div id="contenidos" class="reveal-modal" data='false' data-reveal>
+	<h2>Contenidos del curso</h2>
+	<br/>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<!-- modal puntos de cada contenido del curso -->
+	<div id="puntos" class="reveal-modal" data-reveal>
+	
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+		
+	
+</body>
+
+</html>
