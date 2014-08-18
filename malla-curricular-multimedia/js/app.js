@@ -196,10 +196,16 @@ function getCurso(nombreCurso)
 function pintarLineasCanvas()
 {
     var canvas = document.getElementById("micanvas");
+    canvas.width  = window.innerWidth-18;
+    canvas.height  = window.innerHeight;
 var ctx = canvas.getContext("2d");
-ctx.moveTo(0,40);
-ctx.lineTo(800,40);
-ctx.strokeStyle = "#FFF";
+ctx.beginPath();
+
+var pos=$('#EG-1').offset();
+var pos2=$('#SR-2').offset();
+ctx.moveTo(pos.left,pos.top+23);
+ctx.lineTo(pos2.left,pos2.top+23);
+ctx.strokeStyle="#FFF";
 ctx.stroke();
 }
 

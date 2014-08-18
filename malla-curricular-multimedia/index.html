@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/foundation.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	
-	<script src="//use.edgefonts.net/expletus-sans.js"></script>
+
 	<script src="js/jquery-2.1.1.min.js"></script>
 	
 	<script src="js/angular.min.js"></script>
@@ -18,7 +18,9 @@
 	
 </head>
 <body ng-controller="appController">
-
+	<canvas id="micanvas">
+		No soporta canvas
+	</canvas>
 	<header class="clearfix">
 		<div class="row">
 			<img class="left" src="img/ucr.png" alt="">
@@ -28,7 +30,7 @@
 	</header>
 
 	<section>
-	<canvas id="micanvas"></canvas>
+	
 	<section class="info">
 		<a class="close">&#215;</a>
 	</section>
@@ -79,7 +81,7 @@
 	
 		<div class="row space">
 			<div class="small-1 column">
-				<div class="box humanidades box-shadow">
+				<div id='EG-1' class="box humanidades box-shadow">
 					<div class="btn up-left" data="EG-1"></div>
 					<div class="btn up-right" data="EG-1"></div>
 					
@@ -117,14 +119,12 @@
 				</div>
 			</div>
 			<div class="small-1 column">
-				<div class="box humanidades box-shadow">
+				<div id='SR-2' class="box humanidades box-shadow">
 					<div class="btn up-left"></div>
 					<div class="btn up-right"></div>
-					<!-- <p>SR-2</p>
-					<p>Seminario Realidad Nacional II</p> -->
-					   <li ng-repeat="info in dat | filter: {nombre:'Captura de imágenes digitales'}">
-					 	 <p>Siglas: {{ info.siglas }} nombre: {{ info.nombre }}</p>
-					 </li>
+					<p>SR-2</p>
+					<p>Seminario Realidad Nacional II</p>
+					
 					<div class="btn down-left"></div>
 				
 				</div>
@@ -251,7 +251,7 @@
 
 		<div class="row space">
 			<div class="small-1 column">
-				<div class="box otros box-shadow">
+				<div id='TM-1500' class="box otros box-shadow">
 					<div class="btn up-left "></div>
 					<div class="btn up-right"></div>
 					<p>TM-1500</p>
