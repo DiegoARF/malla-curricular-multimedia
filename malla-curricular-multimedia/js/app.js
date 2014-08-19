@@ -2,7 +2,12 @@
 
 //primer año
 var capturaImagenesDigitales;
+        //I semestre
+var logicaMatematicaComputacion;
 var fundamentosDeDibujo;
+var introduccionInformaticaTecnologiaMultimedia;
+var tallerExperimentacion;
+
 //segundo año
 var programación;
 var disenoBasesDeDatos;
@@ -16,7 +21,7 @@ var app = angular.module("app", []);
 app.controller("appController", function ($scope, $http) {
     //hacemos uso de $http para obtener los datos del json
   
-
+/********************************************************PRIMER AÑO***********************************************************************/
                             /******PRIMER SEMESTRE******************/
 $http.get('json_files/I/ISemestre/fundamentos_de_dibujo.json').success(function (info) {
         //Convert data to array.
@@ -25,7 +30,33 @@ $http.get('json_files/I/ISemestre/fundamentos_de_dibujo.json').success(function 
         $scope.funDib = info;
         fundamentosDeDibujo=info;
     });
-                            /**********SEGUNDO SEMESTRE********/
+
+$http.get('json_files/I/ISemestre/introduccion_informatica_y_tecnologia_multimedia.json').success(function (info) {
+        //Convert data to array.
+    
+        //datos lo tenemos disponible en la vista gracias a $scope
+        $scope.intoITM = info;
+        introduccionInformaticaTecnologiaMultimedia=info;
+    });
+
+$http.get('json_files/I/ISemestre/logica_matematica_para_computacion.json').success(function (info) {
+        //Convert data to array.
+    
+        //datos lo tenemos disponible en la vista gracias a $scope
+        $scope.logMC= info;
+        logicaMatematicaComputacion=info;
+    });
+
+$http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(function (info) {
+        //Convert data to array.
+    
+        //datos lo tenemos disponible en la vista gracias a $scope
+        $scope.tallExp= info;
+        tallerExperimentacion=info;
+    });
+
+
+                                /**********SEGUNDO SEMESTRE********/
     $http.get('json_files/I/IISemestre/captura-de-imagenes-digitales.json').success(function (info) {
         //Convert data to array.
     
@@ -230,12 +261,26 @@ function getCurso(nombreCurso)
 
 /*******************PRIMER AÑO**************************/
               /**********I SEMESTRE**************/
-              if(nombreCurso=='Fundamentos de dibujo')
-              {
+    if(nombreCurso=='Fundamentos de dibujo')
+    {
                 return fundamentosDeDibujo;
-              }
+    }
 
-               /**********I SEMESTRE**************/             
+    if(nombreCurso=='Introducción a la Informática y a la Tecnología Multimedia')
+    {
+      return introduccionInformaticaTecnologiaMultimedia;
+    }
+
+     if(nombreCurso=='Lógica matemática para computación')
+    {
+      return logicaMatematicaComputacion;
+    }
+        if(nombreCurso=='Taller de experimentación')
+    {
+      return tallerExperimentacion;
+    }
+
+               /**********II SEMESTRE**************/             
 
     if(nombreCurso=='Captura de imágenes digitales')
     {
