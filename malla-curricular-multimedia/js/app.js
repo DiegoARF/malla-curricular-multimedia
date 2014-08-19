@@ -34,7 +34,6 @@ $(document).foundation();
     pintarLineasCanvas();
 
 
-
 /***************************************************************************************************************************************************************
 *****************************************Eventos click a los botones de las esquinas de cada curso*************************************************
 ***************************************************************************************************************************************************************/
@@ -201,12 +200,65 @@ function pintarLineasCanvas()
 var ctx = canvas.getContext("2d");
 ctx.beginPath();
 
-var pos=$('#EG-1').offset();
-var pos2=$('#SR-2').offset();
-ctx.moveTo(pos.left,pos.top+23);
-ctx.lineTo(pos2.left,pos2.top+23);
+var widthBox=parseInt($('.box').css('width'),10);
+var heightBox=parseInt($('.box').css('height'),10);
+ctx.lineWidth = 2;
+
+
+var inicio=$('#EG-1').offset();
+var fin=$('#SR-2').offset();
+ctx.moveTo(inicio.left,inicio.top+23);
+ctx.lineTo(fin.left,fin.top+23);
 ctx.strokeStyle="#FFF";
 ctx.stroke();
+ctx.beginPath();
+
+inicio=$('#TM-1100').offset();
+fin=$('#TM-1500').offset();
+ctx.moveTo(inicio.left+65,inicio.top+23);
+ctx.lineTo(fin.left+65,fin.top+23);
+ctx.strokeStyle="#FFF";
+ctx.stroke();
+ctx.beginPath();
+
+inicio=$('#TM-1100').offset();
+fin=$('#OPT-2').offset();
+ctx.moveTo(inicio.left,inicio.top+23);
+ctx.lineTo(fin.left+widthBox+10,fin.top+23);
+ctx.lineTo(fin.left+widthBox+10,fin.top+80);
+fin=$('#TM-8100').offset();
+ctx.lineTo(fin.left,fin.top+8);
+
+inicio=$('#TM-2100').offset();
+fin=$('#TM-3200').offset();
+ctx.moveTo(inicio.left+(widthBox/2),inicio.top);
+ctx.lineTo(inicio.left+(widthBox/2),inicio.top+heightBox+25);
+ctx.lineTo(fin.left+widthBox+10,inicio.top+heightBox+25);
+ctx.lineTo(fin.left+widthBox+10,inicio.top+heightBox-25);
+fin=$('#TM-4100').offset();
+ctx.lineTo(fin.left+widthBox+10,inicio.top+heightBox-25);
+ctx.lineTo(fin.left+widthBox+10,inicio.top+heightBox+25);
+fin=$('#TM-5400').offset();
+ctx.lineTo(fin.left,inicio.top+heightBox+25);
+ctx.lineTo(fin.left+(widthBox/2),inicio.top+heightBox+25);
+inicio=$('#TM-5500').offset();
+ctx.lineTo(fin.left+(widthBox/2),inicio.top);
+
+ctx.stroke();
+
+inicio=$('#OPT-1').offset();
+fin=$('#OPT-3').offset();
+ctx.moveTo(inicio.left+widthBox, inicio.top+(heightBox/2));
+ctx.lineTo(inicio.left+widthBox+10, inicio.top+(heightBox/2));
+ctx.lineTo(inicio.left+widthBox+10, fin.top+(heightBox/2)-10);
+fin=$('#TM-8100').offset();
+ctx.lineTo(fin.left, fin.top+(heightBox/2)-10);
+ctx.stroke();
+
+
+
+
+
 }
 
 
