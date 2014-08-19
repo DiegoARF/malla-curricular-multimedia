@@ -1,0 +1,70 @@
+[
+{
+"siglas": "TM-1100",
+"nombre": "Introducción a la Informática y a la Tecnología Multimedia",
+"descripcion": "Este es un curso teórico – práctico en donde se le brindan a los estudiantes conceptos básicos relacionados al área Informática. Se desarrollan temas  de tecnología, dispositivos móviles, internet, así como conceptos más específicos al área de informática, hardware, software, lenguajes de programación, sistemas numéricos y las teorías de sistemas, información, comunicación y administración. Se  busca desarrollar además destrezas  en el área de programación, como el análisis, razonamiento lógico, síntesis,  para que el estudiante se enfrente a la resolución de problemas lógicos de programación. Se utilizará un lenguaje de programación didáctico. Es un curso del primer bloque de carrera, por lo tanto no tiene requisitos.",
+"objetivosGenerales": [
+"Desarrollar el pensamiento lógico del estudiante a través de la resolución de problemas básicos de programación para que adquiera habilidades y destrezas como análisis, criticidad, razonamiento lógico, capacidad de síntesis."
+],
+"objetivosEspecificos": [
+"1. Conocer los conceptos básicos relacionados a la Informática y a la tecnología multimedia para entender mejor esta disciplina.",
+"2. Familiarizar al estudiante en la resolución de problemas lógicos de programación para que adquiera destrezas en esta área.",
+"3. Iniciar al estudiante en la programación a través de un lenguaje de programación de uso didáctico."
+],
+"contenidos": [
+{
+"titulo": "1. Conceptos Teóricos que sustentan la carrera.",
+"temas": [
+"1.1 Informática",
+"1.2 Tecnología",
+"1.3 Internet",
+"1.4 Hardware",
+"1.5 Software",
+"1.6 Dispositivos móviles",
+"1.7 Sistemas numéricos",
+"1.7.1 Bases numéricas",
+"1.7.2 Conversión entre bases",
+"1.8 Teoría de...",
+"1.8.1 Sistemas.",
+"1.8.2 Administración.",
+"1.8.3 Comunicación.",
+"1.8.4 Información.",
+"1.9 Sociedad de la información y el conocimiento"
+]
+},
+{
+"titulo": "2. Algoritmos y Diagramas de Flujo.",
+"temas": [
+"2.1. Definición de algoritmos.",
+"2.2. Solución de problemas con algoritmos.",
+"2.3. Diagramas de flujo.",
+"2.4. Símbolos para los diagramas de flujo para representar estructuras de control y procesos.",
+"2.5. Resolución de problemas con pseudocódigo."
+]
+},
+{
+"titulo": "3. Paradigmas de programación.",
+"temas": [
+"3.1. Historia",
+"3.2. Filosofía"
+]
+},
+{
+"titulo": "4. Introducción a la programación.",
+"temas": [
+"4.1. Los lenguajes de programación",
+"4.2. Concepto y partes constitutivas de un programa",
+"4.3. Elementos básicos de un programa",
+"4.3.1. Tipos de datos, operaciones primitivas",
+"4.3.2. Constantes, variables, expresiones, asignación",
+"4.4. Estructuras de control",
+"4.4.1. Estructura secuencial",
+"4.4.2. Estructuras selectivas",
+"4.4.2.1. Alternativa simple (si-entonces / if – then)",
+"4.4.2.2. Altenativa múltiple ( según_sea, caso de / case",
+"4.4.2.3. Estructuras de decisión anidadas"
+]
+}
+]
+}
+]

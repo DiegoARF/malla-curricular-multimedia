@@ -1,0 +1,55 @@
+[
+{
+"siglas": "TM-3100",
+"nombre": "Programación",
+"descripcion": "En este curso el estudiante se enfrentará a la resolución de problemas complejos, se incluirán conceptos de estructuras de datos y programación distribuida.Se busca que el estudiante tenga una clara noción de lo que son ambientes reales de programación actuales.",
+"objetivosGenerales": [
+"Desarrollar en el estudiante la capacidad de abstracción, análisis y desarrollo de la lógica de programación, mediante el desarrollo de ejercicios programados."
+],
+"objetivosEspecificos": [
+"Fomentar el desarrollo de proyectos grupales a través de herramientas informáticas que apoyen el trabajo en equipo.",
+"Resolver problemas de programación en los que interfieran conceptos de programación distribuida.",
+"Manejar estructuras de datos en la resolución de problemas.",
+"Realizar conexiones a diferentes bases de datos."
+],
+"contenidos": [
+{
+"titulo": "A. Repaso."
+},
+{
+"titulo": "B. CVS Subversión."
+},
+{
+"titulo": "C. Archivos."
+},
+{
+"titulo": "D. Estructuras de datos.",
+"temas": [
+"a. Listas enlazadas.",
+"b. Pilas.",
+"c. Colas.",
+"d. Árboles."
+]
+},
+{
+"titulo": "E. Hilos."
+},
+{
+"titulo": "F. Sockets."
+},
+{
+"titulo": "G. Conexión a bases de datos."
+},
+{
+"titulo": "H. Patrones de diseño."
+},
+{
+"titulo": "I. XML."
+},
+{
+},
+{
+}
+]
+}
+]

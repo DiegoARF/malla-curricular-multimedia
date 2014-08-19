@@ -1,0 +1,51 @@
+[
+  {
+    "siglas": "TM-1400",
+    "nombre": "Fundamentos de dibujo",
+    "descripcion": "El dibujo es fundamental en la creación de obras de arte. Este curso ayudará a que el o la estudiante aumente su destreza en la observación y a la vez logre conceptualizar de una mejor forma sus interpretaciones mediante el dibujo.",
+    "objetivosGenerales": [
+      "Desarrollar en el o la estudiante las capacidades de observación e interpretación de tal forma que pueda realizar representaciones por medio del dibujo de una forma espontánea."
+    ],
+    "objetivosEspecificos": [
+      "1. Conocer los conceptos teórico-prácticos del dibujo como forma de comunicación y expresión artística.",
+      "2. Acrecentar en el o la estudiante las capacidades de conceptualización visual bi y tridimensional, creatividad, expresividad y comunicación visual.",
+      "3. Adquirir una base sólida y fundamental para desarrollar otras actividades creativas y compositivas.",
+      "4. Distinguir los elementos del dibujo: líneas, formas, texturas, luz y sombra, proporción, composición y manejo del espacio.",
+      "5. Utilizar los elementos del dibujo en las diferentes representaciones artísticas y compositivas.",
+      "6. Emplear diferentes materiales y técnicas para dibujar.",
+      "7.  Conceptualizar y esbozar proyectos gráficos bi y tridimensionales."
+    ],
+    "contenidos": [
+      {
+        "titulo": "Forma, composición y dibujo",
+        "temas": [
+          "1.- Observación e interpretación gráfica:",
+          "2- Elementos configuradores del dibujo:"
+        ]
+      },
+      {
+        "titulo": "La gramática del dibujo.",
+        "temas": [
+          "3.-Elementos que determinan la imagen gráfica",
+          "4.- Sintaxis de los elementos que configuran la imagen gráfica."
+        ]
+      },
+      {
+        "titulo": "Estudio de la línea.",
+        "temas": [
+          "5.- La expresión estructural lineal (el encaje).",
+          "6.- Características expresivas del trazo.",
+          "7.- Concepto y características de las distintas líneas."
+        ]
+      },
+      {
+        "titulo": "Luz y sombra (tonos y claroscuro).",
+        "temas": [
+          "8.- La expresión volumétrica tonal.",
+          "9.- Los tonos y el claroscuro.",
+          "10.- La representación y expresión de la forma."
+        ]
+      }
+    ]
+  }
+]

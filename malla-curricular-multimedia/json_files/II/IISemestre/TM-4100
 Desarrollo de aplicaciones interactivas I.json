@@ -1,0 +1,99 @@
+[
+{
+"siglas": " TM-4100",
+"nombre": "Desarrollo de aplicaciones interactivas I",
+"descripcion": "Este curso profundiza en el desarrollo de sistemas que ofrezcan al usuario un alto grado de interactividad con la aplicación, utilizando una arquitectura que ofrezca seguridad y eficiencia a las aplicaciones desarrolladas, tal es el caso de la arquitectura n-capas que actualmente se utiliza como base en la programación. El curso se apoyo en un lenguaje de programación que permita de forma ágil ofrecer y analizar las funcionalidades que requiere una aplicación interactiva.    Al inicio del curso el y la estudiante conocerán acerca de los componentes esenciales para el desarrollo de aplicaciones interactivas, el curso toma como referencia el desarrollo de un sitio web y los diferentes formatos de archivos que permiten el intercambio de información mediante el Internet. El curso requiere los conocimientos adquiridos del curso de Diseño de Bases de datos y Programación, para realizar las actividades prácticas de curso.    Posteriormente, el estudiante conoce las diferentes etapas para el desarrollo de un proyecto web, cada una de las etapas requiere un espacio individual de análisis para que el estudiante comprenda, las implicaciones y consideraciones que debe tener en cada una de las etapas. La etapa de desarrollo de la aplicación web se realiza mediante el estudio de un lenguaje de programación orientado al web, y mediante complementos de desarrollo web que aporten facilidades al sitio o aplicación desarrollada. Al final del curso el estudiante aplica los conocimientos adquiridos durante el curso en un proyecto final que conlleva el desarrollo de un sitio web completo, pasando por cada una de las etapas de desarrollo y finalizando con la publicación del sitio.",
+"objetivosGenerales": [
+"Analizar las diferentes etapas que exige el desarrollo de una aplicación interactiva, tomando como base un sitio o aplicación web, con el fin de que los estudiantes puedan desarrollar un proyecto de desarrollo apoyados en un lenguaje de programación."
+],
+"objetivosEspecificos": [
+"Analizar los diferentes componentes de un sitio web, con el fin de que el estudiante comprenda el alcance del desarrollo de aplicaciones web.",
+"Analizar las diferentes etapas para el desarrollo de un proyecto web.",
+" Definir el diseño de un sitio web utilizando el balance adecuado de colores y gráficos que se ajuste al cliente que requiere el sitio.",
+"Configurar un servidor web para soportar la ejecución de un sitio web.",
+"Desarrollar un proyecto web completo."
+],
+"contenidos": [
+{
+"titulo": "1. Tema I: Introducción a las aplicaciones web.",
+"temas": [
+"Tecnologías multimedia utilizadas en la Web.",
+"Tipos de páginas.",
+"Web 2.0.",
+"Aplicaciones web interactivas.",
+"Lenguajes para aplicaciones interactivas.",
+" Interfaz humano - computador.",
+"Componentes de la infraestructura de aplicaciones web.",
+"Oportunidades en Costa Rica para el desarrollo de aplicaciones interactivas.",
+"Legislaciones para el desarrollo y ejecución de aplicaciones en la Web."
+]
+},
+{
+"titulo": "2. Tema II: Etapas para diseñar un proyecto de aplicaciones para la web.",
+"temas": [
+"Etapa 1: Definición del proyecto.",
+"Etapa 2: Desarrollo de la estructura del sitio.",
+"Etapa 3:  Diseño visual y pruebas.",
+"Etapa 4:  Implementación.",
+"Etapa 5: Lanzamiento."
+]
+},
+{
+"titulo": "3. Tema III: Diseño de Interfaces para aplicaciones interactivas.",
+"temas": [
+"Características de las interfaces.",
+"Teoría del color.",
+"SEO (Seach Engine Optimization)."
+]
+},
+{
+"titulo": "4. Tema IV:  Los formatos  HTML5 y  XHTML.",
+"temas": [
+"El Formato XHTML.",
+"El Formato XML.",
+"Estructura de etiquetas de documentos XHTML.",
+" Imágenes, listas, tablas, formularios.",
+"El formato HTML5.",
+"Estándares y Validación de la W3C."
+]
+},
+{
+"titulo": "5. Tema V: Estructurando el sitio web.",
+"temas": [
+"Hojas de estilo",
+"Ventajas y funcionalidad de la Hoja de Estilos en Cascada.",
+"Formateo básico de elementos XHTML con hojas de estilo.",
+"Propiedades de las hojas de estilos.",
+"Diferentes formas de aplicar estilos (galería de fotos, vídeos)."
+]
+},
+{
+"titulo": "6. Tema VI: Utilización de JavaScripts.",
+"temas": [
+"Javascripts básico.",
+"Variables, operadores, estructuras condicionales.",
+"Objetos, funciones, métodos, eventos y objetos del navegador.",
+"Formularios avanzados, cookies.",
+"Jquery QI.",
+"DOM.",
+"Ajax.",
+"Validación de código."
+]
+},
+{
+"titulo": "7. Tema VII: Programación de una aplicación web.",
+"temas": [
+"Fundamentos de PHP.",
+"Operadores, control de flujo, cadenas y matrices.",
+"Funciones, lectura de datos.",
+"Manejo de navegador PHP.",
+"Programación orientada a objetos.",
+"Manejo de archivos y bases de datos.",
+"Secciones, cookies."
+]
+},
+{
+}
+]
+}
+]

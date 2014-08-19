@@ -1,0 +1,51 @@
+[
+{
+"siglas": "TM-1200",
+"nombre": "Taller de experimentación",
+"descripcion": "La experimentación con diversos materiales y texturas, es crucial para que el estudiante pueda reconocerlas y reproducirlas en términos visuales y en formatos digitales. La sinestesia es una de las capacidades que todo ilustrador, y diseñador visual en general, debe dominar. El taller pretende familiarizar al estudiante con la apariencia, la calidad y el comportamiento de diferentes materiales como madera, piedra, papel, metal, arcilla, vidrio y textiles entre otros. Este contacto inicial le permite, en niveles superiores crear un discurso visual convincente que ha de ser integrado en los multi medios digitales. La exploración de las cualidades expresivas de los diferentes materiales le provee de metodologías que luego son trasladadas a las técnicas digitales. De esta manera, el curso no solo considera la mímesis como conductor expresivo y aborda metodologías creativas de exploración sino que aproxima al estudiante al pensamiento divergente como herramienta epistemológica.",
+"objetivosGenerales": [
+"Permitir que el o la estudiante interactúe con diferentes materiales para que identifique formas y texturas, adquiriendo una percepción real  en cuánto a la manipulación de los mismos."
+],
+"objetivosEspecificos": [
+"1. Conocer diferentes texturas y materiales.",
+"2. Aplicar diferentes técnicas para modelado (arcilla, metal, madera)."
+],
+"contenidos": [
+{
+"titulo": "1. Descripción de diferentes tipos de materiales:",
+"temas": [
+"1.1. Origen y composición",
+"1.2. Historia de uso",
+"1.3. Percepción sensorial",
+"1.4. Simulación visual"
+]
+},
+{
+"titulo": "2. Manipulación de materiales",
+"temas": [
+"2.1. Técnicas comunes",
+"2.2. Uso en el arte",
+"2.3. Exploración de posibilidades expresivas"
+]
+},
+{
+"titulo": "3. Sinestesia con diferentes materiales:",
+"temas": [
+"3.1. El contexto",
+"3.2. Visualización",
+"3.3. Mímesis",
+"3.4. Sinestesia en los medios digitales:",
+"3.4.1. cine",
+"3.4.2. juegos electrónicos",
+"3.4.3. interfaces",
+"3.4.4. sitios web",
+"3.4.5. diseño de empaque y producto"
+]
+},
+{
+"titulo": "4. Desarrollo de técnicas artesanales.",
+"temas": []
+}
+]
+}
+]

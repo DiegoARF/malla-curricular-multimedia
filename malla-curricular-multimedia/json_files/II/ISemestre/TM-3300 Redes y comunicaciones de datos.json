@@ -1,0 +1,56 @@
+[
+{
+"siglas": "TM-3300",
+"nombre": "Redes y comunicaciones de datos",
+"descripcion": "Este curso le dará al o la estudiante los conocimientos básicos necesarios sobre las redes y sus elementos constituyentes, así como de las comunicaciones de datos, que le permitan visualizar el entorno de trabajo en el que se desenvolverá y en el que deberán ser instalados y mantenidos sus programas o aplicaciones. También podrá reconocer y entender cada uno de los componentes que conforman una red de datos, así como determinar medios de transmisión adecuados para proyectos.",
+"objetivosGenerales": [
+"Brindar los conocimientos sobre redes y protocolos que faciliten la comprensión de Internet y su funcionamiento."
+],
+"objetivosEspecificos": [
+"Conocer los diferentes componentes de un sistema de comunicación de datos, medios de transmisión e interfaces.",
+"Deducir una configuración de red óptima para sostener las comunicaciones necesarias para los servidores.",
+"Optimizar las comunicaciones para que las aplicaciones funcionen bajo condiciones de velocidad de respuesta aceptable para los usuarios.",
+"Proponer soluciones tecnológicas a necesidades de la empresa dentro de un marco de inversión conservador y con la tecnología disponible en el medio."
+],
+"contenidos": [
+{
+"titulo": "1. Introducción.",
+"temas": [
+"Introducción al curso.",
+"Historia de las redes de comunicaciones y su importancia."
+]
+},
+{
+"titulo": "2. Capas del modelo OSI.",
+"temas": [
+"Protocolos de capa.",
+"Dispositivos de capa.",
+"Aplicaciones de capa.",
+"Medios de transmisión.",
+"Topologías de redes.",
+"Direccionamiento MAC.",
+"Direccionamiento IP V4.",
+"Arquitectura y diseños WAN/LAN.",
+"Tendencias de mercado nacional."
+]
+},
+{
+"titulo": "3. Administración de Redes.",
+"temas": [
+"Estándares de Documentación, Auditoría de la Red, Herramientas para la Administración, Aplicaciones para monitoreo."
+]
+},
+{
+"titulo": "4. Interconexión de Redes.",
+"temas": [
+"Implicaciones, LAN – WAN, WAN – WAN, Tecnologías de interconexión.",
+"Seguridad en los protocolos y dispositivos de enrutamiento..",
+"Muros de fuego (firewalls)."
+]
+},
+{
+"titulo": "5. Configuración de servidores."
+}
+]
+}
+]

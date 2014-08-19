@@ -1,0 +1,69 @@
+[
+{
+"siglas": "TM-3500",
+"nombre": "Historia del Arte Visual",
+"descripcion": "Este es un curso teórico en donde se les brinda a las y los estudiantes los diferentes conceptos que se encuentran relacionados con la historia de las artes visuales, realizando un recorrido desde la prehistoria hasta la actualidad, enfocando en las diversas manifestaciones artísticas occidentales y los diversos análisis históricos-formales del espacio, el tiempo, los ejes polares de figuración-abstracción y la iconografía, etc.",
+"objetivosGenerales": [
+"Dotar al estudiante de un bagaje histórico sobre el arte occidental, con el fin de ilustrar y alimentar su proceso creativo-comunicativo-visual."
+],
+"objetivosEspecificos": [
+"1. Describir los hechos más sobresalientes de la historia del arte visual, situados adecuadamente en el tiempo y en el espacio.",
+"2. Entender las obras de arte como muestras de la imaginación humana, capaces de ser interpretadas por sí mismas y valoradas dentro de una época y cultura.",
+"3. Comprender la versatilidad de las funciones sociales y de las diferentes manifestaciones del arte a través del tiempo.",
+"4. Interpretar el pensamiento del artista, mediante el lenguaje visual como medio de expresión y transmisión de conocimientos."
+],
+"contenidos": [
+{
+"titulo": "Tema I:Concepto básico del arte visual  y sus manifestaciones.",
+"temas": [
+"El lenguaje visual y su terminología.",
+"Iconografía e Iconología.",
+"Definición, clasificación y naturaleza del arte a lo largo del tiempo.",
+"Percepción y análisis de la obra de arte."
+]
+},
+{
+"titulo": "Tema II: Transformaciones artísticas y la cultura.",
+"temas": [
+"El  origen del arte y  su trayectoria.",
+"El arte clásico, arquitectura, características y evolución.",
+"Aportaciones del arte cristiano medieval.",
+"Orígenes y características del arte islámico.",
+"El arte románico y su arquitectura.",
+"El arte gótico."
+]
+},
+{
+"titulo": "Tema III: Las transformaciones artísticas y la sociedad.",
+"temas": [
+"El Renacimiento.",
+"Urbanismo y arquitectura del arte Barroco."
+]
+},
+{
+"titulo": "Tema IV: El arte contemporáneo",
+"temas": [
+"Urbanismo y su arquitectura.",
+"El Modernismo.",
+"El Vanguardismo Histórico.",
+"La Abstracción.",
+"El arte y la cultura visual de masas."
+]
+},
+{
+"titulo": "Tema V: Introducción al postmodernismo."
+},
+{
+"titulo": "Tema VI: Contextualización del arte costarricense",
+"temas": [
+"Arte precolombino",
+"La colonia.",
+"Siglo XIX.",
+"Desarrollo de las artes visuales en el siglo XX."
+]
+},
+{
+}
+]
+}
+]

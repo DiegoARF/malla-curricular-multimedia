@@ -1,0 +1,53 @@
+[
+{
+"siglas": "TM-4400",
+"nombre": "Imagen en movimiento.",
+"descripcion": "Este curso le dará al o la estudiante los conocimientos para que realice animaciones utilizando diversas fuentes de recursos. Este aprendizaje podrá ser posteriormente usado en aplicaciones diversas como juegos, cortos de animación en páginas para Internet y otros. También se le darán los conocimientos necesarios para que estas animaciones se diseñen de forma apropiada, con el formato adecuado y de acuerdo al medio en el que estas van a ser reproducidos.",
+"objetivosGenerales": [
+"Enseñar los principios básicos para la creación de animaciones.",
+"Crear videos de animación con las características apropiadas para medio en que serán usados."
+],
+"objetivosEspecificos": [
+"Conocer diferentes formatos de video y sus aplicaciones prácticas.",
+"Crear videos en el formato apropiado al medio en el que serán reproducidos.",
+"Producir videos utilizando fuentes diversas como dibujos, rastreos, fotografías y otros videos.",
+"Agregar o modificar el audio a un video particular."
+],
+"contenidos": [
+{
+"titulo": "1. La imagen en movimiento.",
+"temas": [
+"La imagen.",
+"El video.",
+"Conceptos de edición.",
+"Formatos.",
+"Animación de movimiento.",
+"Animación de forma.",
+"El hardware."
+]
+},
+{
+"titulo": "2. El guión.",
+"temas": [
+"Introducción.",
+"La producción.",
+"El guión.",
+"Tipos de guiones.",
+"Los nuevos medios."
+]
+},
+{
+"titulo": "Edición y post-producción (con software).",
+"temas": [
+"Edición.",
+"Edición avanzada.",
+"Edición de Audio."
+]
+},
+{
+},
+{
+}
+]
+}
+]

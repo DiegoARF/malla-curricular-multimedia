@@ -1,17 +1,31 @@
 //para hacer uso de $resource debemos colocarlo al crear el modulo
+
+//primer año
 var capturaImagenesDigitales;
+var fundamentosDeDibujo;
+//segundo año
+var programación;
+var disenoBasesDeDatos;
+var redesComunicacionesDeDatos;
+var manipulacionDeLaImagen;
+var historiaArteVisual;
 var app = angular.module("app", []);
+//******************************
  
 //con dataResource inyectamos la factoría
 app.controller("appController", function ($scope, $http) {
     //hacemos uso de $http para obtener los datos del json
-    $http.get('js/data.json').success(function (data) {
-        //Convert data to array.
-        //datos lo tenemos disponible en la vista gracias a $scope
-        $scope.datos = data;
-        console.log(datos.length);
-    });
+  
 
+                            /******PRIMER SEMESTRE******************/
+$http.get('json_files/I/ISemestre/fundamentos_de_dibujo.json').success(function (info) {
+        //Convert data to array.
+    
+        //datos lo tenemos disponible en la vista gracias a $scope
+        $scope.funDib = info;
+        fundamentosDeDibujo=info;
+    });
+                            /**********SEGUNDO SEMESTRE********/
     $http.get('json_files/I/IISemestre/captura-de-imagenes-digitales.json').success(function (info) {
         //Convert data to array.
     
@@ -21,6 +35,39 @@ app.controller("appController", function ($scope, $http) {
         console.log($scope.dat.length);
         console.log(info[0].nombre);
     });
+
+/******************************************************SEGUNDO AÑO***************************************************************/
+                                  /****************I SEMESTRE****************/
+      $http.get('json_files/II/ISemestre/TM-3100 Programación.json').success(function (info) {
+        $scope.progra = info;
+        programación=info;
+     });
+
+    $http.get('json_files/II/ISemestre/TM-3200 Diseño de bases de datos.json').success(function (info) {
+        $scope.disnBD = info;
+        disenoBasesDeDatos=info;
+     });
+
+    $http.get('json_files/II/ISemestre/TM-3300 Redes y comunicaciones de datos.json').success(function (info) {
+        $scope.redes = info;
+        redesComunicacionesDeDatos=info;
+     });
+
+        $http.get('json_files/II/ISemestre/TM-3400 Manipulación de la imagen.json').success(function (info) {
+        $scope.manImagen = info;
+        manipulacionDeLaImagen=info;
+     });
+
+         $http.get('json_files/II/ISemestre/TM-3500 Historia del Arte Visual.json').success(function (info) {
+        $scope.histAV = info;
+        historiaArteVisual=info;
+     });
+
+
+
+
+ 
+    
     //datosResource lo tenemos disponible en la vista gracias a $scope
 
 })
@@ -180,11 +227,55 @@ function crearPuntos (curso, nombreCurso,posContenido) {
 
 function getCurso(nombreCurso)
 {
+
+/*******************PRIMER AÑO**************************/
+              /**********I SEMESTRE**************/
+              if(nombreCurso=='Fundamentos de dibujo')
+              {
+                return fundamentosDeDibujo;
+              }
+
+               /**********I SEMESTRE**************/             
+
     if(nombreCurso=='Captura de imágenes digitales')
     {
       return capturaImagenesDigitales;
     }
 
+/*******************SEGUNDO AÑO**************************/
+              /**********I SEMESTRE**************/
+     if(nombreCurso=='Programación')
+    {
+
+      return programación;
+    }
+
+     if(nombreCurso=='Diseño de bases de datos')
+    {
+
+      return disenoBasesDeDatos;
+    }
+
+      if(nombreCurso=='Redes y comunicaciones de datos')
+    {
+
+      return redesComunicacionesDeDatos;
+    }
+
+          if(nombreCurso=='Manipulación de la imagen')
+    {
+
+      return manipulacionDeLaImagen;
+    }
+
+         if(nombreCurso=='Historia del Arte Visual')
+    {
+
+      return historiaArteVisual;
+    }
+
+
+    
     return null;
 }
 

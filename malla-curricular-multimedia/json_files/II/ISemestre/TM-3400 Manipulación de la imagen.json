@@ -1,0 +1,88 @@
+[
+{
+"siglas": "TM-3400",
+"nombre": "Manipulación de la imagen",
+"descripcion": "En este curso el o la estudiante aprenderá sobre los diferentes formatos de imágenes que se utilizan y los que son más apropiados para ser utilizadas en Internet. También aprenderá a modificar las diferentes imágenes tanto para que comuniquen lo que deseamos como para que sean aptas para usarse en una página web.     Se verán aspectos relacionados con los diferentes formatos para imágenes y formas de encontrar imágenes en la red. Se realizará el tratamiento de imágenes desde su creación y obtención de diferentes fuentes hasta la modificación por medio de las diferentes herramientas que se incluyen en los programas de tratamiento de imágenes digitales para obtener los efectos deseados.",
+"objetivosGenerales": [
+"Preparar una imagen para que pueda ser utilizada en diversos medios digitales."
+],
+"objetivosEspecificos": [
+"Modificar imágenes para eliminar imperfecciones.",
+"Optimizar la resolución y el rendimiento de las imágenes según los requerimientos de diversos medios digitales.",
+"Intervenir las imágenes mediante con diversos efectos.",
+"."
+],
+"contenidos": [
+{
+"titulo": "1. Búsqueda de imágenes: diferentes fuentes.",
+"temas": [
+"Diferentes fuentes de dónde podemos sacar imágenes.",
+"Banco de imágenes del Ministerio de Educación.",
+"Flickr: servicio on-line para compartir imágenes.",
+"Wikipedia: la enciclopedia de contenido libre que todos pueden editar.",
+"Google: el buscador de los buscadores.",
+"Adquirir la imagen desde un escaner.",
+"Adquirir la imagen desde un documento, página web."
+]
+},
+{
+"titulo": "2.  Manipulación avanzada de imágenes bitmap..",
+"temas": [
+"a. Herramientas de selección precisa.",
+"b. Herramientas de transformación.",
+"c. Herramientas de pintura."
+]
+},
+{
+"titulo": "3. Capas.",
+"temas": [
+"Introducción a las capas.",
+"Añadir una capa a una imagen.",
+"Enlazar varias capas.",
+"Ocultar o mostrar una capa.",
+"Cambiar el orden de las capas.",
+"Añadir una capa de fondo de color.",
+"Modos de fusión de capas."
+]
+},
+{
+"titulo": "4. Herramienta de texto.",
+"temas": [
+"Cambiar las propiedades del texto"
+]
+},
+{
+"titulo": "5. Ajustes avanzados de color.",
+"temas": [
+"Herramienta de niveles y curvas, tono y saturación, umbral, pasterizar."
+]
+},
+{
+"titulo": "6. Ilustración vectorial.",
+"temas": [
+"Sobreposición, yuxtaposición, mezcla y divisón.",
+"Técnicas de ilustración.",
+"Degradados.",
+"Vectorizar mapas de bits.",
+"Malla de color.",
+"Filtros para vectores.",
+"Estilización.",
+"Retículas."
+]
+},
+{
+"titulo": "7. Tipografía.",
+"temas": [
+"Leyes ópticas.",
+"Familias tipográficas.",
+"Vectorización de tipografías y sus usos.",
+"Texto como máscara.",
+"Alteración de tipografías.",
+"Mancha tipográfica."
+]
+},
+{
+}
+]
+}
+]

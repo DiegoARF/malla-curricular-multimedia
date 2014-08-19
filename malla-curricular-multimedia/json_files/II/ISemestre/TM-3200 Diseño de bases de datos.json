@@ -1,0 +1,86 @@
+[
+{
+"siglas": "TM-3200",
+"nombre": "Diseño de bases de datos",
+"descripcion": "El diseño de bases de datos brinda al y a la estudiante los conceptos para el manejo de grandes volúmenes de información y los mecanismos para proporcionar un entorno para un manejo conveniente y eficiente de la misma. Dentro del desarrollo de este curso se estudian los tópicos fundamentales de gestión de datos, los distintos modelos para representar la información de una empresa, las técnicas desarrolladas para diseñar las estructuras adecuadas de almacenamiento de los datos y los lenguajes para consulta.       El curso inicia comprendiendo la importancia de la información y la forma en que los datos de una empresa pueden relacionarse para brindar información a los usuarios de los diferentes sistemas que puedan interactuar con la base de datos. Posteriormente, se analizan los diferentes modelos para la representación gráfica de datos.            Una vez que los y las estudiantes tienen una conceptualización clara del modelo que sigue una base de datos y la relación entre los datos, el estudiante aprende la forma correcta y eficiente de consultar a la base de datos mediante un lenguaje de consulta.         Al finalizar el curso el estudiante realiza un proyecto donde pueda poner en práctica los conocimientos adquiridos, en este punto el estudiante deber ser capaz de realizar el modelado completo de una base de datos para una empresa particular y realizar una conexión con algún sistema de información.",
+"objetivosGenerales": [
+"Analizar las diferentes técnicas de modelado de bases de datos y la estructura básica para realizar consultas de información de la base de datos, con el fin de que los y las estudiantes puedan  modelar una base de datos para una empresa."
+],
+"objetivosEspecificos": [
+"Identificar las características de un Sistema Administrador de Bases de Datos (SADB).",
+"Diseñar y generar esquemas de relaciones para el almacenamiento de datos.",
+" Realizar una optimización del modelo de bases de datos, tal que ayude a generar consultas más ágiles.",
+"Conocer las facilidades e inconveniencias que presentan diversos SABD en la implementación y uso de una base de datos.",
+"Diseñar el modelo de bases de datos para una empresa con presencia en Internet."
+],
+"contenidos": [
+{
+"titulo": "1. Introducción.",
+"temas": [
+"Historia de las bases de datos.",
+"Definición de bases de datos.",
+"Sistemas bases de datos vrs sistemas de archivos.",
+"Abstracción de la información.",
+"Modelos de Bases de Datos.",
+"Funciones de los SABD.",
+"Instancias y esquemas.",
+"Independencia de los datos.",
+"Componentes de un SGBD.",
+"Beneficios de los sistemas bases de datos.",
+"Arquitectura de aplicaciones.",
+"Tendencias actuales.",
+"Bases de datos para el Internet."
+]
+},
+{
+"titulo": "2. Modelo Entidad – Relación.",
+"temas": [
+"Entidades y conjuntos de entidades..",
+"Relaciones y conjuntos de relaciones.",
+"Llaves primarias.",
+"Diagrama entidad relación..",
+"Generalización y especialización.",
+"Agregación.",
+"Técnicas de Modelado."
+]
+},
+{
+"titulo": "Modelo Relacional.",
+"temas": [
+"Conceptos del modelo relacional.",
+"Tupla, Atributo, Dominio, Relación, Esquema de la Relación, Grado de la relación, Extensión e Intensión.",
+"Esquema de las BD relacionales.",
+"Restricciones del modelo relacional.",
+"Definición de relación n – arias.",
+"Relaciones n-arias y asociaciones entre conjuntos de entidades.",
+"Relaciones y esquema relacional..",
+"Lenguaje de consultas: algebraico."
+]
+},
+{
+"titulo": "4. La normalización.",
+"temas": [
+"Introducción.",
+"Primera forma normal.",
+"Dependencias funcionales.",
+"Segunda forma normal.",
+"Tercera forma normal.",
+"Tercera formal normal Boyce Cood.",
+"Dependencias multivaluadas."
+]
+},
+{
+"titulo": "5. Diseño de Bases de Datos.",
+"temas": [
+"Introducción.",
+"Clasificación de la metodología.",
+"Diccionario de datos.",
+"Metodología del diseño.",
+"Transformación al modelo relacional."
+]
+},
+{
+}
+]
+}
+]

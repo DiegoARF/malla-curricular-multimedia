@@ -1,0 +1,49 @@
+[
+{
+"siglas": "TTM-1500",
+"nombre": "Lógica matemática para computación",
+"descripcion": "El presente curso está orientado al análisis de los fundamentos matemáticos para el estudio de las ciencias de la computación. Además, presenta herramientas que permiten desarrollar el pensamiento lógico-matemático para generalizar los procesos de programación y diseño de manera rápida, clara y eficiente.",
+"objetivosGenerales": [
+"Desarrollar en el o la estudiante el razonamiento lógico-matemático que le permita abstraer soluciones de forma ordenada y eficiente."
+],
+"objetivosEspecificos": [
+"1. Estudiar los fundamentos de la lógica matemática.",
+"2. Estudiar los diversos esquemas de demostración y generalización en las ciencias de la computación y la matemática en general.",
+"3. Estudiar los principios fundamentales de la Teoría de Conjuntos.",
+"4. Estudiar las diferentes tipologías de algoritmos computacionales, desde la matemática.",
+"5. Estudiar los fundamentos matemáticos de los vectores y matrices."
+],
+"contenidos": [
+{
+"titulo": "1. Introducción a la Lógica",
+"temas": [
+"1. Conceptos y definiciones",
+"2. Tablas de verdad"
+]
+},
+{
+"titulo": "2. Teoría de Conjuntos",
+"temas": [
+"1. Principios Básicos",
+"2. Álgebra de Conjuntos",
+"3. Diagramas de Venn"
+]
+},
+{
+"titulo": "3. Algoritmos",
+"temas": [
+"1. Algoritmos de búsqueda",
+"2. Algoritmos de ordenación",
+"3. Recursión"
+]
+},
+{
+"titulo": "4. Vectores y Matrices",
+"temas": [
+"1. Vectores y escalares",
+"2.  Matrices "
+]
+}
+]
+}
+]

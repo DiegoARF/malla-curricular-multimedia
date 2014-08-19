@@ -1,0 +1,81 @@
+[
+{
+"siglas": "TM-4500",
+"nombre": "Diseño Gráfico para Tecnología Multimedia",
+"descripcion": "El diseño gráfico se especializa en la claridad del mensaje visual. Es por ello que la comunicación es el elemento central. Para poder alcanzar fidelidad y claridad es necesario el uso de variadas herramientas conceptuales, teóricas y compositivas.     De esta manera, en el curso se abarcan desde las leyes ópticas y la estilización hasta los conceptos de público, diseño interactivo y teoría de sistemas. La idea general es cubrir, en la medida de lo posible, los contenidos, intenciones y técnicas apropiadas para el diseño y la manipulación de mensajes visuales. Se aplican los conceptos aprendidos en los cursos anteriores y se integran de manera transversal con los contenidos de otros cursos de la carrera en forma de proyectos.",
+"objetivos Generales": [
+"Al final del curso el estudiante será capaz de:    Conocer las bases teóricas, conceptuales y prácticas del diseño gráfico para aplicarlas en la creación de herramientas electrónicas en multimedios."
+],
+"ObjetivosEspecificos": [
+"Comprender el significado, los campos de trabajo y la relevancia del Diseño Gráfico, como disciplina al servicio de la comunicación humana.",
+"Concebir, proyectar y crear imágenes.",
+"Investigar y experimentar las posibilidades expresivas y comunicativas de las imágenes en el diseño visual.",
+"Elaborar imágenes para distintos fines y medios de reproducción transmisión.",
+"Desarrollar proyectos de diseño basados en tipografía.",
+"Diseñar y producir trabajos de carácter editorial.",
+"Estudiar la importancia y el comportamiento de los sistemas en la comunicación visual.",
+"Diseñar sistemas de comunicación visual.",
+"Contextualizar el trabajo en sus variables sociocultural y espacial."
+],
+"contenidos": [
+{
+"titulo": "Tema I. Fundamentos del Diseño Gráfico.",
+"temas": [
+"Definición del concepto.Antecedentes",
+"Implicaciones.",
+"Cobertura.",
+"Principales aplicaciones."
+]
+},
+{
+"titulo": "Tema II. Composición.",
+"temas": [
+"Teoría de la imagen: la imagen como lenguaje no verbal.",
+"La imagen: ilustración, fotografía, diagramas, infogramas, viñetas, gráficos."
+]
+},
+{
+"titulo": "Tema III. Comunicación.",
+"temas": [
+"Expresividad del material.",
+"Estilización y construcción geométrica.",
+"Técnicas de comunicación visual.",
+"Ruido y claridad en mensajes visuales.",
+"Color en comunicación visual.",
+"La dimensión significante del color."
+]
+},
+{
+"titulo": "Tema IV. Diseño tipográfico y leyes ópticas.",
+"temas": [
+" Percepción visual: legibilidad y expresividad en tipografía.",
+"Clasificaciones y familias de letras: serif, palo-seco, letras clásicas, letras contemporáneas, letras de fantasía.",
+"Características de los tipos: peso, expansión, altura, inclinación, legibilidad, armonía, estética.",
+"Tipografía como imagen.",
+"Estructura de la página.",
+"Retículas y diagramación.",
+"Composición tipográfica.",
+"El carácter de los caracteres."
+]
+},
+{
+"titulo": "Tema V.",
+"temas": [
+"Teoría general de sistemas.",
+"Diseño de programas visuales.",
+"El programa como método.",
+"Estructura y caos en diseño visual.",
+"El principio de unidad en proyectos de naturaleza múltiple.",
+"Sistemas lenguajes.",
+"Construcción de la legibilidad del mundo.",
+"Secuencias.",
+"Importancia de la continuidad visual",
+"Secuencias gráficas.",
+"Sistemas modulares."
+]
+},
+{
+}
+]
+}
+]

@@ -1,0 +1,114 @@
+[
+{
+"siglas": "TM-4200",
+"nombre": "Seguridad en las aplicaciones interactivas",
+"descripcion": "La creciente importancia que se da a los aspectos de seguridad en los servicios que se ofrecen en Internet hace que en general los administradores de sistemas estén concientizados al respecto de la necesidad de dotar a sus servidores de una arquitectura de seguridad que les proteja frente a las amenazas de la red.         El desarrollo de aplicaciones interactivas seguras se está convirtiendo en una tarea cada vez más difícil debido a la creciente complejidad y variedad de servicios ofrecidos a través de Internet. La seguridad de las aplicaciones interactivas no es sólo responsabilidad del administrador de sistemas, encargado de la infraestructura y redes, sino también del desarrollador.  Se verán algunas formas de incursionar en las redes para obtener acceso a los recursos privados, formas de hacer ataques, las consecuencias de estos y formas de defensa en las que se utilizan herramientas para verificar y reforzar la seguridad. Se tratarán temas que incluyen diferentes equipos de protección además de criptografía, firmas digitales, certificados digitales, protocolos para comunicaciones seguras, VPN para conexión desde el exterior de la empresa, autenticación de usuarios remotos y seguridad para equipos móviles.",
+"objetivosGenerales": [
+"Conocer los problemas de seguridad más comunes en las comunicaciones, en la Internet y en las aplicaciones y la manera de evitarlos o al menos de minimizarlos."
+],
+"objetivosEspecificos": [
+"Tener capacidad para conocer los errores de seguridad más comunes que se cometen al desarrollar aplicaciones interactivas, así como la manera de evitarlos.",
+"Reconocer las ventajas al respecto de la seguridad de un buen diseño de la aplicación en las tres capas de presentación, lógica de negocio y datos."
+],
+"contenidos": [
+{
+"titulo": "1. Rastreadores de red (Sniffers), topología HUB: Iris, Windump."
+},
+{
+"titulo": "2. Rastreadores de red, topología SWITCH: Hunt, ethercap."
+},
+{
+"titulo": "3. Ataques.",
+"temas": [
+"Inundación SYN (SYN flooding).",
+"Inundación UDP.",
+"Ataques de magnificación: Smurf y Fraggle.",
+"Saturación de direcciones MAC.",
+"Suplantación de identidad.",
+"Ataques CDP.",
+"Ataques de Telnet.",
+"Ataques protocolo TCP/IP.",
+"Denegación de servicio Distribuida (DDoS).",
+"Secuestro y falsificación DNS."
+]
+},
+{
+"titulo": "4. Herramientas de seguridad.",
+"temas": [
+"Características.",
+"Auditorías de seguridad.",
+"Pruebas de penetración de red."
+]
+},
+{
+"titulo": "5. Protocolo SNMP."
+},
+{
+"titulo": "6. Equipos de protección.",
+"temas": [
+"Firewalls.",
+"Wrappers.",
+"Proxies."
+]
+},
+{
+"titulo": "7. Funciones HASH."
+},
+{
+"titulo": "8. Conceptos de criptografía.",
+"temas": [
+"Algoritmo de resumen de mensaje (MD5).",
+"Algoritmo SHA.",
+"Algoritmos simétricos: Estándar de cifrado de datos (DES), 3DES, AES, RC4.",
+"Algoritmos de clave pública: RSA.",
+"Funciones de sentido único.",
+"Criptografía cuántica.",
+"Aplicaciones de la criptografía."
+]
+},
+{
+"titulo": "9. Encriptación de datos"
+},
+{
+"titulo": "10. Integridad de datos y firmas digitales."
+},
+{
+  "titulo": "11. Identificación y certificados digitales.",
+"temas": [
+"Introducción a los certificados digitales.",
+"Autoridades de certificación.",
+"Canales seguros con SSL.",
+"Autenticación mediante certificados digitales.",
+"Acceso a la información de los certificados."
+]
+},
+{
+"titulo": "12. Creación de sitios seguros."
+},
+{
+"titulo": "13. COMUNICACIONES SEGURAS.",
+"temas": [
+"Secure Shell (SSH).",
+"SSL.",
+"TSL.",
+"IPSEC."
+]
+},
+{
+"titulo": "15. Autenticación de usuario remoto.",
+"temas": [
+"Radius, Kerberos, ISAKMP, CHAP, MS-CHAP.",
+"Seguridad en dispositivos móviles."
+]
+},
+{
+"titulo": "16. Tecnologías de acceso.",
+"temas": [
+"Redes inalámbricas."
+]
+},
+{  
+}
+]
+}
+]
