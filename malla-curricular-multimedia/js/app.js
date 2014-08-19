@@ -255,9 +255,73 @@ fin=$('#TM-8100').offset();
 ctx.lineTo(fin.left, fin.top+(heightBox/2)-10);
 ctx.stroke();
 
+inicio=$('#TM-3300').offset();
+fin=$('#TM-4200').offset();
+ctx.moveTo(inicio.left+widthBox, inicio.top+(heightBox/2)-20);
+ctx.lineTo(inicio.left+widthBox+10, inicio.top+(heightBox/2-20));
+ctx.lineTo(inicio.left+widthBox+10, fin.top+(heightBox/2));
+ctx.lineTo(fin.left, fin.top+(heightBox/2));
+ctx.stroke();
 
+inicio=$('#TM-2400').offset();
+fin=$('#TM-5200').offset();
+ctx.moveTo(inicio.left, inicio.top+(heightBox/2)-10);
+ctx.lineTo(fin.left, fin.top+(heightBox/2)-10);
+ctx.stroke();
 
+inicio=$('#TM-3400').offset();
+fin=$('#TM-5500').offset();
+ctx.moveTo(inicio.left+widthBox, inicio.top+(heightBox/2)-20);
+ctx.lineTo(inicio.left+widthBox+10, inicio.top+(heightBox/2)-20);
+ctx.lineTo(inicio.left+widthBox+10, fin.top+(heightBox/2)-7);
+ctx.lineTo(fin.left+widthBox+10, fin.top+(heightBox/2)-7);
+inicio=fin;
+fin=$('#TM-6100').offset();
+ctx.lineTo(inicio.left+widthBox+10, fin.top+10);
+ctx.lineTo(fin.left+widthBox+10, fin.top+10);
+inicio=fin;
+fin=$('#TM-7500').offset();
+ctx.lineTo(inicio.left+widthBox+10, fin.top+(heightBox/2));
+ctx.lineTo(fin.left+widthBox-8, fin.top+(heightBox/2));
+ctx.lineTo(fin.left+widthBox-8, fin.top+(heightBox/2)-25);
+ctx.lineTo(fin.left+widthBox+10, fin.top+(heightBox/2)-25);
 
+inicio=fin;
+fin=$('#TM-8100').offset();
+ctx.lineTo(inicio.left+widthBox+10, fin.top+(heightBox/2)+3);
+ctx.lineTo(fin.left, fin.top+(heightBox/2)+3);
+ctx.stroke();
+
+inicio=$('#TM-6200').offset();
+fin=$('#TM-7500').offset();
+ctx.moveTo(inicio.left, inicio.top+(heightBox/2)-12);
+ctx.lineTo(fin.left, fin.top+(heightBox/2)-12);
+ctx.stroke();
+
+inicio=$('#TM-1200').offset();
+fin=$('#TM-2200').offset();
+ctx.moveTo(inicio.left, inicio.top+(heightBox/2)-10);
+ctx.lineTo(inicio.left+(widthBox+10), inicio.top+(heightBox/2)-10);
+ctx.lineTo(inicio.left+(widthBox+10), fin.top+(heightBox/2)-22);
+ctx.lineTo(fin.left, fin.top+(heightBox/2)-22);
+ctx.stroke();
+
+inicio=$('#TM-1300').offset();
+ctx.moveTo(inicio.left, inicio.top+(heightBox/2)-10);
+ctx.lineTo(fin.left, fin.top+(heightBox/2)-10);
+ctx.stroke(); 
+
+inicio=$('#TM-4300').offset();
+fin=$('#TM-7100').offset();
+ctx.moveTo(inicio.left+2, inicio.top+(heightBox/2)-10);
+ctx.lineTo(fin.left, fin.top+(heightBox/2)-10);
+ctx.stroke(); 
+
+inicio=$('#TM-1400').offset();
+fin=$('#TM-2300').offset();
+ctx.moveTo(inicio.left+2, inicio.top+(heightBox/2)-10);
+ctx.lineTo(fin.left, fin.top+(heightBox/2)-10);
+ctx.stroke(); 
 
 }
 
