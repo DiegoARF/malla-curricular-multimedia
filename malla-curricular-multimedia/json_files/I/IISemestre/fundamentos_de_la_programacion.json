@@ -1,0 +1,79 @@
+[
+  {
+    "siglas": "TM2100",
+    "nombre": "Fundamentos de programación",
+    "descripcion": "En este curso el estudiante se enfrentará a la resolución de problemas de programación complejos. Mediante un lenguaje de programación didáctico el docente estimulará la adquisición de habilidades y destrezas en el área de programación, buscando el desarrollo de su lógica de programación. Estructuras de datos, estructuras de control, almacenamiento temporal, análisis. Modelo representación gráfica de un modelo.",
+    "objetivosGenerales": [
+      "Estimular el desarrollo de la lógica de programación para que el estudiante sea capaz de resolver problemas  complejos de programación."
+    ],
+    "objetivosEspecificos": [
+      "1. Conocer los fundamentos teóricos de la programación orientada a objetos.",
+      "2. Resolver problemas lógicos de programación complejos.",
+      "3. Utilizar un lenguaje de programación didáctico"
+    ],
+    "contenidos": [
+      {
+        "titulo": "A. Conceptos del ciclo de vida de sistemas"
+      },
+      {
+        "titulo": "B. Especificación de requerimientos"
+      },
+      {
+        "titulo": "C. Fundamentos teóricos de la Programación Orientada a Objetos",
+        "temas": [
+          "1. Reconocimiento de objetos, clases y atributos de clase.",
+          "2. Abstracción y encapsulamiento."
+        ]
+      },
+      {
+        "titulo": "D. Estructuras de control",
+        "temas": [
+          "1. Repaso de if y switch",
+          "2. b. Estructuras repetitivas (while, for, do while)"
+        ]
+      },
+      {
+        "titulo": "E. Métodos"
+      },
+      {
+        "titulo": "F. Modelado"
+      },
+      {
+        "titulo": "G. Arreglos",
+        "temas": [
+          "1. Unidimensionales",
+          "2. Bidimensionales",
+          "3. Algoritmos de búsqueda y ordenamiento"
+        ]
+      },
+      {
+        "titulo": "H. Herencia"
+      },
+      {
+        "titulo": "I. Polimorfismo"
+      },
+      {
+        "titulo": "J. Interfaces"
+      },
+      {
+        "titulo": "K. Manejo de excepciones"
+      },
+      {
+        "titulo": "L. Recursividad"
+      },
+      {
+        "titulo": "M. La clase Arrays"
+      },
+      {
+        "titulo": "N. Componentes de la GUI"
+      },
+      {
+        "titulo": "O. Estructuras de datos",
+        "temas": [
+          "1. Clases autoreferenciadas",
+          "2. Asignación dinámica de memoria"
+        ]
+      }
+    ]
+  }
+]

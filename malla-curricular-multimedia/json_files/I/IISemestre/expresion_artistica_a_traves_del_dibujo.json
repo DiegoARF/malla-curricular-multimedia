@@ -1,0 +1,49 @@
+[
+{
+"siglas": "TM-2300",
+"nombre": "Expresión artística a través del dibujo",
+"descripcion": "Este curso le permite a los o las estudiantes mejorar las destrezas adquiridas en el curso de Fundamentos de dibujo, de forma tal que puedan hacer diseños más realistas y con ideas propias. Además, el curso ayuda a estimular la imaginación y a tener una mayor percepción de las estructuras de los objetos o figuras que el o la estudiante desee dibujar.",
+"objetivosGenerales": [
+"Desarrollar en el o la estudiante las competencias necesarias para registrar gráficamente ideas y objetos a través de un trazo ágil, espontáneo y personal sobre soportes gráficos como el papel."
+],
+"objetivosEspecificos": [
+"1. Enlistar los elementos formales que se utilizan para crear un dibujo.",
+"2. Adquirir los conocimientos y experiencias necesarios en la práctica del dibujo para aplicarlos a la práctica de su profesión.",
+"3. Realizar un dibujo tomando en consideración elementos estéticos de expresión relacionados a los elementos y principios del arte.",
+"4. Utilizar eficientemente diferentes medios y técnicas de dibujo.",
+"5. Utilizar líneas, formas, luz, sombra y otros elementos del dibujo como una forma sencilla de comunicarnos.",
+"6. Hacer trabajos creativos bidimensionales desarrollados conceptualmente.",
+"7. Conocer diferentes metodologías proyectuales para la observación, investigación y representación gráfica del cuerpo humano con mayor profundidad."
+],
+"contenidos": [
+{
+"titulo": "1. El espacio de trabajo y las leyes ópticas.",
+"temas": [
+"Ubicación espacial, posición, dirección.",
+"Escorzos; metodología para la representación de la contracción proyectiva.",
+"Ejes de gravedad."
+]
+},
+{
+"titulo": "2. Teoría de la percepción",
+"temas": [
+"Los principios de la Psicología de la percepción.",
+"Comprender los modos mediante los cuales traducimos la realidad en términos de imagen.",
+"Distinguir entre lo “visto” y lo “proyectado”.",
+"Las consecuencias a la hora de dibujar."
+]
+},
+{
+"titulo": "3.  Las temáticas del dibujo",
+"temas": [
+"1. Morfología general de la figura humana.",
+"1.1 Construcción y estructura.",
+"1.2 Relaciones entre forma externas y estructura.",
+"1.3 Diferencias de proporciones por edad y sexo.",
+"2.Dibujo subjetivo.",
+"3. Dibujo de paisaje."
+]
+}
+]
+}
+]

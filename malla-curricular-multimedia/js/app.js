@@ -1,21 +1,25 @@
-//para hacer uso de $resource debemos colocarlo al crear el modulo
+var app = angular.module("app", []);
+//primer año****************
 
-//primer año
-var capturaImagenesDigitales;
         //I semestre
 var logicaMatematicaComputacion;
 var fundamentosDeDibujo;
+var fundamentosDeDiseno;
 var introduccionInformaticaTecnologiaMultimedia;
 var tallerExperimentacion;
-
-//segundo año
+      //II semestre
+var capturaImagenesDigitales;
+var expresionArtisticaDibujo;
+var fundamentosProgramacion;
+var mediosDigitalesDiseno;
+//segundo año***************
       //I semestre
 var programación;
 var disenoBasesDeDatos;
 var redesComunicacionesDeDatos;
 var manipulacionDeLaImagen;
 var historiaArteVisual;
-var app = angular.module("app", []);
+
       //segundo semestre
 var desarrolloAppInteractivasI;
 var seguridadAplicacionesInteractivas;
@@ -36,6 +40,14 @@ $http.get('json_files/I/ISemestre/fundamentos_de_dibujo.json').success(function 
         //datos lo tenemos disponible en la vista gracias a $scope
         $scope.funDib = info;
         fundamentosDeDibujo=info;
+    });
+
+$http.get('json_files/I/ISemestre/fundamentos_de_diseno.json').success(function (info) {
+        //Convert data to array.
+    
+        //datos lo tenemos disponible en la vista gracias a $scope
+        $scope.funDisng = info;
+        fundamentosDeDiseno=info;
     });
 
 $http.get('json_files/I/ISemestre/introduccion_informatica_y_tecnologia_multimedia.json').success(function (info) {
@@ -64,15 +76,38 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
 
 
                                 /**********SEGUNDO SEMESTRE********/
+
+
     $http.get('json_files/I/IISemestre/captura-de-imagenes-digitales.json').success(function (info) {
         //Convert data to array.
     
         //datos lo tenemos disponible en la vista gracias a $scope
         $scope.dat = info;
         capturaImagenesDigitales=info;
-        console.log($scope.dat.length);
-        console.log(info[0].nombre);
+        });
+
+       $http.get('json_files/I/IISemestre/expresion_artistica_a_traves_del_dibujo.json').success(function (info) {
+        //Convert data to array.
+    
+        //datos lo tenemos disponible en la vista gracias a $scope
+        $scope.exprAD = info;
+        expresionArtisticaDibujo=info;
     });
+
+              $http.get('json_files/I/IISemestre/fundamentos_de_la_programacion.json').success(function (info) {
+        //Convert data to array.
+    
+        //datos lo tenemos disponible en la vista gracias a $scope
+        $scope.fundProgra = info;
+        fundamentosProgramacion=info;
+    });
+                 $http.get('json_files/I/IISemestre/medios_digitales_para_disenar.json').success(function (info) {
+        $scope.medDD = info;
+        mediosDigitalesDiseno=info;
+    });
+
+
+  
 
 /******************************************************SEGUNDO AÑO***************************************************************/
                                   /****************I SEMESTRE****************/
@@ -308,6 +343,22 @@ function getCurso(nombreCurso)
     {
       return capturaImagenesDigitales;
     }
+    if(nombreCurso=='Expresión artística a través del dibujo')
+    {
+      return expresionArtisticaDibujo;
+    }
+     if(nombreCurso=='Fundamentos de programación')
+    {
+    
+      return fundamentosProgramacion;
+    }
+    if(nombreCurso=='Medios digitales para diseñar')
+    {
+    
+      return mediosDigitalesDiseno;
+    }
+
+  
 
 /*******************SEGUNDO AÑO**************************/
               /**********I SEMESTRE**************/

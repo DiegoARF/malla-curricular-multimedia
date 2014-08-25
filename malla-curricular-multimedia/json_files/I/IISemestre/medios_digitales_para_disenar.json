@@ -1,0 +1,89 @@
+[
+{
+"siglas": "TM-2200",
+"nombre": "Medios digitales para diseñar",
+"descripcion": "En este curso el estudiante tiene la oportunidad de aplicar los conocimientos adquiridos en el curso de Fundamentos de Diseño mediante herramientas informáticas especializadas para esta labor. Se requiere un alto grado de creatividad por parte del estudiante, de manera que realice trabajos artísticos.",
+"objetivosGenerales": [
+"Integrar imágenes digitales para desarrollar la expresión creativa de los y las  estudiantes utilizando herramientas informáticas actuales para el retoque y modelado."
+],
+"objetivosEspecificos": [
+"Aplicar diferentes técnicas de diseño utilizando medios tecnológicos.",
+"Utilizar diferentes herramientas de diseño por computadora.",
+"Aplicar conceptos de diseño en proyectos.",
+"Aplicar diferentes técnicas artísticas mediante la computadora (imitación del lienzo, madera)"
+],
+"contenidos": [
+{
+"titulo": "1. Imágenes de mapas de bits",
+"temas": [
+"Compresión del mapa de bits, profundidad de color",
+"Resolución de las imágenes",
+"Modos de color",
+"Resumen de los formatos de imágenes más habituales",
+"Seleccionar, copiar  y cortar imágenes",
+"Rastrear imágenes digitales"
+]
+},
+{
+"titulo": "2. Matrices de vectores",
+"temas": [
+"Curvas de Bezier",
+"Manipulación de imágenes vectoriales",
+"Dibujo con curvas de Bezier"
+]
+},
+{
+"titulo": "3. Paquetes de software para pintura, iluminación, color, texturas, trabajos 3D"
+},
+{
+"titulo": "4. Ilustración a mano alzada en medios digitales"
+},
+{
+"titulo": "5. Técnicas Bitmap"
+},
+{
+"titulo": "6. Crear una luz convincente"
+},
+{
+"titulo": "7. Pintar con medios naturales"
+},
+{
+"titulo": "8. Crear una nueva realidad"
+},
+{
+"titulo": "9. Transformar imágenes en textura"
+},
+{
+"titulo": "10. Controlar transparencias"
+},
+{
+"titulo": "11. Hacer montajes"
+},
+{
+"titulo": "12. Imitar lienzo y pintura"
+},
+{
+"titulo": "13. Comprender la máscara de enfoque"
+},
+{
+"titulo": "14. De  RGB a CMYK"
+},
+{
+"titulo": "15. Superposición de capas electrónicas"
+},
+{
+"titulo": "16. Collage creativo"
+},
+{
+"titulo": "Reproducción de color en medios electrónicos"
+},
+{
+"titulo": "18. Proyectar con colores fiables",
+"temas": [
+"i. Pintar con texturas",
+"ii. Pintar con luz"
+]
+}
+]
+}
+]
