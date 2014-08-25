@@ -9,12 +9,19 @@ var introduccionInformaticaTecnologiaMultimedia;
 var tallerExperimentacion;
 
 //segundo año
+      //I semestre
 var programación;
 var disenoBasesDeDatos;
 var redesComunicacionesDeDatos;
 var manipulacionDeLaImagen;
 var historiaArteVisual;
 var app = angular.module("app", []);
+      //segundo semestre
+var desarrolloAppInteractivasI;
+var seguridadAplicacionesInteractivas;
+var inglesOralInformatica;
+var imageMovimiento;
+var disenoGrafico;
 //******************************
  
 //con dataResource inyectamos la factoría
@@ -22,7 +29,7 @@ app.controller("appController", function ($scope, $http) {
     //hacemos uso de $http para obtener los datos del json
   
 /********************************************************PRIMER AÑO***********************************************************************/
-                            /******PRIMER SEMESTRE******************/
+                            /*******************PRIMER SEMESTRE******************/
 $http.get('json_files/I/ISemestre/fundamentos_de_dibujo.json').success(function (info) {
         //Convert data to array.
     
@@ -89,17 +96,32 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
         manipulacionDeLaImagen=info;
      });
 
-         $http.get('json_files/II/ISemestre/TM-3500 Historia del Arte Visual.json').success(function (info) {
+        $http.get('json_files/II/ISemestre/TM-3500 Historia del Arte Visual.json').success(function (info) {
         $scope.histAV = info;
         historiaArteVisual=info;
      });
+                        /********************II SEMESTRE*******************************/
+        $http.get('json_files/II/IISemestre/TM-4100 Desarrollo de aplicaciones interactivas I.json').success(function (info) {
+        $scope.appInt = info;
+        desarrolloAppInteractivasI=info;
+     });
 
+        $http.get('json_files/II/IISemestre/TM-4200 Seguridad en las aplicaciones interactivas.json').success(function (info) {
+        $scope.segAppInt = info;
+        seguridadAplicacionesInteractivas=info;
+     });
+        
 
+                   $http.get('json_files/II/IISemestre/TM-4400 Imagen en movimiento.json').success(function (info) {
+        $scope.imgMov= info;
+        imageMovimiento=info;
+     }); 
 
+                  $http.get('json_files/II/IISemestre/TM-4500 Diseño Gráfico para Tecnología Multimedia.json').success(function (info) {
+        $scope.disngG= info;
+        disenoGrafico=info;
+     }); 
 
- 
-    
-    //datosResource lo tenemos disponible en la vista gracias a $scope
 
 })
 
@@ -253,7 +275,7 @@ function crearPuntos (curso, nombreCurso,posContenido) {
 
 
 /***************************************************************************************************************************************************************
-***************************************************Devuelve el array del curso seleccionado************************************************************
+********************************************************Devuelve el array del curso seleccionado*******************************************************
 ***************************************************************************************************************************************************************/
 
 function getCurso(nombreCurso)
@@ -263,21 +285,21 @@ function getCurso(nombreCurso)
               /**********I SEMESTRE**************/
     if(nombreCurso=='Fundamentos de dibujo')
     {
-                return fundamentosDeDibujo;
+            return fundamentosDeDibujo;
     }
 
     if(nombreCurso=='Introducción a la Informática y a la Tecnología Multimedia')
     {
-      return introduccionInformaticaTecnologiaMultimedia;
+            return introduccionInformaticaTecnologiaMultimedia;
     }
 
      if(nombreCurso=='Lógica matemática para computación')
     {
-      return logicaMatematicaComputacion;
+            return logicaMatematicaComputacion;
     }
         if(nombreCurso=='Taller de experimentación')
     {
-      return tallerExperimentacion;
+            return tallerExperimentacion;
     }
 
                /**********II SEMESTRE**************/             
@@ -319,8 +341,43 @@ function getCurso(nombreCurso)
       return historiaArteVisual;
     }
 
+      /*********SEGUNDO SEMESTRE*/
+    if(nombreCurso=='Desarrollo de aplicaciones interactivas I')
+    {
 
-    
+      return desarrolloAppInteractivasI;
+
+    }
+
+     if(nombreCurso=='Seguridad en las aplicaciones interactivas')
+    {
+        
+      return seguridadAplicacionesInteractivas;
+
+    }
+
+     if(nombreCurso=='Inglés Oral para Informática')
+    {
+        
+      return inglesOralInformatica;
+
+    }
+
+     if(nombreCurso=='Imagen en movimiento')
+    {
+        
+      return imageMovimiento;
+
+    }
+
+     if(nombreCurso=='Diseño Gráfico para Tecnología Multimedia')
+    {
+        
+      return disenoGrafico;
+
+    }
+
+
     return null;
 }
 
@@ -412,6 +469,7 @@ ctx.lineTo(inicio.left+widthBox+10, inicio.top+(heightBox/2)-20);
 ctx.lineTo(inicio.left+widthBox+10, fin.top+(heightBox/2)-7);
 ctx.lineTo(fin.left+widthBox+10, fin.top+(heightBox/2)-7);
 inicio=fin;
+
 fin=$('#TM-6100').offset();
 ctx.lineTo(inicio.left+widthBox+10, fin.top+10);
 ctx.lineTo(fin.left+widthBox+10, fin.top+10);
@@ -458,7 +516,6 @@ fin=$('#TM-2300').offset();
 ctx.moveTo(inicio.left+2, inicio.top+(heightBox/2)-10);
 ctx.lineTo(fin.left, fin.top+(heightBox/2)-10);
 ctx.stroke(); 
-
 }
 
 
