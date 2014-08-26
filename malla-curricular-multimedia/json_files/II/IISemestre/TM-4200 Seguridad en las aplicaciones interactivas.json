@@ -12,13 +12,13 @@
 ],
 "contenidos": [
 {
-"titulo": "1. Rastreadores de red (Sniffers), topología HUB: Iris, Windump."
+"titulo": "Rastreadores de red (Sniffers), topología HUB: Iris, Windump."
 },
 {
-"titulo": "2. Rastreadores de red, topología SWITCH: Hunt, ethercap."
+"titulo": "Rastreadores de red, topología SWITCH: Hunt, ethercap."
 },
 {
-"titulo": "3. Ataques.",
+"titulo": "Ataques.",
 "temas": [
 "Inundación SYN (SYN flooding).",
 "Inundación UDP.",
@@ -33,7 +33,7 @@
 ]
 },
 {
-"titulo": "4. Herramientas de seguridad.",
+"titulo": "Herramientas de seguridad.",
 "temas": [
 "Características.",
 "Auditorías de seguridad.",
@@ -41,10 +41,10 @@
 ]
 },
 {
-"titulo": "5. Protocolo SNMP."
+"titulo": "Protocolo SNMP."
 },
 {
-"titulo": "6. Equipos de protección.",
+"titulo": "Equipos de protección.",
 "temas": [
 "Firewalls.",
 "Wrappers.",
@@ -52,10 +52,10 @@
 ]
 },
 {
-"titulo": "7. Funciones HASH."
+"titulo": "Funciones HASH."
 },
 {
-"titulo": "8. Conceptos de criptografía.",
+"titulo": "Conceptos de criptografía.",
 "temas": [
 "Algoritmo de resumen de mensaje (MD5).",
 "Algoritmo SHA.",
@@ -67,13 +67,13 @@
 ]
 },
 {
-"titulo": "9. Encriptación de datos"
+"titulo": "Encriptación de datos"
 },
 {
-"titulo": "10. Integridad de datos y firmas digitales."
+"titulo": "Integridad de datos y firmas digitales."
 },
 {
-  "titulo": "11. Identificación y certificados digitales.",
+  "titulo": "Identificación y certificados digitales.",
 "temas": [
 "Introducción a los certificados digitales.",
 "Autoridades de certificación.",
@@ -83,10 +83,10 @@
 ]
 },
 {
-"titulo": "12. Creación de sitios seguros."
+"titulo": "Creación de sitios seguros."
 },
 {
-"titulo": "13. COMUNICACIONES SEGURAS.",
+"titulo": "COMUNICACIONES SEGURAS.",
 "temas": [
 "Secure Shell (SSH).",
 "SSL.",
@@ -95,20 +95,19 @@
 ]
 },
 {
-"titulo": "15. Autenticación de usuario remoto.",
+"titulo": "Autenticación de usuario remoto.",
 "temas": [
 "Radius, Kerberos, ISAKMP, CHAP, MS-CHAP.",
 "Seguridad en dispositivos móviles."
 ]
 },
 {
-"titulo": "16. Tecnologías de acceso.",
+"titulo": "Tecnologías de acceso.",
 "temas": [
 "Redes inalámbricas."
 ]
-},
-{  
 }
+
 ]
 }
 ]

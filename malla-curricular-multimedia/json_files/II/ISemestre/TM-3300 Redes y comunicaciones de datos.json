@@ -14,14 +14,14 @@
 ],
 "contenidos": [
 {
-"titulo": "1. Introducción.",
+"titulo": "Introducción.",
 "temas": [
 "Introducción al curso.",
 "Historia de las redes de comunicaciones y su importancia."
 ]
 },
 {
-"titulo": "2. Capas del modelo OSI.",
+"titulo": "Capas del modelo OSI.",
 "temas": [
 "Protocolos de capa.",
 "Dispositivos de capa.",
@@ -35,13 +35,13 @@
 ]
 },
 {
-"titulo": "3. Administración de Redes.",
+"titulo": "Administración de Redes.",
 "temas": [
 "Estándares de Documentación, Auditoría de la Red, Herramientas para la Administración, Aplicaciones para monitoreo."
 ]
 },
 {
-"titulo": "4. Interconexión de Redes.",
+"titulo": "Interconexión de Redes.",
 "temas": [
 "Implicaciones, LAN – WAN, WAN – WAN, Tecnologías de interconexión.",
 "Seguridad en los protocolos y dispositivos de enrutamiento..",
@@ -49,7 +49,7 @@
 ]
 },
 {
-"titulo": "5. Configuración de servidores."
+"titulo": "Configuración de servidores."
 }
 ]
 }

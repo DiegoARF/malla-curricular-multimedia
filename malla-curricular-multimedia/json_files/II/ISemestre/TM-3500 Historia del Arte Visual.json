@@ -7,14 +7,14 @@
 "Dotar al estudiante de un bagaje histórico sobre el arte occidental, con el fin de ilustrar y alimentar su proceso creativo-comunicativo-visual."
 ],
 "objetivosEspecificos": [
-"1. Describir los hechos más sobresalientes de la historia del arte visual, situados adecuadamente en el tiempo y en el espacio.",
-"2. Entender las obras de arte como muestras de la imaginación humana, capaces de ser interpretadas por sí mismas y valoradas dentro de una época y cultura.",
-"3. Comprender la versatilidad de las funciones sociales y de las diferentes manifestaciones del arte a través del tiempo.",
-"4. Interpretar el pensamiento del artista, mediante el lenguaje visual como medio de expresión y transmisión de conocimientos."
+"Describir los hechos más sobresalientes de la historia del arte visual, situados adecuadamente en el tiempo y en el espacio.",
+"Entender las obras de arte como muestras de la imaginación humana, capaces de ser interpretadas por sí mismas y valoradas dentro de una época y cultura.",
+"Comprender la versatilidad de las funciones sociales y de las diferentes manifestaciones del arte a través del tiempo.",
+"Interpretar el pensamiento del artista, mediante el lenguaje visual como medio de expresión y transmisión de conocimientos."
 ],
 "contenidos": [
 {
-"titulo": "Tema I:Concepto básico del arte visual  y sus manifestaciones.",
+"titulo": "Concepto básico del arte visual  y sus manifestaciones.",
 "temas": [
 "El lenguaje visual y su terminología.",
 "Iconografía e Iconología.",
@@ -23,7 +23,7 @@
 ]
 },
 {
-"titulo": "Tema II: Transformaciones artísticas y la cultura.",
+"titulo": "Transformaciones artísticas y la cultura.",
 "temas": [
 "El  origen del arte y  su trayectoria.",
 "El arte clásico, arquitectura, características y evolución.",
@@ -34,14 +34,14 @@
 ]
 },
 {
-"titulo": "Tema III: Las transformaciones artísticas y la sociedad.",
+"titulo": "Las transformaciones artísticas y la sociedad.",
 "temas": [
 "El Renacimiento.",
 "Urbanismo y arquitectura del arte Barroco."
 ]
 },
 {
-"titulo": "Tema IV: El arte contemporáneo",
+"titulo": "El arte contemporáneo",
 "temas": [
 "Urbanismo y su arquitectura.",
 "El Modernismo.",
@@ -51,18 +51,16 @@
 ]
 },
 {
-"titulo": "Tema V: Introducción al postmodernismo."
+"titulo": "Introducción al postmodernismo."
 },
 {
-"titulo": "Tema VI: Contextualización del arte costarricense",
+"titulo": "Contextualización del arte costarricense",
 "temas": [
 "Arte precolombino",
 "La colonia.",
 "Siglo XIX.",
 "Desarrollo de las artes visuales en el siglo XX."
 ]
-},
-{
 }
 ]
 }

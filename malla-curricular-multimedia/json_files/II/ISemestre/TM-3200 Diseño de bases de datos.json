@@ -15,7 +15,7 @@
 ],
 "contenidos": [
 {
-"titulo": "1. Introducción.",
+"titulo": "Introducción.",
 "temas": [
 "Historia de las bases de datos.",
 "Definición de bases de datos.",
@@ -33,7 +33,7 @@
 ]
 },
 {
-"titulo": "2. Modelo Entidad – Relación.",
+"titulo": "Modelo Entidad – Relación.",
 "temas": [
 "Entidades y conjuntos de entidades..",
 "Relaciones y conjuntos de relaciones.",
@@ -58,7 +58,7 @@
 ]
 },
 {
-"titulo": "4. La normalización.",
+"titulo": "La normalización.",
 "temas": [
 "Introducción.",
 "Primera forma normal.",
@@ -70,7 +70,7 @@
 ]
 },
 {
-"titulo": "5. Diseño de Bases de Datos.",
+"titulo": "Diseño de Bases de Datos.",
 "temas": [
 "Introducción.",
 "Clasificación de la metodología.",
@@ -78,8 +78,6 @@
 "Metodología del diseño.",
 "Transformación al modelo relacional."
 ]
-},
-{
 }
 ]
 }

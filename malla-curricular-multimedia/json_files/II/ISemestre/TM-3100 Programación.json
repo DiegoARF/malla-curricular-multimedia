@@ -14,41 +14,37 @@
 ],
 "contenidos": [
 {
-"titulo": "A. Repaso."
+"titulo": "Repaso."
 },
 {
-"titulo": "B. CVS Subversión."
+"titulo": "CVS Subversión."
 },
 {
-"titulo": "C. Archivos."
+"titulo": "Archivos."
 },
 {
-"titulo": "D. Estructuras de datos.",
+"titulo": "Estructuras de datos.",
 "temas": [
-"a. Listas enlazadas.",
-"b. Pilas.",
-"c. Colas.",
-"d. Árboles."
+"Listas enlazadas.",
+"Pilas.",
+"Colas.",
+"Árboles."
 ]
 },
 {
-"titulo": "E. Hilos."
+"titulo": "Hilos."
 },
 {
-"titulo": "F. Sockets."
+"titulo": "Sockets."
 },
 {
-"titulo": "G. Conexión a bases de datos."
+"titulo": "Conexión a bases de datos."
 },
 {
-"titulo": "H. Patrones de diseño."
+"titulo": "Patrones de diseño."
 },
 {
-"titulo": "I. XML."
-},
-{
-},
-{
+"titulo": "XML."
 }
 ]
 }

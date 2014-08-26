@@ -14,7 +14,7 @@
 ],
 "contenidos": [
 {
-"titulo": "1. Imágenes de mapas de bits",
+"titulo": "Imágenes de mapas de bits",
 "temas": [
 "Compresión del mapa de bits, profundidad de color",
 "Resolución de las imágenes",
@@ -25,7 +25,7 @@
 ]
 },
 {
-"titulo": "2. Matrices de vectores",
+"titulo": "Matrices de vectores",
 "temas": [
 "Curvas de Bezier",
 "Manipulación de imágenes vectoriales",
@@ -33,55 +33,55 @@
 ]
 },
 {
-"titulo": "3. Paquetes de software para pintura, iluminación, color, texturas, trabajos 3D"
+"titulo": "Paquetes de software para pintura, iluminación, color, texturas, trabajos 3D"
 },
 {
-"titulo": "4. Ilustración a mano alzada en medios digitales"
+"titulo": "Ilustración a mano alzada en medios digitales"
 },
 {
-"titulo": "5. Técnicas Bitmap"
+"titulo": "Técnicas Bitmap"
 },
 {
-"titulo": "6. Crear una luz convincente"
+"titulo": "Crear una luz convincente"
 },
 {
-"titulo": "7. Pintar con medios naturales"
+"titulo": "Pintar con medios naturales"
 },
 {
-"titulo": "8. Crear una nueva realidad"
+"titulo": "Crear una nueva realidad"
 },
 {
-"titulo": "9. Transformar imágenes en textura"
+"titulo": "Transformar imágenes en textura"
 },
 {
-"titulo": "10. Controlar transparencias"
+"titulo": "Controlar transparencias"
 },
 {
-"titulo": "11. Hacer montajes"
+"titulo": "Hacer montajes"
 },
 {
-"titulo": "12. Imitar lienzo y pintura"
+"titulo": "Imitar lienzo y pintura"
 },
 {
-"titulo": "13. Comprender la máscara de enfoque"
+"titulo": "Comprender la máscara de enfoque"
 },
 {
-"titulo": "14. De  RGB a CMYK"
+"titulo": "De  RGB a CMYK"
 },
 {
-"titulo": "15. Superposición de capas electrónicas"
+"titulo": "Superposición de capas electrónicas"
 },
 {
-"titulo": "16. Collage creativo"
+"titulo": "Collage creativo"
 },
 {
 "titulo": "Reproducción de color en medios electrónicos"
 },
 {
-"titulo": "18. Proyectar con colores fiables",
+"titulo": "Proyectar con colores fiables",
 "temas": [
-"i. Pintar con texturas",
-"ii. Pintar con luz"
+"Pintar con texturas",
+"Pintar con luz"
 ]
 }
 ]

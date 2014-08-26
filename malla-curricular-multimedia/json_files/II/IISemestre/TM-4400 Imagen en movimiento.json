@@ -15,7 +15,7 @@
 ],
 "contenidos": [
 {
-"titulo": "1. La imagen en movimiento.",
+"titulo": "La imagen en movimiento.",
 "temas": [
 "La imagen.",
 "El video.",
@@ -27,7 +27,7 @@
 ]
 },
 {
-"titulo": "2. El guión.",
+"titulo": "El guión.",
 "temas": [
 "Introducción.",
 "La producción.",
@@ -43,10 +43,6 @@
 "Edición avanzada.",
 "Edición de Audio."
 ]
-},
-{
-},
-{
 }
 ]
 }

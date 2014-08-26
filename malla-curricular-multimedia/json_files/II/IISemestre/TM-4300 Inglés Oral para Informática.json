@@ -1,47 +1,78 @@
 [
-{
-"siglas": "TM-4300",
-"nombre": "Inglés Oral para Informática",
-"descripcion": "Este es un curso básico de naturaleza teórica-práctica que pretende iniciar al o la estudiante en el proceso de la comunicación oral en el idioma inglés. Se espera contar con las bases previas de los estudiantes para que el proceso sea más ágil productivo. En este curso, se integran aspectos básicos de la gramática inglesa con un enfoque comunicativo así como los principios básicos de la comunicación de carácter oral. La idea es que los y las estudiantes sean capaces de iniciar su proceso comunicativo de manera apropiada en esta lengua extranjera.               El curso pretende estudiar aspectos gramaticales y a la vez hacer que estos tengan una función comunicativa al ser puestos en práctica en la elaboración de conversaciones, diálogos y pequeñas presentaciones orales.  .",
-"objetivosGenerales": [
-"Iniciar al estudiante en el proceso de adquisición de conocimientos y habilidades básicas en el idioma inglés a través de la efectiva realización de actividades de diversa índole con el propósito de promover el desarrollo de las actitudes lingüísticas de los y las estudiantes para así poder desarrollar un nivel básico de competencia comunicativa en esta lengua extranjera."
-],
-"objetivosEspecificos": [
-"1- Ser capaz de desarrollar sus actitudes lingüísticas  en idioma inglés.",
-"2- Producir frases y oraciones respetando la correcta estructura y pronunciación de la lengua inglesa.",
-"3- Incrementar su banco de vocabulario y adaptarlo a su contexto inmediato para que este le sea útil.",
-"4- Reforzar conocimientos básicos de la lengua inglesa así como desarrollarlos en nuevos contextos.",
-"5- Producir conversaciones cortas mediante diversas actividades libres o controladas para así poder desarrollar funciones comunicativas acerca de temas y situaciones cotidianas.",
-"6- Entender y producir expresiones de básica a mediana complejidad en la lengua inglesa para propiciar la adecuada comunicación de ideas en esta lengua.",
-"7- Desarrollar una efectiva pronunciación de los sonidos de la lengua inglesa."
-],
-"contenidos": [
-{
-"temas": [
-"1-Presentaciones, saludos y despedidas.",
-"2-Información personal: uso de preguntas básicas, verbo “to be”.",
-"3-Trabajos y ocupaciones, el lugar de trabajo, descripción de labores, horarios y rutinas.",
-"4-Compras y precios, ropa, colores, números, demostrativos.",
-"5-Gustos: música, televisión, entretenimiento.",
-"6-Invitaciones, excusas, fechas y horas.",
-"7-La familia: descripciones y variantes en diferentes países.",
-"8-Deportes, actividades físicas, rutinas y ejercicios.",
-".",
-"9-Actividades de tiempo libre, vacaciones y tareas domésticas.",
-"10-Experiencias pasadas.",
-"11-La ciudad y el vecindario, lugares en la ciudad, bienes y servicios.",
-"12-Casas y departamentos.",
-"13-Descripciones físicas y emocionales de personas.",
-"14-El presente perfecto aplicado a experiencias pasadas de carácter inusual.",
-"15-Ciudades, países, descripciones de estos, recomendaciones en cada lugar.",
-"16-Problemas de salud, tratamientos médicos y recomendaciones.",
-"17-Comidas y restaurantes.",
-"18-Conversaciones telefónicas, mensajes.",
-"19-Cambios a través de la vida, planes e ideas para el futuro."
-]
-},
-{
-}
-]
-}
+  {
+    "siglas": "TM-4300",
+    "nombre": "Inglés Oral para Informática",
+    "descripcion": "Este es un curso básico de naturaleza teórica-práctica que pretende iniciar al o la estudiante en el proceso de la comunicación oral en el idioma inglés. Se espera contar con las bases previas de los estudiantes para que el proceso sea más ágil productivo. En este curso, se integran aspectos básicos de la gramática inglesa con un enfoque comunicativo así como los principios básicos de la comunicación de carácter oral. La idea es que los y las estudiantes sean capaces de iniciar su proceso comunicativo de manera apropiada en esta lengua extranjera.               El curso pretende estudiar aspectos gramaticales y a la vez hacer que estos tengan una función comunicativa al ser puestos en práctica en la elaboración de conversaciones, diálogos y pequeñas presentaciones orales.  .",
+    "objetivosGenerales": [
+      "Iniciar al estudiante en el proceso de adquisición de conocimientos y habilidades básicas en el idioma inglés a través de la efectiva realización de actividades de diversa índole con el propósito de promover el desarrollo de las actitudes lingüísticas de los y las estudiantes para así poder desarrollar un nivel básico de competencia comunicativa en esta lengua extranjera."
+    ],
+    "objetivosEspecificos": [
+      "Ser capaz de desarrollar sus actitudes lingüísticas  en idioma inglés.",
+      "Producir frases y oraciones respetando la correcta estructura y pronunciación de la lengua inglesa.",
+      "Incrementar su banco de vocabulario y adaptarlo a su contexto inmediato para que este le sea útil.",
+      "Reforzar conocimientos básicos de la lengua inglesa así como desarrollarlos en nuevos contextos.",
+      "Producir conversaciones cortas mediante diversas actividades libres o controladas para así poder desarrollar funciones comunicativas acerca de temas y situaciones cotidianas.",
+      "Entender y producir expresiones de básica a mediana complejidad en la lengua inglesa para propiciar la adecuada comunicación de ideas en esta lengua.",
+      "Desarrollar una efectiva pronunciación de los sonidos de la lengua inglesa."
+    ],
+    "contenidos": [
+      {
+        "titulo": "Presentaciones, saludos y despedidas."
+      },
+      {
+        "titulo": "Información personal: uso de preguntas básicas, verbo “to be”."
+      },
+      {
+        "titulo": "Trabajos y ocupaciones, el lugar de trabajo, descripción de labores, horarios y rutinas."
+      },
+      {
+        "titulo": "Compras y precios, ropa, colores, números, demostrativos."
+      },
+      {
+        "titulo": "Gustos: música, televisión, entretenimiento."
+      },
+      {
+        "titulo": "Invitaciones, excusas, fechas y horas."
+      },
+      {
+        "titulo": "La familia: descripciones y variantes en diferentes países."
+      },
+      {
+        "titulo": "Deportes, actividades físicas, rutinas y ejercicios."
+      },
+      {
+        "titulo": "Actividades de tiempo libre, vacaciones y tareas domésticas."
+      },
+      {
+        "titulo": "Experiencias pasadas."
+      },
+      {
+        "titulo": "La ciudad y el vecindario, lugares en la ciudad, bienes y servicios."
+      },
+      {
+        "titulo": "Casas y departamentos."
+      },
+      {
+        "titulo": "Descripciones físicas y emocionales de personas."
+      },
+      {
+        "titulo": "El presente perfecto aplicado a experiencias pasadas de carácter inusual."
+      },
+      {
+        "titulo": "Ciudades, países, descripciones de estos, recomendaciones en cada lugar."
+      },
+      {
+        "titulo": "Problemas de salud, tratamientos médicos y recomendaciones."
+      },
+      {
+        "titulo": "Comidas y restaurantes."
+      },
+      {
+        "titulo": "Conversaciones telefónicas, mensajes."
+      },
+      {
+        "titulo": "Cambios a través de la vida, planes e ideas para el futuro."
+      }
+    ]
+  }
 ]

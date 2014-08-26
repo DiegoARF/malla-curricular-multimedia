@@ -7,71 +7,71 @@
       "Estimular el desarrollo de la lógica de programación para que el estudiante sea capaz de resolver problemas  complejos de programación."
     ],
     "objetivosEspecificos": [
-      "1. Conocer los fundamentos teóricos de la programación orientada a objetos.",
-      "2. Resolver problemas lógicos de programación complejos.",
-      "3. Utilizar un lenguaje de programación didáctico"
+      "Conocer los fundamentos teóricos de la programación orientada a objetos.",
+      "Resolver problemas lógicos de programación complejos.",
+      "Utilizar un lenguaje de programación didáctico"
     ],
     "contenidos": [
       {
-        "titulo": "A. Conceptos del ciclo de vida de sistemas"
+        "titulo": "Conceptos del ciclo de vida de sistemas"
       },
       {
-        "titulo": "B. Especificación de requerimientos"
+        "titulo": "Especificación de requerimientos"
       },
       {
-        "titulo": "C. Fundamentos teóricos de la Programación Orientada a Objetos",
+        "titulo": "Fundamentos teóricos de la Programación Orientada a Objetos",
         "temas": [
-          "1. Reconocimiento de objetos, clases y atributos de clase.",
-          "2. Abstracción y encapsulamiento."
+          "Reconocimiento de objetos, clases y atributos de clase.",
+          "Abstracción y encapsulamiento."
         ]
       },
       {
-        "titulo": "D. Estructuras de control",
+        "titulo": "Estructuras de control",
         "temas": [
-          "1. Repaso de if y switch",
-          "2. b. Estructuras repetitivas (while, for, do while)"
+          "Repaso de if y switch",
+          "Estructuras repetitivas (while, for, do while)"
         ]
       },
       {
-        "titulo": "E. Métodos"
+        "titulo": "Métodos"
       },
       {
-        "titulo": "F. Modelado"
+        "titulo": "Modelado"
       },
       {
-        "titulo": "G. Arreglos",
+        "titulo": "Arreglos",
         "temas": [
-          "1. Unidimensionales",
-          "2. Bidimensionales",
-          "3. Algoritmos de búsqueda y ordenamiento"
+          "Unidimensionales",
+          "Bidimensionales",
+          "Algoritmos de búsqueda y ordenamiento"
         ]
       },
       {
-        "titulo": "H. Herencia"
+        "titulo": "Herencia"
       },
       {
-        "titulo": "I. Polimorfismo"
+        "titulo": "Polimorfismo"
       },
       {
-        "titulo": "J. Interfaces"
+        "titulo": "Interfaces"
       },
       {
-        "titulo": "K. Manejo de excepciones"
+        "titulo": "Manejo de excepciones"
       },
       {
-        "titulo": "L. Recursividad"
+        "titulo": "Recursividad"
       },
       {
-        "titulo": "M. La clase Arrays"
+        "titulo": "La clase Arrays"
       },
       {
-        "titulo": "N. Componentes de la GUI"
+        "titulo": "Componentes de la GUI"
       },
       {
-        "titulo": "O. Estructuras de datos",
+        "titulo": "Estructuras de datos",
         "temas": [
-          "1. Clases autoreferenciadas",
-          "2. Asignación dinámica de memoria"
+          "Clases autoreferenciadas",
+          "Asignación dinámica de memoria"
         ]
       }
     ]

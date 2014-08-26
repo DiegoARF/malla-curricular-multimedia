@@ -155,7 +155,11 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
                   $http.get('json_files/II/IISemestre/TM-4500 Diseño Gráfico para Tecnología Multimedia.json').success(function (info) {
         $scope.disngG= info;
         disenoGrafico=info;
-     }); 
+     });
+                $http.get('json_files/II/IISemestre/TM-4300 Inglés Oral para Informática.json').success(function (info) {
+        $scope.inglOI= info;
+        inglesOralInformatica=info;
+     });  
 
 
 })
@@ -284,17 +288,33 @@ function crearObjetivos(curso,cursoNombre)
 function crearContenidos(curso, nombreCurso)
 {
       
-     var contenidos="<div class='row contenidos-cont'><ol>";
-     for(var i=0;i<curso[0].contenidos.length;i++)
-     {
-        
-        contenidos+="<li><a class='punto' curso='"+curso[0].nombre+"' href='#'' data='"+i+"'>"+curso[0].contenidos[i].titulo+"</a></li>";
-     }
-     contenidos+="<ol><div>";
+     var contenidos="";
+     if(curso[0].contenidos.length<10)
+      {      contenidos ="<div class='row contenidos-cont'><ol>";
+             for(var i=0;i<curso[0].contenidos.length;i++)
+             {
+                
+                contenidos+="<li><a class='punto' curso='"+curso[0].nombre+"' href='#'' data='"+i+"'>"+curso[0].contenidos[i].titulo+"</a></li>";
+             }
+             contenidos+="</ol><div>";
+   }
+   else{
+            contenidos+="<div class='row contenidos-cont'><div class='small-4 column'><ol>";
+            for(var i=0;i<10;i++)
+             {
+                  contenidos+="<li><a class='punto' curso='"+curso[0].nombre+"' href='#'' data='"+i+"'>"+curso[0].contenidos[i].titulo+"</a></li>";
+             }
+             contenidos+="</ol></div><div class='small-4 column'><ol>";
+
+              for(var i=10;i<curso[0].contenidos.length;i++)
+             {
+                  contenidos+="<li value='"+i+"'><a class='punto' curso='"+curso[0].nombre+"' href='#'' data='"+i+"'>"+curso[0].contenidos[i].titulo+"</a></li>";
+             }
+             contenidos+="</ol></div></div>";
+   }
      $('#contenidos').append(contenidos);
+   }
 
-
-}
 
 /*****************crea los puntos del contenido seleccionado de un curso*****************/
 function crearPuntos (curso, nombreCurso,posContenido) {
@@ -321,6 +341,11 @@ function getCurso(nombreCurso)
     if(nombreCurso=='Fundamentos de dibujo')
     {
             return fundamentosDeDibujo;
+    }
+
+     if(nombreCurso=='Fundamentos del diseño')
+    {
+            return fundamentosDeDiseno;
     }
 
     if(nombreCurso=='Introducción a la Informática y a la Tecnología Multimedia')

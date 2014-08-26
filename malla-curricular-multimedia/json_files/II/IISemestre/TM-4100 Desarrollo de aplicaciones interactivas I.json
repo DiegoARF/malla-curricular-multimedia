@@ -15,7 +15,7 @@
 ],
 "contenidos": [
 {
-"titulo": "1. Tema I: Introducción a las aplicaciones web.",
+"titulo": "Introducción a las aplicaciones web.",
 "temas": [
 "Tecnologías multimedia utilizadas en la Web.",
 "Tipos de páginas.",
@@ -29,7 +29,7 @@
 ]
 },
 {
-"titulo": "2. Tema II: Etapas para diseñar un proyecto de aplicaciones para la web.",
+"titulo": "Etapas para diseñar un proyecto de aplicaciones para la web.",
 "temas": [
 "Etapa 1: Definición del proyecto.",
 "Etapa 2: Desarrollo de la estructura del sitio.",
@@ -39,7 +39,7 @@
 ]
 },
 {
-"titulo": "3. Tema III: Diseño de Interfaces para aplicaciones interactivas.",
+"titulo": "Diseño de Interfaces para aplicaciones interactivas.",
 "temas": [
 "Características de las interfaces.",
 "Teoría del color.",
@@ -47,7 +47,7 @@
 ]
 },
 {
-"titulo": "4. Tema IV:  Los formatos  HTML5 y  XHTML.",
+"titulo": "Los formatos  HTML5 y  XHTML.",
 "temas": [
 "El Formato XHTML.",
 "El Formato XML.",
@@ -58,7 +58,7 @@
 ]
 },
 {
-"titulo": "5. Tema V: Estructurando el sitio web.",
+"titulo": "Estructurando el sitio web.",
 "temas": [
 "Hojas de estilo",
 "Ventajas y funcionalidad de la Hoja de Estilos en Cascada.",
@@ -68,7 +68,7 @@
 ]
 },
 {
-"titulo": "6. Tema VI: Utilización de JavaScripts.",
+"titulo": "Utilización de JavaScripts.",
 "temas": [
 "Javascripts básico.",
 "Variables, operadores, estructuras condicionales.",
@@ -81,7 +81,7 @@
 ]
 },
 {
-"titulo": "7. Tema VII: Programación de una aplicación web.",
+"titulo": "Programación de una aplicación web.",
 "temas": [
 "Fundamentos de PHP.",
 "Operadores, control de flujo, cadenas y matrices.",
