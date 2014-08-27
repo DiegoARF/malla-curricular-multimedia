@@ -1,0 +1,63 @@
+[
+{
+"siglas": " TM-7103",
+"nombre": "Optativa II (Desarrollo para Dispositivos Móviles)",
+"descripcion": "En este curso los o las estudiantes aprenderán conceptos relacionados con las tecnologías móviles. Además conocerán cuales son las plataformas que se brindan en el mercado y sus formatos multimedia respectivos. Los o las estudiantes también aprenderán a utilizar una herramienta que les ayude a desarrollar aplicaciones para dispositivos móviles, desde su diseño, desarrollo y su instalación.",
+"objetivosGenerales": [
+"Desarrollar en los o las estudiantes conocimientos relacionados con dispositivos móviles, mediante el uso de una herramienta que le permita el el desarrollo de aplicaciones para este tipo de dispositivos."
+],
+"objetivosEspecificos": [
+"1- Adquirir los conocimientos relaciones con la tecnología móvil",
+"2- Conocer la demanda del mercado con respecto a tecnologías móviles",
+"3- Desarrollar aplicaciones para dispositivos móviles utilizando una herramienta que se ajuste a los cambios tecnológicos."
+],
+"contenidos": [
+{
+"titulo": " A. Introducción a las tecnologías móviles",
+"temas": [
+"Conceptos básicos.",
+"Tipos de dispositivos móviles.",
+"Categorías de dispositivos móviles.",
+"Escenarios (público masivo y público puntual).",
+"Sistemas operativos para dispositivos móviles.",
+"Formatos multimedia móviles."
+]
+},
+{
+"titulo": "B. Entorno de desarrollo de aplicaciones para dispositivos móviles.",
+"temas": [
+"Plataformas.",
+"Arquitectura.",
+"Componentes de la aplicación.",
+"Servicios web.",
+"Framework."
+]
+},
+{
+"titulo": "C. Interfaz de usuario",
+"temas": [
+"Ventanas",
+"Menús",
+"Definiendo colores y dimensiones",
+"Imágenes",
+"Barras de progreso"
+]
+},
+{
+"titulo": "D. Emulador vrs dispositivo real",
+"temas": [
+"Diferencias entre el emulador y el dispositivo real",
+"Características",
+"Como instalar la aplicación en un dispositivo real",
+"Restricciones"
+]
+},
+{
+"titulo": "E. Técnicas de almacenamiento para dispositivos móviles.",
+"3temas": [
+"Modelado de datos para dispositivos móviles."
+]
+}
+]
+}
+]

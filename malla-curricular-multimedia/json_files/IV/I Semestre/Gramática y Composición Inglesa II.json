@@ -1,0 +1,55 @@
+[
+{
+"siglas": " TM-7100",
+"nombre": "Gramática y Composición Inglesa II",
+"descripcion": "Este es un curso básico de naturaleza teórica-práctica que pretende continuar con el proceso iniciado en el curso de Gramática y composición Inglesa I. En este curso, al igual que en el que lo precede se integran aspectos básicos de la gramática inglesa así como los principios básicos de la composición y redacción en esta lengua. La idea es que los y las estudiantes sean capaces de mejorar sus conocimientos de gramática inglesa y que puedan incorporarlos en sus escritos. El curso pretende estudiar aspectos gramaticales y a la vez hacer que estos tengan una función comunicativa al ser puestos en práctica en la elaboración de párrafos y pequeñas composiciones. ",
+"objetivosGenerales": [
+"Incrementar conocimientos básicos de gramática y producción escrita en la lengua inglesa para la elaboración efectiva de párrafos y  pequeñas composiciones bajo un enfoque comunicativo en el que el estudiante sea capaz de poner en práctica los conocimientos adquiridos. Fortalecer el nivel de escritura por medio de la práctica constante a través de la elaboración de diferentes materiales escritos en los cuales se utilice la gramática inglesa eficientemente. "
+],
+"objetivosEspecificos": [
+"Como resultado de su participación activa en el curso el estudiante deberá:",
+"Reforzar conocimientos básicos de gramática Inglesa.",
+"Adquirir nuevas estructuras gramaticales para poder desarrollarlas correctamente. ",
+"Continuar con  el proceso de composición en la lengua inglesa.",
+"Producir composiciones cortas con estructuras gramaticales correctas. ",
+"Establecer y apoyar la idea  central de un ensayo mediante la correcta construcción de párrafos. ",
+"Utilizar palabras, frases y oraciones de transición en composiciones cortas, así como otros elementos de coherencia.",
+"Usar los diferentes elementos de la puntuación inglesa.",
+"Utilizar  las reglas relacionadas a  las estructuras gramaticales estudiadas.",
+"Integrar la  gramática y producción escrita  aplicando  la corrección gramatical."
+],
+"contenidos": [
+{
+"titulo": " Gramática:",
+"temas": [
+"Presente Perfecto. ",
+"Superlativos y comparativos. ",
+"Comparaciones con So, Too, Either y Neither. ",
+"Uso de modales: Should, had better, have to, must.",
+"Pronombres reflexivos. ",
+"Clausulas relativas.",
+"Pasado continuo.",
+"Pasado continuo versus pasado simple. ",
+"Infinitivos. ",
+"Presente perfecto continuo. ",
+"Presente perfecto versus presente perfecto continuo. ",
+"Diferentes usos de gerundios e infinitivos. ",
+"La voz pasiva con el presente y el pasado simple. ",
+"La voz pasiva con el presente perfecto.",
+"La voz pasiva con el presente continuo. ",
+"La voz pasiva con los auxiliares. "
+
+]
+},
+{
+"titulo": "Composición:",
+"temas": [
+"Esquemas ",
+"Estructura del ensayo: ",
+"Conectores. ",
+"Patrones de organización de párrafos y composiciones cortas."
+]
+}
+]
+}
+]

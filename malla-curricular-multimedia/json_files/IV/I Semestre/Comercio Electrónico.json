@@ -1,0 +1,132 @@
+[
+{
+"siglas": "TM-7300",
+"nombre": "Comercio Electrónico",
+"descripcion": "El curso permite a el o la estudiante comprender los conocimientos básicos relacionados con el comercio electrónico y a la vez conocer las implicaciones que conlleva el desarrollo de un sitio que sea apto y exitoso para el comercio electrónico tanto a nivel nacional como internacional. Se introducirá a el o la estudiante en el concepto del comercio electrónico y aprenderá cómo realizar un plan estratégico para crear un sitio de comercio electrónico. Además se explicarán las consideraciones necesarias para crear un sitio web para comercio electrónico tomando en cuenta la seguridad en los medios de pago. Se analizarán las legislaciones y regulaciones que se deben aplicar a la hora de realizar comercio electrónico.",
+"objetivosGenerales": [
+"Proporcionar al o la estudiante los conocimientos teóricos y prácticos relacionados con el comercio electrónico, con el fin de que puedan implementarlos en el desarrollo de un sitio web acorde a las necesidades económicas así como legales y sociales."
+],
+"objetivosEspecificos": [
+"Comprender la importancia del comercio electrónico y sus implicaciones en el mercado nacional e internacional.",
+"Reconocer los factores tecnológicos, sociales, económicos y empresariales que impulsan el comercio electrónico.",
+"Crear un plan de negocios para el desarrollo de un sitio de comercio electrónico.",
+"Comprender los aspectos legales y los regulatorios importantes que deben ser considerados a la hora de diseñar e implementar aplicaciones para el comercio electrónico.",
+"Aplicar métodos y técnicas para el diseño de sitios efectivos para el comercio electrónico."
+],
+"contenidos": [
+{
+"titulo": "Introducción al comercio electrónico.",
+"temas": [
+"Conceptos básicos del comercio electrónico.",
+"Descripción y tipos de comercio electrónico.",
+"Historia y evolución del comercio electrónico.",
+"Situación actual del comercio electrónico.",
+"Beneficios del comercio electrónico.",
+"Barreras y limitaciones del comercio electrónico"
+]
+},
+{
+"titulo": " Plan Estratégico de comercio electrónico",
+"temas": [
+"Análisis estratégico del comercio .",
+"Modelos de negocio de comercio electrónico.",
+"Factores críticos de éxito en el comercio electrónico.",
+"Posicionamiento de las empresas de comercio electrónico y análisis de la oferta."
+]
+},
+{
+"titulo": "Consideraciones estratégicas y de mercadeo en el análisis, definición de requerimientos y construcción de sitios web para el comercio electrónico.",
+"temas": [
+"Comercio electrónico y ventaja competitiva.",
+"Características de los productos digitales.",
+"Mercadeo de productos y procesos digitales versus mercadeo de productos físicos convencionales.",
+"Preparación de un plan de negocios para una compañía .com.",
+[
+"Visión, misión y descripción de la compañía.",
+"Administración.",
+"Competencia.",
+"Mercado y clientes.",
+"Productos y servicios.",
+"Mercadeo y ventas.",
+"Operaciones.",
+"Finanzas."
+],
+"Claves para la construcción de un sitio web de éxito en comercio electrónico.",
+[
+"Catálogo y contenidos: verificación, procesado, herramienta de catálogo.",
+"Usability, ambiente de compra, diseño y gestión de herramientas de front-end.",
+"Flujos de caja y financiación.",
+"Zonas calientes.",
+"Zonas de usuario.",
+"Carrito de compras."
+],
+"Seguridad en el comercio electrónico.",
+[
+"Aspectos básicos de la seguridad.",
+"Tipos de amenazas y ataques.",
+"Administración de la seguridad en el comercio electrónico.",
+"Mecanismos para asegurar las comunicaciones en el comercio electrónico.",
+[
+"Autenticación.",
+"Criptografía.",
+"Infraestructura de clave pública.",
+"Nivel de zócalo seguro."
+],
+"Mecanismos para asegurar las redes de comercio electrónico.",
+[
+"Corta fuegos (firewalls).",
+"Redes privadas virtuales.",
+"Mecanismos de detección de intrusos."
+],
+"Utilización de certificados digitales en la creación de un sitio de comercio electrónico."
+]
+]
+},
+{
+"titulo": " Seguridad en los medios de pago online.",
+"temas": [
+"Medios de pago.",
+"Principales problemas de pagos online.",
+"Tipos de pago online.",
+"Mecanismos de seguridad en los medios de pago.",
+"Tarjetas de crédito: banda magnética, tarjetas inteligentes y multiservicio.",
+"3D Secure.",
+"Internet Mobile Payment.",
+"Modelos de negocio de los diferentes actores.",
+"Workflow y funcionamiento de un sistema de pago a través de móvil."
+]
+},
+{
+"titulo": "Comercio electrónico en un entorno B2B (Business-to-business).",
+"temas": [
+"Qué es el B2B.",
+"Características del B2B.",
+"Modelos de negocio de los e-marketplaces.",
+"Agregadores horizontales/verticales.",
+"De catálogos a e-catálogos.",
+"Conflicto de canales, conflicto de medios y e-marketing híbrido.",
+"SupplyChain Management.",
+"E-Marketplace.",
+"Modelos de negocios avanzados."
+]
+},
+{
+"titulo": "Normativas y regulaciones.",
+"temas": [
+"Normativa aplicable en materia de publicidad (ámbito estatal).",
+"Normativas sectoriales sobre determinados productos (alcohol, tabaco, medicamentos, alimentos, cosméticos, automóviles, juegos de azar y juguetes).",
+"Tratamiento de la mujer y los menores en publicidad.",
+"Autorregulación: códigos de conducta, códigos éticos y códigos sectoriales.",
+"Propiedad intelectual e industrial en la publicidad digital.",
+"Derecho al honor, a la intimidad y a la propia imagen en la publicidad.",
+"Implicaciones legales del comercio local e internacional.",
+"Responsabilidades legales en comercio electrónico.",
+"Implicaciones legales en la comunicación de características y precios.",
+"Ley orgánica de la protección de datos (LOPD).",
+"Impuestos indirectos.",
+"Ley de servicios de la sociedad de la información(LSSI)."
+]
+}
+]
+}
+]

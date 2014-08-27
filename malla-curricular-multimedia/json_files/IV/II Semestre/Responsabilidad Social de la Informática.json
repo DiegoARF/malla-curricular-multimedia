@@ -1,0 +1,87 @@
+[
+{
+"siglas": "TM-8200",
+"nombre": "Responsabilidad Social de la Informática",
+"descripcion": "Este curso pretende mostrar al o la estudiante la responsabilidad de la informática, lo referente al ejercicio de la profesión, implicaciones legales y la importancia de la ética en el desarrollo de su quehacer profesional.",
+"objetivosGenerales": [
+"Desarrollar en el estudiantado un sentido de responsabilidad social y profesional para que ejerza su trabajo bajo los principios que dictan la ética y la ley, respetando los postulados establecidos en el código de ética de los informáticos. "
+],
+"objetivosEspecificos": [
+"Conocer las tendencias actuales de la informática.",
+"Analizar los efectos de la tecnología informática en el entorno social.",
+"Discutir las responsabilidades del informático con la empresa, la sociedad y la profesión.",
+"Conocer los aspectos legales, en el ejercicio de la profesión.",
+"Conocer los conceptos básicos de ética en el ejercicio de la profesión.",
+"Conocer el código de ética de los profesionales en informática"
+],
+"contenidos": [
+{
+"titulo": "INTRODUCCIÓN",
+"temas": [
+"Conceptos generales"
+]
+},
+{
+"titulo": "CÓDIGO DE ÉTICA DEL INFORMÁTICO",
+"temas": [
+"Introducción",
+"Alcance del código",
+"Responsabilidad hacia la sociedad",
+"Responsabilidad hacia la profesión",
+"Responsabilidad hacia los usuarios",
+"Responsabilidad hacia el proveedor de recursos",
+"Responsabilidad del profesional como vendedor y/o comprador de productos informáticos",
+"Responsabilidad en la docencia",
+"Sanciones"
+]
+},
+{
+"titulo": "IMPACTO DE LA INFORMÁTICA",
+"temas": [
+"Salud ",
+"Educación ",
+"Empresas",
+"Ciencias"
+]
+},
+{
+"titulo": "REDES SOCIALES Y SOCIEDAD",
+"temas": [
+"Utilización ",
+"Aspectos positivos",
+"Aspectos negativos",
+"Impacto en la sociedad"
+]
+},
+{
+"titulo": "TELEINFORMÁTICA",
+"temas": [
+"Internet y extranets ",
+"Comercio electrónico",
+"Entretenimiento",
+"Intercambio de información"
+]
+},
+{
+"titulo": "ASPECTOS LEGALES E INFORMÁTICA",
+"temas": [
+"Privacidad de la información",
+"Propiedad intelectual",
+"Derechos de autor",
+"Marco legal y jurisprudencia en Costa Rica",
+"Piratería informática",
+"Software defectuoso"
+]
+},
+{
+"titulo": " INFORMÁTICA Y SOCIEDAD ",
+"temas": [
+"Efectos positivos y negativos en el uso de las computadoras",
+"Juegos educativos y videojuegos ",
+"Repercusiones y proyecciones de las nuevas tecnologías de información en la comunicación social.",
+"Informática, ecología y desechos informáticos"
+]
+}
+]
+}
+]

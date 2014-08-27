@@ -1,0 +1,62 @@
+[
+{
+"siglas": " TM-7102",
+"nombre": "Optativa II (Programación en Ruby on Rails)",
+"descripcion": "Ruby on Rails, es una tecnología framework de aplicaciones web de código abierto escrito en el lenguaje de programación Ruby. Trata de desarrollar aplicaciones del mundo real escribiendo menos código que con otros frameworks y con un mínimo de configuración. Este curso le dará al o la estudiante los conocimientos básicos sobre herramientas para el desarrollo de aplicaciones web que se están utilizando en el mercado, de forma que los actualice sobre las tendencias en materia de software.",
+"objetivosGenerales": [
+"Enseñar una herramienta actualizada para el desarrollo web."
+],
+"objetivosEspecificos": [
+"Desarrollar destrezas en la programación de páginas web.",
+"Dotar al o la estudiante con las bases para hacer desarrollos rápidos de aplicaciones para la web."
+],
+"contenidos": [
+{
+"titulo": " 1. Introducción a Rails, fortalezas de Rails, Organización",
+"temas": [
+"Servidor Web, Elegir un servidor, WEBrick Apache lighttpd Mongrel, Otros servidores Web, Crear un controlador, Ejecutar el controlador, Construir una vista, Escribir el controlador para la vista, Expresiones y Scriptlets."
+]
+},
+{
+"titulo": "Principios básicos de Active Records .",
+"temas": [
+"Record Englobar, no mapear, El ingrediente secreto Photo Share, Configurar Active Record, Migraciones de esquemas, Clases básicas, Active Record, La consola Rails, Atributos, Columnas, Accesotes, Identificadores, Clases complejas, Herencia, Composición, Comportamiento, Localizadores (Finder), Validación, Transacciones, Avanzando."
+]
+},
+{
+"titulo": " Relaciones Active Record",
+"temas": [
+"Belongs_to, has_many, has_one, has_and_belongs_to_many, Modelos de unión acts_as_list, Árboles."
+]
+},
+{
+"titulo": " Andamiaje, Una lista de fotografías",
+"temas": [
+"Metaprogramación, Reemplazar el andamiaje, El andamiaje es dinámico, Pros y contras, Generar código de andamiaje, Dentro del código generado, Lo mejor de los dos mundos, Avanzando."
+]
+},
+{
+"titulo": "Vistas",
+"temas": [
+"Expandir vistas, Vista de conjunto, Visualizar fotografías reales, Plantillas de vista, Presentaciones Establecer la raíz predeterminada, Hojas de estilo, Categorías jerárquicas, Asignar una categoría a una fotografía, Dar estilo a los pases de diapositivas, Crear sus propias funciones asistente, Crear la hoja de estilo."
+]
+},
+{
+"titulo": " Ajax",
+"temas": [
+"Cómo Rails implementa Ajax, Reproducir un pase de diapositivas, Utilizar arrastrar y soltar para reorganizar diapositivas, Arrastre y suelte casi cualquier cosa, Filtrado por categorías."
+]
+},
+{
+"titulo": "Comprobación",
+"temas": [
+"Background, Test::Unit, Comprobaciones en Rails",
+"Pruebas de unidad, pruebas funcionales y pruebas de integración, Entornos, Accesorios, Pruebas avanzadas, ZenTest, Selenium",
+"Instalación de Rails, Servidores Web con soporte, Bases de datos con soporte, Entornos de desarrollo integrados (IDEs)",
+"Creación de aplicaciones, Guiones Generadores, Plugins RJS (Ruby JavaScript), Active Record, Mapeado automatizado, Asociaciones, Modelos de unión de asociacionesLocalizadores dinámicos, Encaminamiento de URL Filtro Session/Flash",
+"Gestión de sesiones, Cookies, Plantillas de vista, RHTML, RXML, RJS, Asistentes, Enlaces, Formularios HTML, Formulario, Casilla de verificación, Vincular a acción remota: Callbacks, Formularios Ajax, Configurar su aplicación, Configuración de sesiones."
+]
+}
+]
+}
+]

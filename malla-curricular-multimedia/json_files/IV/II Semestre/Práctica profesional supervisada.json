@@ -1,0 +1,36 @@
+[
+{
+"siglas": "TM-8100",
+"nombre": "Práctica profesional supervisada",
+"descripcion": "Este curso permite al estudiante demostrar los conocimientos, habilidades, destrezas y competencias adquiridas durante el transcurso de su carrera. Debe realizar un proyecto conducente a la solución de algún problema real en una empresa. Todo el  proceso de la práctica estará supervisado por un profesor o profesora. El estudiante puede trabajar de manera individual pero es recomendable que lo haga en grupo.",
+"objetivosGenerales": [
+"Aplicar los conocimientos adquiridos por el o la estudiante durante sus años de estudio en un proyecto real en una empresa mediante una práctica profesional."
+],
+"objetivosEspecificos": [
+"Utilizar las habilidades, destrezas y competencias desarrolladas en sus años de estudio en situaciones nuevas, concretas y reales para resolver problemas.",
+"Que el estudiante conozca una ambiente real de trabajo y participe en la resolución de problemas que se presentan relacionadas a labores específicas.",
+"Completar un producto software aprobado por el usuario"
+],
+"contenidos": [
+{
+"titulo": "Este es un curso completamente práctico en donde el o la estudiante aplica los conocimientos adquiridos en sus años de estudio a situaciones reales y concretas."
+},
+{
+"titulo": "Lo que se busca es que de acuerdo al tipo de proyecto seleccionado cumpla al menos con lo siguiente"
+},
+{
+"titulo": "Guía de trabajo para desarrollar el proyecto",
+"temas": [
+"Descripción de la organización",
+"Planteamiento del problema",
+"Propuesta de solución del problema.",
+"Estudios de factibilidad de la opción: técnica, económica y operativa.",
+"Documentación",
+"Plan de capacitación a usuarios.",
+"Recomendaciones para futuros proyectos",
+"Conclusiones (sobre metodología, estándares utilizados, herramientas utilizadas, problemas encontrados, su participación, participación del profesor y la empresa, etc)."
+]
+}
+]
+}
+]

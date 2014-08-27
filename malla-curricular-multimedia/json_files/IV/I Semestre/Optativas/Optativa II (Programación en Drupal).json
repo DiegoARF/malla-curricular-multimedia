@@ -1,0 +1,99 @@
+[
+{
+"siglas": " TM-7101",
+"nombre": "Optativa II (Programación en Drupal)",
+"descripcion": "Drupal es un administrador de un espacio web, que puede usarse como herramienta de desarrollo para diferentes tipos de proyectos web. Cuenta con una extensa comunidad de profesionales, su evolución la ha convertido en una herramienta usada tanto para la creación de webs corporativas, comercio electrónico o aplicaciones web. El presente curso tiene como objetivo adiestrar al estudiante en la creación, edición, administración y publicación de espacios digitales en diversos formatos con acceso a bases de datos.  Mediante el estudio teórico- práctico de los diferentes temas, los y las estudiantes  conocerán y aplicaran los conceptos fundamentales en el uso de un Gestor de Contenidos Web.",
+"objetivosGenerales": [
+"Dotar al estudiante de los conocimientos avanzados en la creación de espacios virtuales, mediante el uso de la herramienta Drupal, logrando profundizar en el diseño de interfaces web para diferentes proyectos de: e-commerce, e-learning, wiki, blog, etc."
+],
+"objetivosEspecificos": [
+"Al finalizar el curso el o la estudiante estará en capacidad de:",
+"a) Crear y administrar portales Web basadas en Drupal como herramienta de desarrollo en la creación de contenidos dinámicos.",
+"b) Diseñar espacios digitales con estructuras claras, inteligentes y accesibles, que le proporcionen al usuario una interacción sencilla y eficiente con el sistema, en la introducción de datos usando los servicios Web.",
+"c) Profundizar en el diseño de interfaces web para diferentes proyectos de: e-commerce, e-learning, wiki, blog"
+],
+"contenidos": [
+{
+"titulo": " Introducción a los gestores de contenido",
+"temas": [
+"Conceptos básicos.",
+"Plataformas utilizadas.",
+"Los gestores de contenido más populares. ",
+"Comparaciones entre ",
+"Funcionamiento de Drupal.",
+"Enviar del  servidor web  al CMS"
+]
+},
+{
+"titulo": "Introducción a Drupal .",
+"temas": [
+"Instalación de XAMPP",
+"Instalación de Drupal en:",
+"Windows",
+"Linux",
+"Mac",
+"Alojamiento de nuestras aplicaciones",
+"Base de datos a través del alojamiento."
+]
+},
+{
+"titulo": " Personalizando Drupal ",
+"temas": [
+"Cambiando el idioma",
+"Diferenciando la vista de administración y la de usuario.",
+"Conociendo la barra de herramientas.",
+"Conociendo la barra de accesos directos o atajos.",
+"Personalizando el panel de control a dashboard.",
+"Los nodos.",
+"Creando contenido básico.",
+"Personalizando la información del sitio, el logo y la interface.",
+"Estableciendo la página principal del sitio."
+]
+},
+{
+"titulo": "Administrando Contenidos",
+"temas": [
+"Categorizando contenido con etiquetas.",
+"Conociendo más allá con categorías de contenido.",
+"Publicando contenidos por medio de RSS.",
+"Aplicando formatos de texto para prevenir que el contenido se dañe.",
+"Configurando el contenido para permitir anexar imágenes y archivos.",
+"Configurando la política de comentarios.",
+"Administrando comentarios."
+]
+},
+{
+"titulo": "Configurando usuarios",
+"temas": [
+"Administrando y configurando los usuarios",
+"Configurando el comportamiento predeterminado de las cuentas de usuario.", 
+"Configurando roles y permisos de usuario.",
+"Creando cuentas de usuario. ",
+"Personalizando los perfiles de usuario"
+]
+},
+{
+"titulo": " Configurando la apariencia",
+"temas": [
+"Cambiando la apariencia mediante temas.",
+"Configurando temas. ",
+"Configurando bloques en regiones. ",
+"Comprendiendo los menus que Drupal trae por defecto.",
+"Creando menus multinivel. ",
+"Creando libros para facilitar la navegación."
+]
+},
+{
+"titulo": "Configurando módulos",
+"temas": [
+"Que es un módulo",
+"Expandiendo las capacidades de un sitio con módulos.",
+"Configurando módulos. ",
+"Instalando y desinstalando módulos.",
+"Configurando módulos II",
+"Módulos populares."
+]
+}
+]
+}
+]

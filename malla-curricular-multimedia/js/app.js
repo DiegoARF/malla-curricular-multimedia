@@ -26,7 +26,18 @@ var seguridadAplicacionesInteractivas;
 var inglesOralInformatica;
 var imageMovimiento;
 var disenoGrafico;
+//tercer año*****************
+//cuarto año*****************
+
+        //I semestre
+var comercioElectonico;
+var desarrollaRapidoApp;
+var gramaticaComposicionInglesaII;
+      //II semestre
+var practicaProfesional;
+var responsabilidadSocialInformatica;
 //******************************
+
  
 //con dataResource inyectamos la factoría
 app.controller("appController", function ($scope, $http) {
@@ -160,8 +171,30 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
         $scope.inglOI= info;
         inglesOralInformatica=info;
      });  
+/******************************************************CUARTO AÑO***************************************************************/
+                                  /****************I SEMESTRE****************/
 
-
+         $http.get('json_files/IV/I Semestre/Comercio Electrónico.json').success(function (info) {
+        $scope.comElec= info;
+        comercioElectonico=info;
+     });  
+         $http.get('json_files/IV/I Semestre/Desarrollo rápido de aplicaciones.json').success(function (info) {
+        $scope.desRapApp= info;
+        desarrollaRapidoApp=info;
+     });  
+            $http.get('json_files/IV/I Semestre/Gramática y Composición Inglesa II.json').success(function (info) {
+        $scope.graComIngII= info;
+        gramaticaComposicionInglesaII=info;
+     }); 
+                                  /***************II SEMESTRE******************/
+              $http.get('json_files/IV/II Semestre/Práctica profesional supervisada.json').success(function (info) {
+        $scope.practica= info;
+        practicaProfesional=info;
+     });
+           $http.get('json_files/IV/II Semestre/Responsabilidad Social de la Informática.json').success(function (info) {
+        $scope.respSocInf= info;
+        responsabilidadSocialInformatica=info;
+     });
 })
 
 
@@ -451,6 +484,37 @@ function getCurso(nombreCurso)
         
       return disenoGrafico;
 
+    }
+
+    /*******************CUARTO AÑO**************************/
+              /**********I SEMESTRE**************/
+     if(nombreCurso=='Comercio Electrónico')
+    {
+       
+      return comercioElectonico;
+
+    }
+
+    if(nombreCurso=='Desarrollo rápido de aplicaciones')
+    {
+     
+      return desarrollaRapidoApp;
+
+    }
+      if(nombreCurso=='Gramática y Composición Inglesa II')
+    {
+     
+      return gramaticaComposicionInglesaII;
+
+    }
+            /*********II SEMESTRE*******************/
+       if(nombreCurso=='Práctica profesional supervisada')
+    {
+          return practicaProfesional;
+    }
+      if(nombreCurso=='Responsabilidad Social de la Informática')
+    {
+          return responsabilidadSocialInformatica;
     }
 
 

@@ -1,0 +1,59 @@
+[
+{
+"siglas": "TM-7200",
+"nombre": "Desarrollo rápido de aplicaciones",
+"descripcion": "Existen muchas formas de desarrollar aplicaciones, una de ellas y la más usada en los últimos a años es a través de un lenguaje de programación, pero con la llegada de los gestores de contenido esta tendencia ha ido cambiando. Hoy día el uso de herramientas que ofrecen al desarrollador una serie de plantillas predefinidas se ha popularizado. Una de las principales características de este tipo de herramientas es que los desarrolladores no inician la programación del sitio desde cero, sino a partir de una serie de plantillas ofrecidas por la herramienta; así el desarrollador únicamente se preocupa por adaptar su contenido a las necesidades que tiene la empresa, organización u institución. Durante este curso el estudiante inicia conociendo las potencialidades que pueden ofrecer los gestores de contenido, así como las diferentes opciones que hay en el mercado, luego se seleccionan dos o tres herramientas para la gestión de contenido y se desarrollan sitios, mientras se conocen las características de cada herramienta. Como última etapa del curso los estudiantes desarrollan un proyecto donde se utilicen todo los conocimientos adquiridos durante el curso, este proyecto debe ser ejecutado directamente en la web. ",
+"objetivosGenerales": [
+"Analizar diferentes técnicas utilizadas para el desarrollo rápido de aplicaciones web, con el fin de que los estudiantes puedan seleccionar una herramienta que agilice su desarrollo."
+],
+"objetivosEspecificos": [
+"Conocer diferentes alternativas para el desarrollo rápido de aplicaciones web.",
+"Comprender la estructura de las diferentes aplicaciones que sirven para la gestión de contenido web.",
+"Comparar el desarrollo de aplicaciones web mediante el uso de lenguajes de programación y con el desarrollo utilizando un gestor de contenido.",
+"Utilizar al menos dos gestores de contenido para desarrollar una aplicación web.",
+"Desarrollar un proyecto web mediante el uso de un gestor de contenido."
+],
+"contenidos": [
+{
+"titulo": " Introducción:",
+"temas": [
+"Conceptos básicos.",
+"Gestores de contenido CMS.",
+"Ventajas de los CMS",
+"Alternativas para el desarrollo de aplicaciones web",
+"Sitios desarrollados CMS"
+]
+},
+{
+"titulo": "Herramientas para la Gestión de Contenido.",
+"temas": [
+"Introducción",
+"Características de la herramienta",
+"Requerimientos de la herramienta",
+"Configuración de la herramienta ",
+"Módulo de Front End",
+"Módulo de Back End",
+"Validación de los datos ",
+"Seguridad de datos"
+]
+},
+{
+"titulo": " Lanzamiento de la aplicaciones:",
+"temas": [
+"Introducción",
+"Requerimientos",
+"Configuración e integración con el servidor de aplicaciones web",
+"Lanzamiento"
+]
+},
+{
+"titulo": "Alternativas de extensión para las aplicaciones.",
+"temas": [
+"Introducción.",
+"Integración de las aplicaciones web con otras tecnologías (JavaScript, Ajax, Jquery)",
+"Migrando la base de datos a una base de datos alternativa"
+]
+}
+]
+}
+]
