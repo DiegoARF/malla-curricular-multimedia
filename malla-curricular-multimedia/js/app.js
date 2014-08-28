@@ -1,5 +1,7 @@
 var app = angular.module("app", []);
 var activarDescripcion=false;
+var activarObjetivos=false;
+var activarContenidos=false;
 //primer año****************
 
         //I semestre
@@ -243,7 +245,7 @@ $('.up-left').click(function(event) { /*************************************DESC
 
   if(nombreCurso=="OPT-1")
   {
-
+      
   }
 
   if(nombreCurso=="OPT-2")
@@ -270,18 +272,73 @@ $('.up-left').click(function(event) { /*************************************DESC
 //esquina superior derecha objetivos del curso
 $('.up-right').click(function(event) { /*************************************OBJETIVOS*********************************************/
     /* Act on the event */
-   var cursoNombre=$(this).attr('data');
-   var curso =getCurso(cursoNombre);
-    crearObjetivos(curso,cursoNombre);
+    activarObjetivos=false;
+   var nombreCurso=$(this).attr('data');
+   
+ if(nombreCurso!="OPT-1" && nombreCurso!="OPT-2")
+   {
+   var curso =getCurso(nombreCurso);
+    crearObjetivos(curso,nombreCurso);
     $('#objetivos').foundation('reveal', 'open');
+  }
+
+      if(nombreCurso=="OPT-1")
+  {
+      
+  }
+
+  if(nombreCurso=="OPT-2")
+  {
+    $('#optativas').attr('data','false');
+      crearOptativasII();
+      $('#optativas').foundation('reveal', 'open');
+
+      $('.opt').click(function(event) {
+            nombreCurso=$(this).attr('data');
+           
+            var curso =getCurso(nombreCurso);
+            crearObjetivos(curso, nombreCurso);
+              $('#optativas').attr('data', 'true');
+              activarObjetivos=true;
+           $('#objetivos').foundation('reveal', 'open');
+
+      });
+  }
 });
 
 //esquina inferior izquierda contenidos del curso
 $('.down-left').click(function(event) {/*************************************CONTENIDOS*********************************************/
     /* Act on the event */
    var nombreCurso=$(this).attr('data');
+   activarContenidos=false;
+    if(nombreCurso!="OPT-1" && nombreCurso!="OPT-2")
+   {
    var curso =getCurso(nombreCurso);
    crearContenidos(curso,nombreCurso);
+    $('#contenidos').foundation('reveal', 'open');
+ }
+
+
+  if(nombreCurso=="OPT-1")
+  {
+      
+  }
+
+  if(nombreCurso=="OPT-2")
+  {
+    $('#optativas').attr('data','false');
+      crearOptativasII();
+      $('#optativas').foundation('reveal', 'open');
+
+      $('.opt').click(function(event) {
+            nombreCurso=$(this).attr('data');
+           
+            var curso =getCurso(nombreCurso);
+             crearContenidos(curso,nombreCurso);
+              $('#optativas').attr('data', 'true');
+              activarContenidos=true;
+          $('#contenidos').foundation('reveal', 'open');
+
 
       $('.punto').click(function(event) {/***********PUNTOS CONTENIDOS***************/
           /* Act on the event */
@@ -290,7 +347,21 @@ $('.down-left').click(function(event) {/*************************************CON
             $('#contenidos').attr('data', 'true');
             $('#puntos').foundation('reveal', 'open');
              });
-       $('#contenidos').foundation('reveal', 'open');
+
+      });
+
+   
+    }
+
+
+      $('.punto').click(function(event) {/***********PUNTOS CONTENIDOS***************/
+          /* Act on the event */
+            var posContenido=$(this).attr('data');
+            crearPuntos(curso,nombreCurso, posContenido);
+            $('#contenidos').attr('data', 'true');
+            $('#puntos').foundation('reveal', 'open');
+             });
+      
 });
 
 
@@ -312,6 +383,11 @@ $('.down-left').click(function(event) {/*************************************CON
     if(id=='objetivos')
    {
         $('div').remove('.objetivos-cont');
+         if(activarObjetivos==true)
+        {
+          $('#optativas').attr('data', 'false');
+            $('#optativas').foundation('reveal', 'open');  
+        }
     }
 
     if(id=='contenidos')
@@ -322,7 +398,14 @@ $('.down-left').click(function(event) {/*************************************CON
           $('#contenidos').attr('data', 'false');
         $('div').remove('.contenidos-cont');
 
+          if(activarContenidos==true)
+        {
+          $('#optativas').attr('data', 'false');
+            $('#optativas').foundation('reveal', 'open');  
         }
+        }
+
+
      }
 
    if (id=='puntos') {
