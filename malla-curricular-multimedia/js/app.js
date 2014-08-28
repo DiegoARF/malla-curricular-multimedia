@@ -1,4 +1,5 @@
 var app = angular.module("app", []);
+var activarDescripcion=false;
 //primer año****************
 
         //I semestre
@@ -33,6 +34,10 @@ var disenoGrafico;
 var comercioElectonico;
 var desarrollaRapidoApp;
 var gramaticaComposicionInglesaII;
+//optativas
+var desarrolloDispositivosMoviles;
+var programacionDrupal;
+var programacionRubyRails;
       //II semestre
 var practicaProfesional;
 var responsabilidadSocialInformatica;
@@ -185,7 +190,21 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
             $http.get('json_files/IV/I Semestre/Gramática y Composición Inglesa II.json').success(function (info) {
         $scope.graComIngII= info;
         gramaticaComposicionInglesaII=info;
-     }); 
+     });
+
+         $http.get('json_files/IV/I Semestre/Optativas/Desarrollo para Dispositivos Móviles.json').success(function (info) {
+        //$scope.graComIngII= info;
+        desarrolloDispositivosMoviles=info;
+     });  
+          $http.get('json_files/IV/I Semestre/Optativas/Programación en Drupal.json').success(function (info) {
+        //$scope.graComIngII= info;
+        programacionDrupal=info;
+     });  
+           $http.get('json_files/IV/I Semestre/Optativas/Programación en Ruby on Rails.json').success(function (info) {
+        //$scope.graComIngII= info;
+        programacionRubyRails=info;
+     });  
+
                                   /***************II SEMESTRE******************/
               $http.get('json_files/IV/II Semestre/Práctica profesional supervisada.json').success(function (info) {
         $scope.practica= info;
@@ -213,10 +232,39 @@ $(document).foundation();
 //esquina superior izquierda descripcion del curso
 $('.up-left').click(function(event) { /*************************************DESCRIPCION*********************************************/
     /* Act on the event */
+    activarDescripcion=false;
    var nombreCurso=$(this).attr('data');
+   if(nombreCurso!="OPT-1" && nombreCurso!="OPT-2")
+   {
    var curso =getCurso(nombreCurso);
    crearDescripcion(curso, nombreCurso);
    $('#descripcion').foundation('reveal', 'open');
+  }
+
+  if(nombreCurso=="OPT-1")
+  {
+
+  }
+
+  if(nombreCurso=="OPT-2")
+  {
+    $('#optativas').attr('data','false');
+      crearOptativasII();
+      $('#optativas').foundation('reveal', 'open');
+
+      $('.opt').click(function(event) {
+            nombreCurso=$(this).attr('data');
+           
+            var curso =getCurso(nombreCurso);
+            crearDescripcion(curso, nombreCurso);
+              $('#optativas').attr('data', 'true');
+              activarDescripcion=true;
+           $('#descripcion').foundation('reveal', 'open');
+
+      });
+  }
+
+
 });
 
 //esquina superior derecha objetivos del curso
@@ -235,15 +283,14 @@ $('.down-left').click(function(event) {/*************************************CON
    var curso =getCurso(nombreCurso);
    crearContenidos(curso,nombreCurso);
 
-        $('.punto').click(function(event) {/***********PUNTOS CONTENIDOS***************/
+      $('.punto').click(function(event) {/***********PUNTOS CONTENIDOS***************/
           /* Act on the event */
             var posContenido=$(this).attr('data');
             crearPuntos(curso,nombreCurso, posContenido);
             $('#contenidos').attr('data', 'true');
             $('#puntos').foundation('reveal', 'open');
              });
-
-    $('#contenidos').foundation('reveal', 'open');
+       $('#contenidos').foundation('reveal', 'open');
 });
 
 
@@ -255,6 +302,11 @@ $('.down-left').click(function(event) {/*************************************CON
    if(id=='descripcion')
    {
         $('div').remove('.descripcion-cont');
+        if(activarDescripcion==true)
+        {
+          $('#optativas').attr('data', 'false');
+            $('#optativas').foundation('reveal', 'open');  
+        }
     }
 
     if(id=='objetivos')
@@ -267,7 +319,9 @@ $('.down-left').click(function(event) {/*************************************CON
        // alert($(this).attr('data'));
         if($(this).attr('data')=='false')
         {
+          $('#contenidos').attr('data', 'false');
         $('div').remove('.contenidos-cont');
+
         }
      }
 
@@ -276,6 +330,17 @@ $('.down-left').click(function(event) {/*************************************CON
         $('#contenidos').attr('data', 'false');
           $('#contenidos').foundation('reveal', 'open');
         };
+
+        if(id=='optativas')
+        {
+
+           if($(this).attr('data')=='false')
+            {
+        
+                $('div').remove('.cursoOPT');
+            }
+           
+        }
 });
 
 });  /**************************************************************** Fin del document ready*************************************************************/
@@ -361,6 +426,27 @@ function crearPuntos (curso, nombreCurso,posContenido) {
 
 }
 
+/***************************************************************************************************************************************************************
+********************************************************Crea las optativas disponibles para caada bloque*******************************************************
+***************************************************************************************************************************************************************/
+function crearOptativasI()
+{
+    var optativas="<div class='row'><div class='small-8 column'>"+
+    "<ul>"+
+    "<li><a></></li>"+
+    "<li><a></></li>"+
+    "</ul></div></div>";
+}
+function crearOptativasII()
+{
+  var optativas="<div class='row cursoOPT'><div class='small-8 column'>"+
+    "<ul>"+
+    "<li><a class='opt' data='"+desarrolloDispositivosMoviles[0].nombre+"'>"+desarrolloDispositivosMoviles[0].nombre+"</></li>"+
+    "<li><a class='opt' data='"+programacionDrupal[0].nombre+"'>"+programacionDrupal[0].nombre+"</></li>"+
+    "<li><a class='opt' data='"+programacionRubyRails[0].nombre+"'>"+programacionRubyRails[0].nombre+"</></li>"+
+    "</ul></div></div>";
+    $('#optativas').append(optativas);
+}
 
 /***************************************************************************************************************************************************************
 ********************************************************Devuelve el array del curso seleccionado*******************************************************
@@ -507,6 +593,26 @@ function getCurso(nombreCurso)
       return gramaticaComposicionInglesaII;
 
     }
+      if(nombreCurso=='Optativa II (Programación en Ruby on Rails)')
+    {
+     
+      return programacionRubyRails;
+
+    }
+      if(nombreCurso=='Optativa II (Desarrollo para Dispositivos Móviles)')
+    {
+     
+      return desarrolloDispositivosMoviles;
+
+    }
+      if(nombreCurso=='Optativa II (Programación en Drupal)')
+    {
+     
+      return programacionDrupal;
+
+    }
+
+ 
             /*********II SEMESTRE*******************/
        if(nombreCurso=='Práctica profesional supervisada')
     {
