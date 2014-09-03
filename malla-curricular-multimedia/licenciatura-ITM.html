@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Licenciatura ITM</title>
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+	<script src="js/jquery-2.1.1.min.js"></script>
+	
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script src='js/vendor/modernizr.js'></script>
+</head>
+<body ng-controller="appController">
+	
+	<header class="clearfix">
+		<div class="row">
+			<img class="left" src="img/ucr.png" alt="">
+			<img class="multimedia-logo" src="img/logoITMhorizontal.png" alt="">
+			<img class="sede right" src="img/sede.png" alt="">
+		</div>
+	</header>
+
+	<section>
+	
+	<section class="info">
+		<a class="close">&#215;</a>
+	</section>
+	
+		<div class="row space">
+			<div class="small-2 column">
+				<div class="head-notVisible"></div>
+			</div>
+			
+			<div class="small-2 column">
+				<div class="head">
+					<p>IV Ciclo</p>
+				</div>
+			</div>
+			<div class="small-2 column">
+				<div class="head">
+					<p>V Ciclo</p>
+				</div>
+			</div>
+
+			<div class="small-2 column">
+				<div class="head-notVisible "></div>
+			</div>
+		</div>
+
+		<div class="row space">
+			<div class="small-1 column">
+				<div class="box"></div>
+			</div>
+			<div class="small-1 column">
+				<div class="box"></div>
+			</div>
+		<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{funDisngInt[0].nombre}}"></div>
+					<div class="btn up-right" data="{{funDisngInt[0].nombre}}"></div>
+					<p>TM-8300</p>
+					<p > Fundamentos de diseño interactivo</p>
+					<div class="btn down-left" data="{{funDisngInt[0].nombre}}"></div>
+					
+
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{disnJueg[0].nombre}}"></div>
+					<div class="btn up-right" data="{{disnJueg[0].nombre}}"></div>
+					<p>TM-8400</p>
+					<p >Diseño de juegos</p>
+					<div class="btn down-left" data="{{disnJueg[0].nombre}}"></div>
+					
+
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{disnMedInt[0].nombre}}"></div>
+					<div class="btn up-right" data="{{disnMedInt[0].nombre}}"></div>
+					<p>TM-1001</p>
+					<p > Diseño para medios interactivos</p>
+					<div class="btn down-left" data="{{disnMedInt[0].nombre}}"></div>
+			</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{prodJug[0].nombre}}"></div>
+					<div class="btn up-right" data="{{prodJug[0].nombre}}"></div>
+					<p>TM-1001</p>
+					<p >Producción de juegos</p>
+					<div class="btn down-left" data="{{prodJug[0].nombre}}"></div>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box"></div>
+			</div>
+		</div>
+
+		<!-- ******************************-->
+				<div class="row space">
+			<div class="small-1 column">
+				<div class="box">
+
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+
+				</div>
+			</div>
+		<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{anim3D[0].nombre}}"></div>
+					<div class="btn up-right" data="{{anim3D[0].nombre}}"></div>
+					<p>TM-8500</p>
+					<p >Animación 3D</p>
+					<div class="btn down-left" data="{{anim3D[0].nombre}}"></div>
+					
+
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{creaHisTr[0].nombre}}"></div>
+					<div class="btn up-right" data="{{creaHisTr[0].nombre}}"></div>
+					<p>TM-8600</p>
+					<p >Creación de historias transmedia</p>
+					<div class="btn down-left" data="{{creaHisTr[0].nombre}}"></div>
+					
+
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{anim3DAv[0].nombre}}"></div>
+					<div class="btn up-right" data="{{anim3DAv[0].nombre}}"></div>
+					<p>TM-1003</p>
+					<p > Animación 3d avanzada</p>
+					<div class="btn down-left" data="{{anim3DAv[0].nombre}}"></div>
+					
+
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{disnPers[0].nombre}}"></div>
+					<div class="btn up-right" data="{{disnPers[0].nombre}}"></div>
+					<p>TM-1004</p>
+					<p >Diseño de personajes</p>
+					<div class="btn down-left" data="{{disnPers[0].nombre}}"></div>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+				</div>
+			</div>
+		</div>
+
+		<!-- ******************************-->
+				<div class="row space">
+			<div class="small-1 column">
+				<div class="box">
+
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+
+				</div>
+			</div>
+		<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{lengVisIM[0].nombre}}"></div>
+					<div class="btn up-right" data="{{lengVisIM[0].nombre}}"></div>
+					<p>TM-8700</p>
+					<p >Lenguaje visual de la imagen en movimiento</p>
+					<div class="btn down-left" data="{{lengVisIM[0].nombre}}"></div>
+					
+
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<p>TM-8800</p>
+					<p >Implicaciones legales en los videojuegos</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					
+					<div id="example"class="btn up-left" data="{{ambEfectArt[0].nombre}}"></div>
+					<div class="btn up-right" data="{{ambEfectArt[0].nombre}}"></div>
+					<p>TM-1005</p>
+					<p >Ambientes y efectos artificiales</p>
+					<div class="btn down-left" data="{{ambEfectArt[0].nombre}}"></div>
+					
+
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<p>TM-1006</p>
+					<p >Creación de guiones para videojuegos</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+				</div>
+			</div>
+		</div>
+
+		<!-- ******************************-->
+				<div class="row space">
+			<div class="small-1 column">
+				<div class="box">
+
+					
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+
+				</div>
+			</div>
+		<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<p>TM-8900</p>
+					<p >Administración de proyectos en desarrollo de juego</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box humanidades box-shadow">
+					<p>TM-1007</p>
+					<p >Desarrollo de juegos con participantes múltiples</p>
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+				</div>
+			</div>
+			<div class="small-1 column">
+				<div class="box">
+				</div>
+			</div>
+		</div>
+
+
+
+	
+
+	</section>
+	
+	<!-- modal de descripcion de los cursos -->
+	<div id="descripcion" class="reveal-modal" data='false'  data-reveal>
+	<h2>Descripción del curso</h2>
+	
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<!-- modal de objetivos de los cursos -->
+	<div id="objetivos" class="reveal-modal" data='false'  data-reveal>
+	<h2>Objetivos del curso</h2>
+	<br/>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<!-- modal contenidos del curso -->
+	<div id="contenidos" class="reveal-modal" data='false' data-reveal>
+	<h2>Contenidos del curso</h2>
+	
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<!-- modal puntos de cada contenido del curso -->
+	<div id="puntos" class="reveal-modal" data-reveal>
+	
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<div id="optativas" class="reveal-modal"  data='false' data-reveal>
+		<h1>Optativas disponibles</h1>
+		<h5>Se elige uno de los siguientes cursos</h5>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+		
+	
+</body>
+
+</html>

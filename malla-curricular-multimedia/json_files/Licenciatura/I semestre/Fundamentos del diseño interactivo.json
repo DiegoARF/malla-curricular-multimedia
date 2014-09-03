@@ -1,0 +1,52 @@
+[
+{
+  "siglas": "TM-8300",
+  "nombre": "Fundamentos del diseño interactivo",
+  "descripcion": "En este curso los estudiantes aprenderán las bases del diseño interactivo, aplicando los conceptos de diseño de interfaz  de usuario, optimización, problemas de rendimiento, recursos y herramientas. Todos los productos que los estudiantes realicen deben ajustarse a la industria del software e incluir video, audio, imágenes, animación en aplicaciones interactivas.",
+  "objetivosGenerales": [
+    "Brindar al estudiante los conocimientos necesarios para diseñar aplicaciones interactivas creando una  identidad gráfica, respetando  la arquitectura de la información y el diseño de navegación."
+  ],
+  "objetivosEspecificos": [
+    "Conocer los fundamentos básicos de la Interacción Humano – Computadora  para que sean aplicados en diseños de interfaces interactivas.",
+    "Estudiar los aspectos humanos y tecnológicos que afectan los diseños de sistemas interactivos."
+  ],
+  "contenidos": [
+     {
+      "titulo": "Conceptos básicos de Interacción Humano Computadora."
+ 
+    },    {
+      "titulo": "Aspectos humanos que afectan el diseño de sistemas interactivos."
+ 
+    },    {
+      "titulo": "Aspectos tecnológicos que afectan el diseño de sistemas interactivos."
+ 
+    },    {
+      "titulo": "Elementos que intervienen en el diseño interactivo."
+ 
+    },    {
+      "titulo": "Especificación de requerimientos de la interfaz de usuario."
+ 
+    },    {
+      "titulo": "Diseño de Navegación."
+ 
+    },    {
+      "titulo": "Metáforas y paradigmas en el diseño interactivo."
+ 
+    },    {
+      "titulo": "Mapas de Navegación."
+ 
+    },    {
+      "titulo": "Patrones de pantalla."
+ 
+    },    {
+      "titulo": "Dirección."
+ 
+    },    {
+      "titulo": "Formato, Gráficas, elementos del diseño."
+ 
+    },    {
+      "titulo": "Incorporando texto, audio, video, películas interactivas."
+    }
+  ]
+}
+]

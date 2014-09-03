@@ -1,0 +1,68 @@
+[
+{
+  "siglas": "TM-8500",
+  "nombre": "Animación 3D",
+  "descripcion": "Este curso está diseñado para que los y las estudiantes conozcan las herramientas y técnicas utilizadas para crear objetos y personajes en 3D usando diferentes herramientas. Tiene como enfoque mostrar la interface del programa, las técnicas de modelado, texturizado y animación, focalizando los principios tradicionales de animación aplicados al 3D y los nuevos principios de animación específicos de la animación digital 3D.",
+  "objetivosGenerales": [
+    "Dotar a los y las estudiantes de los conocimientos y técnicas básicas que le permitan crear animaciones en tercera dimensión mediante una adecuada integración y aplicación de conceptos esenciales como personajes, escenarios e iluminación."
+  ],
+  "objetivosEspecificos": [
+    "Integrar las diferentes formas de trabajo que se deberían de realizar en un estudio de animación profesional.",
+    "Adaptar a los y las estudiantes dentro de un período corto de tiempo a la creación de animaciones utilizando herramientas de software en 3D.",
+    "Comprender los diferentes flujos de trabajo que se realizan dentro de un estudio profesional."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Fundamentos del modelado 3D."
+ 
+    },    {
+      "titulo": "Los doce principios básicos de la animación 3D."
+ 
+    },    {
+      "titulo": "Técnicas de texturización."
+ 
+    },    {
+      "titulo": "Polígonos frente a splines y NURB."
+ 
+    },    {
+      "titulo": "Modelado de superficies por subdivisión."
+ 
+    },    {
+      "titulo": "Modelado básico por subdivisión."
+ 
+    },    {
+      "titulo": "Modelado intermedio por subdivisión."
+ 
+    },    {
+      "titulo": "Configuración de una estructura esquelética básica."
+ 
+    },    {
+      "titulo": "Asignación de vértices."
+ 
+    },    {
+      "titulo": "Manejo de la luz."
+ 
+    },    {
+      "titulo": "Efectos especiales."
+ 
+    },    {
+      "titulo": "Edición de la línea de composición."
+ 
+    },    {
+      "titulo": "Efectos de partículas."
+ 
+    },    {
+      "titulo": "Fragmentación de objetos formados por polígonos."
+ 
+    },    {
+      "titulo": "Efectos eléctricos."
+ 
+    },    {
+      "titulo": "Animación con herramientas de deformación."
+ 
+    },    {
+      "titulo": "Herramientas básicas de animación 3D."
+    }
+  ]
+}
+]

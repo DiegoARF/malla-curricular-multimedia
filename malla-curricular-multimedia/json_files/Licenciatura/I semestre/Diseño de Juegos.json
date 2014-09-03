@@ -1,0 +1,90 @@
+[
+{
+  "siglas": "TM-8400",
+  "nombre": "Diseño de Juegos",
+  "descripcion": "Este curso busca introducir a los y las estudiantes en el diseño de juegos, mostrando los componentes básicos para el diseño, desarrollo, fundamentación y composición del juego. Busca que el y la estudiante logre dar sentido a un juego de su propia invención, considerando el público meta, narrativa, actores, contraste, balance y equilibrio del juego. Además, los y las estudiantes adquieren una noción del equipo de trabajo que participa en la creación de juegos, y la interdisciplinariedad del desarrollo de juegos. Dentro del curso se utiliza algún software para el desarrollo de juegos que permita a los estudiantes poner en práctica los conceptos teóricos. Al finalizar el curso el y la estudiante desarrollará una propuesta de un juego que contemple todos aspectos vistos durante el curso.",
+  "objetivosGenerales": [
+    "Analizar las diferentes teorías y técnicas utilizadas para el diseño y desarrollo de juegos, con el fin de que los estudiantes puedan crear su propio esquema de juego."
+  ],
+  "objetivosEspecificos": [
+    "Comprender la dinámica utilizada para el desarrollo de juego.",
+    "Analizar las características de las personas involucradas en el desarrollo de juegos, con el fin de que los estudiantes comprendan la interdisciplinariedad del desarrollo de juegos.",
+    "Comprender los elementos básicos para el desarrollo de juegos, para que los y las es-tudiantes contemplen cada elemento en el diseño de sus propuestas.",
+    "Desarrollar historias para la propuesta de dos juegos nuevos, para que los y las estu-diantes comprendan la narrativa de un juego.",
+    "Utilizar una herramienta para el desarrollo de juegos que permita aplicar los conceptos teóricos.",
+    "Evaluar diversos juegos existentes, para que los y las estudiantes pueden tener un crite-rio más amplio en la creación de juegos.",
+    "Desarrollar una propuesta para un juego nuevo, con el fin de que los y las estudiantes puedan aplicar los conocimientos adquiridos en el curso."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Introducción.",
+          "temas": [
+        "Historia y diseño de juegos.",
+        "Tipos de juegos.",
+        "El desarrollo de juegos en Costa Rica.",
+        "Mercado de los juegos.",
+        "Equipo humano para el desarrollo de juegos."
+      ]
+ 
+    },    {
+      "titulo": "Mecanismos generales para el diseño de juegos.",
+          "temas": [
+        "Conceptualización inicial de un juego.",
+        "Lenguajes de programación para el diseño de juegos.",
+        "Herramientas para el diseño de juegos."
+      ]
+    },    {
+      "titulo": "Principios y técnicas para el diseño de juegos.",
+          "temas": [
+        "Técnicas de creatividad.",
+        "La producción de ideas.",
+        "Componentes básicos de los juegos.",
+        "El publico meta.",
+        "Actores."
+      ]
+    },    {
+      "titulo": "Motores de juegos.",
+          "temas": [
+        "Definición.",
+        "Tipos de motores.",
+        "Características de los motores.",
+        "Incorporación de los motores a un juego."
+      ]
+    },    {
+      "titulo": "Niveles en los juegos.",
+          "temas": [
+        "El significado de los niveles en un juego.",
+        "Definición correcta de los niveles.",
+        "Secuencialidad de los niveles.",
+        "Grados de dificultad en los niveles."
+      ]
+    },    {
+      "titulo": "Diseño de interfaces.",
+          "temas": [
+        "Tipos de interfaces.",
+        "Equilibrio de interfaces entre niveles.",
+        "Interfaces 2D.",
+        "Interfaces 3D."
+      ]
+    },  
+    {
+      "titulo": "La narrativa interactiva de los juegos.",
+          "temas": [
+        "La narrativa de los juegos.",
+        "La fabula.",
+        "El discurso.",
+        "Historia.",
+        "Niveles de Interacción.",
+        "Diferencia en películas y juegos."
+      ]
+    }, 
+    {
+      "titulo": "Entornos virtuales."
+    }
+    , 
+    {
+      "titulo": "Equilibrado de los juegos."
+    }
+  ]
+}
+]

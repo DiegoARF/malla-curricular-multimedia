@@ -1,0 +1,46 @@
+[
+{
+  "siglas": "TM-8600",
+  "nombre": "Creación de Historias Transmedia",
+  "descripcion": "Durante el desarrollo del curso el y la estudiante conocerán las diversas técnicas y consideraciones alrededor de la creación de mundos virtuales utilizados en el diseño de juegos. La creación de los diferentes escenarios o mundos involucrados dentro del juego estarán enlazados mediante la narración de la historia central del juego, así como con la utilización de las posibilidades multimedia existentes. El y la estudiante inician con la conceptualización de los mundos virtuales, los elementos incorporados dentro del nuevo mundo, el modelado del mundo y la interacción de los diferentes elementos. Posteriormente, el estudiante incorpora la narración para fortalecer la visión de los diferentes mundos a utilizar. Al final del curso los y las estudiantes desarrollan un proyecto final, que consiste en la propuesta de mundos alternativos para el desarrollo de una narración.",
+  "objetivosGenerales": [
+    "Desarrollar narrativas de historias incorporando múltiples medios y plataformas apoyándose en el uso de experiencias interactivas, con el fin de que los estudiantes pueden crear sus propios mundos de narración."
+  ],
+  "objetivosEspecificos": [
+    "Comprender la conceptualización de mundos virtuales.",
+    "Incorporar diferentes recursos multimedia a la creación de mundos.",
+    "Desarrollar mundos virtuales a través de la narración.",
+    "Desarrollar la narrativa de una historia incorporando al menos tres mundos virtuales."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Conceptos básicos."
+ 
+    },    {
+      "titulo": "Técnicas para la creación de narrativas de historias."
+ 
+    },    {
+      "titulo": "Cross-media."
+ 
+    },    {
+      "titulo": "Multimodalidad."
+ 
+    },    {
+      "titulo": "Narrativas multimedia.",
+          "temas": [
+        "Tipos de narrativas transmedia.",
+        "La narrativa transversal."
+      ]
+ 
+    },    {
+      "titulo": "El mundo en la transmedia.",
+          "temas": [
+        "Creación de mundos transmedia.",
+        "Articulación e interacción entre mundos."
+      ]
+    },    {
+      "titulo": "Desarrollo de proyectos transmedia."
+    }
+  ]
+}
+]

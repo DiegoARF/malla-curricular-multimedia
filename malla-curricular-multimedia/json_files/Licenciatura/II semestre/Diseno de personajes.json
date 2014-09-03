@@ -1,0 +1,86 @@
+
+[
+{
+  "siglas": "TM1004",
+  "nombre": "Diseño de personajes",
+  "descripcion": "Este curso le dará al o la estudiante las bases conceptuales y prácticas además de herramientas tecnológicas informáticas que le permitan la creación de personajes. Deberá ser capaz de construir rasgos físicos para figuras tanto humanas como animales e inclusive imaginarias, de forma que las pueda utilizar en proyectos diversos. La apariencia de los personajes deberá adecuarse a las condiciones en que se desenvolverá, tanto ambientales como de su propia apariencia de acuerdo al realismo necesario. Estos personajes deberán ser diseñados tanto bidimensional como tridimensionalmente.",
+  "objetivosGenerales": [
+    "Brindar conocimientos profesionales de última generación del programa 3Ds Max con énfasis en personajes."
+  ],
+  "objetivosEspecificos": [
+    "Construir un personaje desde figuras geométricas hasta la construcción de un Ser Humano.",
+    "Manejar la construcción facial.",
+    "Aplicar la texturización a cuerpos y rostros.",
+    "Complementar escenas con iluminación.",
+    "Manejar los movimientos de los personajes."
+  ],
+  "contenidos": [
+    {
+      "titulo": "La novela gráfica.",
+      "temas": [
+        "Qué es una novela gráfica.",
+        "Geografía e historia.",
+        "Novelistas gráficos: una visión singular.",
+        "Equipos de diseño: colaboración y supervisión."
+      ]
+    },
+    {
+        "titulo": "El personaje.",
+        "temas": [
+        "Antecedentes y arquetipo.",
+        "Protagonista y antagonista.",
+        "El contraste y lo común.",
+        "Personajes secundarios.",
+        "Antecedentes de los personajes: motivación y conflicto."
+      ]
+    },
+    {
+      "titulo": "Elementos del diseño.",
+        "temas": [
+        "Unidad y secuencia.",
+        "Herramientas y técnicas: hojas de modelo.",
+        "El habla: diálogo, bocadillos y rotulación.",
+        "El rostro.",
+        "La forma humana.",
+        "La forma no humana.",
+        "Línea, contorno y secuencia."
+      ]
+    },
+    {
+     "titulo": "Estilo de diseño.",
+        "temas": [
+        "Opciones de diseño: desde la abstracción hasta el hiperrealismo.",
+        "Género literario y tono.",
+        "Minimalismo.",
+        "Historietas.",
+        "La verosimilitud.",
+        "Realidad e imaginación."
+      ]
+    },
+      {
+      "titulo": "Apariencia y realidad.",
+        "temas": [
+        "Subtexto y simbolismo.",
+        "Vestuario y atrezo.",
+        "Expresión, movimiento y gestos."
+      ]
+    },
+    {
+      "titulo": "El resto del reparto.",
+        "temas": [
+        "La identidad de grupo en la narración."
+      ]
+    },
+    {
+      "titulo": "Conocer a tu público.",
+        "temas": [
+        "Grupo de edad.",
+        "Género y cultura."
+      ]
+    },
+    {
+      "titulo": "Métodos modernos."
+    }
+  ]
+}
+]

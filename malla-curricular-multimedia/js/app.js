@@ -29,7 +29,10 @@ var seguridadAplicacionesInteractivas;
 var inglesOralInformatica;
 var imageMovimiento;
 var disenoGrafico;
+var produccionJuegos;
 //tercer año*****************
+
+
 //cuarto año*****************
 
         //I semestre
@@ -44,8 +47,18 @@ var programacionRubyRails;
 var practicaProfesional;
 var responsabilidadSocialInformatica;
 //******************************
-
- 
+ /************LICENCIATURA***********/
+      //I Semestre
+ var animacion3D;
+ var creacionHistoriasTransmedias;
+ var disenoJuegos;
+ var fundamentosDisenoInteractivo;
+ var lenguajeVisualImagenMovimiento;
+      //II Semestre
+  var ambientesEfectosArtificiales;
+  var animacion3DAv;
+  var disenoPersonajes;
+  var disenoMediosInteractivos;
 //con dataResource inyectamos la factoría
 app.controller("appController", function ($scope, $http) {
     //hacemos uso de $http para obtener los datos del json
@@ -216,6 +229,57 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
         $scope.respSocInf= info;
         responsabilidadSocialInformatica=info;
      });
+
+
+/******************************************************LICENCIATURA***********************************************************************/
+/************************************************************************************************************************************************/
+
+                                /***************I SEMESTRE**************************/
+        $http.get('json_files/Licenciatura/I%20semestre/Animacion%203D.json').success(function (info) {
+        $scope.anim3D= info;
+        animacion3D=info;
+     });
+        $http.get('json_files/Licenciatura/I semestre/Creacion de historias transmedia.json').success(function (info) {
+        $scope.creaHisTr= info;
+        creacionHistoriasTransmedias=info;
+     });
+        $http.get('json_files/Licenciatura/I semestre/Diseño de Juegos.json').success(function (info) {
+        $scope.disnJueg= info;
+        disenoJuegos=info;
+     });
+          $http.get('json_files/Licenciatura/I semestre/Fundamentos del diseño interactivo.json').success(function (info) {
+        $scope.funDisngInt= info;
+        fundamentosDisenoInteractivo=info;
+     });
+             $http.get('json_files/Licenciatura/I semestre/Lenguaje visual de la imagen en movimiento.json').success(function (info) {
+        $scope.lengVisIM= info;
+        lenguajeVisualImagenMovimiento=info;
+     });
+                                            /*****************SEGUNDO SEMESTRE*********************/
+
+        $http.get('json_files/Licenciatura/II semestre/Ambientes y efectos artificiales.json').success(function (info) {
+        $scope.ambEfectArt= info;
+        ambientesEfectosArtificiales=info;
+     });
+        $http.get('json_files/Licenciatura/II semestre/Animacion 3D avanzada.json').success(function (info) {
+        $scope.anim3DAv= info;
+        animacion3DAv=info;
+     });
+        $http.get('json_files/Licenciatura/II semestre/Diseno de personajes.json').success(function (info) {
+        $scope.disnPers= info;
+        disenoPersonajes=info;
+     });
+        $http.get('json_files/Licenciatura/II semestre/Diseno para medios interactivos.json').success(function (info) {
+        $scope.disnMedInt= info;
+        disenoMediosInteractivos=info;
+     });
+
+                $http.get('json_files/Licenciatura/II semestre/Produccion de juegos.json').success(function (info) {
+        $scope.prodJug= info;
+        produccionJuegos=info;
+  
+     });
+
 })
 
 
@@ -224,7 +288,10 @@ $(document).ready(function() {
 
 $(document).foundation();
 
+if($('title').text()=='Bachillerato ITM')
+{
     pintarLineasCanvas();
+}
 
 
 /***************************************************************************************************************************************************************
@@ -439,7 +506,7 @@ $('.down-left').click(function(event) {/*************************************CON
 function crearDescripcion(curso, nombreCurso)
 {
     
-        var descripcion="<div class='row descripcion-cont'><h3 class='text-left small-8 column'>"+curso[0].nombre+"<h3/><h4 class='small-8 column'><small>"+curso[0].siglas+"</small></h4></div><div class='row descripcion-cont'><p class='small-8 column'>"+curso[0].descripcion+"</p></div>";
+        var descripcion="<div class='row descripcion-cont'><h3 class='text-left small-8 column'>"+curso[0].nombre+"</h3><h4 class='small-8 column'><small>"+curso[0].siglas+"</small></h4></div><div class='row descripcion-cont'><p class='small-8 column'>"+curso[0].descripcion+"</p></div>";
        $('#descripcion').append(descripcion);
    
 }
@@ -706,7 +773,63 @@ function getCurso(nombreCurso)
           return responsabilidadSocialInformatica;
     }
 
+        /*******************LICENCIATURA**************************/
+              /**********I SEMESTRE**************/
 
+          if(nombreCurso=='Animación 3D')
+    {
+    
+          return animacion3D;
+    }     
+
+         if(nombreCurso=='Creación de Historias Transmedia')
+    {
+    
+          return creacionHistoriasTransmedias;
+    }     
+
+    if(nombreCurso=='Diseño de Juegos')
+    {
+    
+          return disenoJuegos;
+    }   
+       if(nombreCurso=='Fundamentos del diseño interactivo')
+    {
+    
+          return fundamentosDisenoInteractivo;
+    }       
+    if(nombreCurso=='Lenguaje visual de la imagen en movimiento')
+    {
+    
+          return lenguajeVisualImagenMovimiento;
+    }       
+ if(nombreCurso=='Ambientes y efectos artificiales')
+    {
+    
+          return ambientesEfectosArtificiales;
+    }  
+if(nombreCurso=='Animación 3D avanzada')
+    {
+    
+          return animacion3DAv;
+    }  
+if(nombreCurso=='Diseño de personajes')
+    {
+    
+          return disenoPersonajes;
+    }  
+
+    if(nombreCurso=='Diseño para medios interactivos')
+    {
+          
+          return disenoMediosInteractivos;
+    }  
+
+    if(nombreCurso=='Producción de juegos')
+    {
+          
+          return produccionJuegos;
+    }  
     return null;
 }
 

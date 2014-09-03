@@ -1,0 +1,46 @@
+[
+{
+  "siglas": "TM-1005",
+  "nombre": "Ambientes y efectos artificiales",
+  "descripcion": "En este curso el o la estudiante aprenderá los conocimientos concernientes al desarrollo de ambientes artificiales y escenarios que servirán en la creación de juegos. Además aprenderá sobre elementos a incorporar en sus ambientes.Otro tema importante a desarrollar con el o la estudiante será lograr incorporar el movimiento en los escenarios que se crean, de manera tal que se vean más realistas. Al terminar el curso el o la estudiante desarrollará un proyecto donde aplicará todos los conocimientos adquiridos en clase.",
+  "objetivosGenerales": [
+    "Enseñar a el o la estudiante las diversas técnicas utilizadas en la creación de ambientes y efectos, que le permitan transmitir sus ideas de una forma correcta."
+  ],
+  "objetivosEspecificos": [
+    "Adquirir los conocimientos necesarios para la creación de ambientes artificiales.",
+    "Conocer los elementos arquitectónicos que se pueden utilizar en la creación de un ambiente.",
+    "Lograr que el o la estudiante pueda crear escenarios acordes al tipo de aplicación que se esté desarrollando.",
+    "Desarrollar en el o la estudiante la capacidad de incorporar el realismo en sus diseños."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Creación de ambientes artificiales.",
+      "temas": [
+        "Creación de perspectivas.",
+        "Dibujo de formas, añadiendo luces y sombras.",
+        "Creación de cielos, utilizando el color, la iluminación y el contraste.",
+        "Creación de roca, piedra, tierra.",
+        "Creación de hojas, árboles, césped, arbustos."
+      ]
+    },
+    {
+      "titulo": "Elementos Arquitectónicos.",
+      "temas": [
+        "Iluminación.",
+        "Sombra.",
+        "Contraste.",
+        "Detalle."
+      ]
+    },
+    {
+      "titulo": "Dibujando escenarios."
+    },
+    {
+      "titulo": "Efectos visuales.",
+      "temas": [
+        "Incorporar movimiento y vida."
+      ]
+    }
+  ]
+}
+]

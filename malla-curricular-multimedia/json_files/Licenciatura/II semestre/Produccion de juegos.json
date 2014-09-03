@@ -1,0 +1,58 @@
+﻿[
+{
+  "siglas": "TM1002",
+  "nombre": "Producción de juegos",
+  "descripcion": "En este curso el estudiante aprenderá todo el proceso que lleva la producción de un juego, desde la forma en que “nace” un juego, hasta el proceso de mercadotecnia, esto con el fin de que el estudiante tenga los conocimientos necesarios a la hora de desarrollarlo. Al terminar el curso el estudiante desarrollará un proyecto donde aplicará todos los conocimientos adquiridos en clase.",
+  "objetivosGenerales": [
+    "Brindar al estudiante el conocimiento de las técnicas utilizadas en la producción de juegos, con el fin de que puedan integrar los elementos que interactúan en dicho proceso."
+  ],
+  "objetivosEspecificos": [
+    "Aplicar los fundamentos del diseño de juegos",
+    "Enseñar al estudiante el proceso de creación de un juego, así como cada una de las partes implicadas.",
+    "Identificar los elementos involucrados en el diseño y la programación de un juego.",
+    "Programar juegos en cada una de sus posibles formas, vertientes, y géneros."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Aspectos generales del proceso de producción de juegos",
+              "temas": [
+        "Conceptos básicos",
+        "Tipos",
+        "Componentes de un juego",
+        "Arquitectura de un juego",
+        "Herramientas utilizadas en la producción de juegos"
+      ]
+    },
+        {
+      "titulo": "Desarrollo de juegos.",
+              "temas": [
+        "Variables.",
+        "Eventos",
+        "Mensajes.",
+        "Manejo de comandos (Mouse, teclado, otro)",
+        "Elementos relevantes"
+      ]
+    },
+        {
+      "titulo": "Motores de juegos.",
+              "temas": [
+        "¿Qué son y cómo funcionan?."
+      ]
+    },
+        {
+      "titulo": "Aspectos gráficos.",
+              "temas": [
+        "Visualización.",
+        "Iluminación"
+      ]
+    },
+        {
+      "titulo": "Mecánicas de juego (GamePlay)."
+    },
+        {
+      "titulo": "Mercadotecnia."
+    }
+    
+  ]
+}
+]

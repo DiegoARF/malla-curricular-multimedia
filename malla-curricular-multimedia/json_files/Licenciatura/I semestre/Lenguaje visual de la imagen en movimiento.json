@@ -1,0 +1,58 @@
+﻿[
+{
+  "siglas": "TM-8700",
+  "nombre": "Lenguaje visual de la imagen en movimiento",
+  "descripcion": "Este curso le dará al o la estudiante las bases conceptuales y prácticas para que pueda dar a conocer ideas concretas a través de videos o imágenes en movimiento. Aprenderá a utilizar las funciones y expresiones del video de forma que sean una herramienta para expresar mensajes. También se le enseñará a escoger las secuencias de imágenes óptimas y podrá entonces visualizar previamente el mejor orden que estas podrían tener, de forma que contribuyan con la comunicación acertada del mensaje que se desea llevar hasta la audiencia.",
+  "objetivosGenerales": [
+    "Enseñar al o la estudiante a comunicar ideas (argumentos) a través de imágenes en movimiento (videos)."
+  ],
+  "objetivosEspecificos": [
+    "Conocer la función que cumplen las imágenes en movimiento en la comunicación.",
+     "Aprender a clasificar las secuencias de imágenes de acuerdo a las ideas que se necesitan comunicar.",
+      "Poder utilizar diversos tipos de secuencias de imágenes para que sean elementos claves en la comunicación.",
+       "Correlacionar videos para que expresen una idea o un sentimiento.",
+    "Entender y utilizar el espacio, el tiempo y el movimiento para que las secuencias de imágenes tengan sentido como medios de comunicación."
+  ],
+  "contenidos": [
+     {
+      "titulo": "Introducción."
+ 
+    },    {
+      "titulo": "Qué entendemos por imagen."
+ 
+    },    {
+      "titulo": "Funciones y propiedades de la comunicación por imágenes."
+ 
+    },    {
+      "titulo": "Lectura integral de las imágenes fijas."
+ 
+    },    {
+      "titulo": "Secuenciación de imágenes."
+ 
+    },    {
+      "titulo": "La imagen en movimiento."
+ 
+    },    {
+      "titulo": "La interacción de los medios expresivos."
+ 
+    },    {
+      "titulo": "El lenguaje."
+ 
+    },    {
+      "titulo": "La imagen en movimiento (el video)."
+ 
+    },    {
+      "titulo": "El lenguaje cinematográfico."
+ 
+    },    {
+      "titulo": "El lenguaje de la imagen en movimiento.",
+          "temas": [
+        "El espacio.",
+        "El tiempo.",
+        "El movimiento.",
+        "El sonido."
+      ]
+    }
+  ]
+}
+]

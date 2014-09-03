@@ -1,0 +1,58 @@
+[
+{
+  "siglas": "TM1001",
+  "nombre": "Diseño para medios interactivos",
+  "descripcion": "Este curso busca que el estudiante aplique los conceptos anteriormente estudiados de manera creativa en proyectos multimedia.  Que desarrolle criterios que le permitan hacer un buen diseño desde el punto de vista estético hasta el funcional, de manera que sean acordes a sus objetivos de creación. El producto principal es el diseño de una aplicación para un dispositivo móvil.",
+  "objetivosGenerales": [
+    "Aplicar estrategias y conceptos de diseño para medios interactivos en la creación de sistemas multimedia para ser utilizados mediante recursos electrónicos."
+  ],
+  "objetivosEspecificos": [
+    "Seleccionar el mejor diseño interactivo  según el objetivo de la aplicación.",
+    "Realizar diseños interactivos  para dispositivos pequeños.",
+    "Conocer aspectos culturales, de interacción y comunicación que se deben analizar al momento de diseñar."
+  ],
+  "contenidos": [
+    {
+     "titulo": "Selección de estilos de interacción (líneas de comandos, el menú, voz, gestos) y técnicas de interacción."
+    },
+      {
+      "titulo": " Elegir el widget y las tareas."
+    },
+    {
+      "titulo": "Aspectos de interfaz Humano – Computadora: Diseño de la pantalla (color, fuentes, etiquetado)."
+    },
+    {
+      "titulo": "Manejo humano y fallos del sistema."
+    },
+    {
+     "titulo": "Más allá del diseño simple de pantalla: visualización, representación."
+    },
+      {
+      "titulo": "Interacción multimodal: gráfico, sonido y tacto."
+    },
+    {
+      "titulo": "Interacción 3D y realidad virtual."
+    },
+    {
+      "titulo": "Diseño para dispositivos pequeños."
+    },
+    {
+      "titulo": "Aspectos multiculturales de interacción y comunicación.",
+              "temas": [
+        "Determinación del público objetivo.",
+        "Creación de los perfiles del público objetivo.",
+        "Realización de trabajo de campo e indagaciones de público.."
+      ]
+    },
+        {
+      "titulo": "Investigación, Desarrollo e Innovación.",
+              "temas": [
+        "Innovaciones en la presentación del contenido multimedial.",
+        "La web 2.0 (Facebook, You tube, Second life, blogs, etc.).Comunidades en línea.",
+        "Diseño centrado en el usuario."
+      ]
+    }
+    
+  ]
+}
+]

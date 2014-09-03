@@ -2,20 +2,19 @@
 <html lang="es" ng-app="app">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-
+	<title>Bachillerato ITM</title>
+	
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/foundation.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	
-
+	
 	<script src="js/jquery-2.1.1.min.js"></script>
 	
 	<script src="js/angular.min.js"></script>
 	<script src="js/app.js"></script>
-	
 	<script src="js/foundation.min.js"></script>
-	
+	<script src='js/vendor/modernizr.js'></script>
 </head>
 <body ng-controller="appController">
 	<canvas id="micanvas">
@@ -82,24 +81,21 @@
 		<div class="row space">
 			<div class="small-1 column">
 				<div id='EG-1' class="box humanidades box-shadow">
-					<div class="btn up-left" data="EG-1" data="{{dat[0].nombre}}"></div>
-					<div class="btn up-right" data="EG-1" data="{{dat[0].nombre}}"></div>
+					
 					
 					<p>EG-1</p>
 					<p>Humanidades I</p>
-					<div class="btn down-left" data="EG-1" data="{{dat[0].nombre}}"></div>
+					
 					
 				</div>
 			</div>
 			<div class="small-1 column">
 				<div class="box humanidades box-shadow">
-					<div class="btn up-left" data="{{dat[0].nombre}}"></div>
-					<div class="btn up-right" data="{{dat[0].nombre}}"></div>
+					
 					
 					<p>EG-2</p>
 					<p>Humanidades II</p>
 
-					<div class="btn down-left" data="{{dat[0].nombre}}"></div>
 				
 				</div>
 			</div>
@@ -245,7 +241,7 @@
 		<div class="row space">
 			<div class="small-1 column">
 				<div id='TM-1500' class="box otros box-shadow">
-					<div class="btn up-left" data="{{logMC[0].nombre}}"></div>
+					<div data-tooltip aria-haspopup="true"  title="Contenidos del curso" class="btn up-left has-tip" data="{{logMC[0].nombre}}"></div>
 					<div class="btn up-right" data="{{logMC[0].nombre}}"></div>
 					<p>TM-1500</p>
 					<p>Lógica matemática para computación</p>
@@ -618,7 +614,7 @@
 	<!-- modal de descripcion de los cursos -->
 	<div id="descripcion" class="reveal-modal" data='false'  data-reveal>
 	<h2>Descripción del curso</h2>
-	<br/>
+	
 		<a class="close-reveal-modal">&#215;</a>
 	</div>
 
@@ -632,7 +628,7 @@
 	<!-- modal contenidos del curso -->
 	<div id="contenidos" class="reveal-modal" data='false' data-reveal>
 	<h2>Contenidos del curso</h2>
-	<br/>
+	
 		<a class="close-reveal-modal">&#215;</a>
 	</div>
 

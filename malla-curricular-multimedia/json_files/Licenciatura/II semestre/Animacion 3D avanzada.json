@@ -1,0 +1,60 @@
+﻿[
+{
+  "siglas": "TM-1003",
+  "nombre": "Animación 3D avanzada",
+  "descripcion": "En este curso los o las estudiantes amplían sus conocimientos en animación 3D, desarrollando aún más sus habilidades en la creación de objetos y personajes. El o la estudiante también conocerá técnicas que le ayuden a conocer mejor la figura humana y desarrollar movimientos y gestos que se asemejan con mayor precisión al entorno real.",
+  "objetivosGenerales": [
+    "Brindar a los o las estudiantes los conocimiento en técnicas y herramientas avanzadas que le permitan crear animaciones de tercera dimensión de acuerdo a las necesidades del mercado actual."
+  ],
+  "objetivosEspecificos": [
+    "Introducir en el o la estudiante conceptos técnicos relacionados con la animación 3D.",
+    "Conocer herramientas que faciliten el desarrollo de una animación 3D con un alto nivel de destreza.",
+    "Acrecentar en el o la estudiante las destrezas para realizar personajes y objetos acordes a la realidad.",
+    "Aplicar técnicas que mejoren la animación facial de un personaje."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Herramienta de animación 3D.",
+      "temas": [
+        "Variables especializadas de animación.",
+        "Expresiones y keyframe."
+      ]
+    },
+    {
+      "titulo": "Métodos avanzados de animación.",
+      "temas": [
+        "Captura de movimiento (motion capture).",
+        "Animación de personajes."
+      ]
+    },
+    {
+      "titulo": "Figura humana.",
+        "temas": [
+        "Valores de superficie para la figura humana.",
+        "Animación facial."
+      ]
+    },
+    {
+      "titulo": "Técnicas de iluminación avanzadas.",
+      "temas": [
+        "Ajustes locales y globales."
+      ]
+    },
+      {
+      "titulo": "Modelado avanzado.",
+      "temas": [
+        "De objetos 3D.",
+        "De personajes 3D"
+      ]
+    },
+    {
+      "titulo": "Acabado final.",
+        "temas": [
+        "Acabado avanzado de figuras y objetos.",
+        "Integración de 3D a la realidad.",
+        "Integración final de una animación 3D."
+      ]
+    }   
+  ]
+}
+]
