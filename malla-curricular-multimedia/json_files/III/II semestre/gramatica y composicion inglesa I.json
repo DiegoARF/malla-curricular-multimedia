@@ -1,0 +1,48 @@
+[
+{
+  "siglas": "TM-6300",
+  "nombre": "Gramática y Composición Inglesa I",
+  "descripcion": "Este es un curso introductorio de naturaleza teórica-práctica en el que se integran aspectos básicos de la gramática inglesa así como los principios básicos de la composición y redacción en esta lengua. Todo esto con la idea de dar inicio a la  escritura efectiva de párrafos con un fin académico. El curso pretende estudiar aspectos gramaticales y a la vez hacer que estos tengan una función comunicativa al ser puestos en práctica en la elaboración de párrafos o de pequeñas composiciones.",
+  "objetivosGenerales": [
+    "Brindar conocimientos básicos de gramática y producción escrita en la lengua inglesa para la elaboración efectiva de párrafos y composiciones bajo un enfoque comunicativo."
+  ],
+  "objetivosEspecificos": [
+    "Adquirir conocimientos básicos de gramática Inglesa.",
+    "Iniciar el proceso de composición en la lengua inglesa.",
+    "Comunicar ideas y pensamientos de manera escrita utilizando las estructuras idiomáticas aprendidas.",
+    "Utilizar  las reglas relacionadas a  las estructuras gramaticales estudiadas.",
+    "Integrar la  gramática y producción escrita  aplicando  la corrección gramatical.",
+    "Comprender aspectos relacionados a la puntuación en la lengua inglesa."
+
+  ],
+ "contenidos": [
+    {
+      "titulo": "Gramática",
+      "temas": [
+        "Presente simple del verbo “be” y otros verbos en Inglés: preguntas y oraciones simples",
+        "Demostrativos: There is / There are",
+        "Pronombres posesivos",
+        "Presente continuo",
+        "Auxiliares: can / might / may / will",
+        "Sustantivos Contables y no contables",
+        "Cuantificadores",
+        "Futuro: gonig to / Will.",
+        "Preposiciones de tiempo y lugar",
+        "Pasado simple con verbos regulares e irregulares: preguntas y oraciones simples"
+        
+      ]
+    },
+    {
+      "titulo": "Composición.",
+      "temas": [
+        "Técnicas de Pre escritura",
+        "Principios de organización",
+        "El Párrafo",
+        "Puntuación"
+     
+    
+      ]
+    }
+  ]
+}
+]

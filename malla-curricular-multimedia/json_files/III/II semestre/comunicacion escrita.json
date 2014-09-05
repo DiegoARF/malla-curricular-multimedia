@@ -1,0 +1,62 @@
+[
+{
+  "siglas": "TM-6400",
+  "nombre": "Comunicación Escrita",
+  "descripcion": "El curso Comunicación Escrita permitirá a los estudiantes de Bachillerato y Licenciatura en Informática y Tecnología Multimedia familiarizarse con las técnicas de preparación y estructuración de los procesos comunicativos, además pretende estudiar algunos aspectos de la comunicación escrita, de manera que se brinden los conocimientos necesarios para la elaboración de textos escritos.  Se pretende además, ofrecer al estudiante estrategias para la interpretación de otro tipo de textos como por ejemplo los textos visuales.",
+  "objetivosGenerales": [
+    "Dotar al estudiante de las técnicas y las estrategias básicas de producción textual que le permita expresar adecuadamente ideas y crear comunicaciones precisas de acuerdo con el momento de la enunciación. ."
+  ],
+  "objetivosEspecificos": [
+    "Reconocer los diferentes elementos que intervienen en la comunicación.",
+    "Reconocer las ventajas y desventajas de los diferentes códigos de la comunicación.",
+    "Definir con claridad qué es semiótica  y su importancia en el contexto histórico actual.",
+    "Diferenciar las estrategias comunicativas utilizas en los diferentes registros de habla.",
+    "Valorar la importancia de la etimología en la escritura de la lengua castellana.",
+    "Reconocer y aplicar las principales reglas ortográficas y de puntuación.",
+    "Escribir párrafos correctamente siguiendo los principios de la coherencia y cohesión textual.",
+    "Emplear adecuadamente diferentes técnicas de redacción.",
+    "Aplicar adecuadamente las recomendaciones en la elaboración de ensayos e investigaciones científicas."
+
+  ],
+  "contenidos": [
+    {
+      "titulo": "La semiótica y la comunicación.",
+      "temas": [
+        "Concepto de semiótica y comunicación",
+        "Características de los registros: escrito y oral",
+        " Diferentes tipos de lenguajes: visual, escrito, oral, kinésico,  y otros.",
+        "Ventajas y desventajas del registro escrito.",
+        "La relación lengua y cultura",
+        "Relación lengua-poder.",
+        "Origen de la lengua castellana",
+        "Etimologías griegas y latinas.",
+        "Reglas ortográficas del castellano.  Usos de b, v, c, s, z, h, ll, y, etc.",
+        "Reglas de acentuación.",
+        "Empleo de mayúsculas y minúsculas.",
+        "Los signos de puntuación",
+        "La producción textual",
+        "¿Cómo generar un texto escrito?",
+        "Dinámicas para la producción textual",
+        "Selección de ideas",
+        "Tipología textual según secuencias textuales",
+        "Secuencia narrativa.",
+        "Secuencia descriptiva.",
+        "Secuencia expositiva.",
+        "Secuencia argumentativa.",
+        "Estructura y característica de las comunicaciones escritas",
+        "Coherencia y cohesión textual",
+        "Tipos de párrafos: de introducción, de desarrollo, de transición, de conclusión, de enumeración.",
+        "Conexión de los textos: el uso de los elementos de enlace.",
+        "Redacción de textos",
+        "La investigación bibliográfica",
+        "Tipos de investigación",
+        "Estructura de la investigación",
+        "Cómo elaborar una bibliografía"
+        
+      
+   
+      ]
+    }
+  ]
+}
+]

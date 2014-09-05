@@ -30,9 +30,14 @@ var inglesOralInformatica;
 var imageMovimiento;
 var disenoGrafico;
 var produccionJuegos;
+
 //tercer año*****************
-
-
+          //I semestre
+var lecturaInglesInformatica;
+var manipulacionAudioVideo;
+var desarrolloAppInteractivasII;
+var disenoSitiosWeb;
+var ingenieriaAplicacionesInteractivas;
 //cuarto año*****************
 
         //I semestre
@@ -46,6 +51,7 @@ var programacionRubyRails;
       //II semestre
 var practicaProfesional;
 var responsabilidadSocialInformatica;
+
 //******************************
  /************LICENCIATURA***********/
       //I Semestre
@@ -190,7 +196,35 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
                 $http.get('json_files/II/IISemestre/TM-4300 Inglés Oral para Informática.json').success(function (info) {
         $scope.inglOI= info;
         inglesOralInformatica=info;
+     });
+
+/******************************************************TERCER AÑO***************************************************************/
+                                  /****************I SEMESTRE****************/
+      $http.get('json_files/III/I semestre/Lectura ingles para informatica.json').success(function (info) {
+        $scope.lectIngInf= info;
+        lecturaInglesInformatica=info;
      });  
+      $http.get('json_files/III/I semestre/Manipulacion de audio y video.json').success(function (info) {
+        $scope.manAudVid= info;
+        manipulacionAudioVideo=info;
+     });  
+
+         $http.get('json_files/III/I semestre/desarrollo de aplicaciones intercativas II.json').success(function (info) {
+        $scope.desAppIntII= info;
+        desarrolloAppInteractivasII=info;
+     });  
+                  $http.get('json_files/III/I semestre/diseno de sitios web.json').success(function (info) {
+        $scope.disngSitWeb= info;
+        disenoSitiosWeb=info;
+     });  
+                                    $http.get('json_files/III/I semestre/ingenieria de aplicaciones interactivas.json').success(function (info) {
+        $scope.ingAppInt= info;
+        ingenieriaAplicacionesInteractivas=info;
+     });  
+
+
+
+
 /******************************************************CUARTO AÑO***************************************************************/
                                   /****************I SEMESTRE****************/
 
@@ -651,6 +685,11 @@ function getCurso(nombreCurso)
     
       return mediosDigitalesDiseno;
     }
+    if(nombreCurso=='Diseño de sitios Web')
+    {
+    
+      return disenoSitiosWeb;
+    }
 
   
 
@@ -721,6 +760,32 @@ function getCurso(nombreCurso)
       return disenoGrafico;
 
     }
+
+     /*******************TERCER AÑO**************************/
+              /**********I SEMESTRE**************/
+
+         if(nombreCurso=='Lectura en Inglés para Informática')
+    {
+        
+      return lecturaInglesInformatica;
+
+    }          
+         if(nombreCurso=='Manipulación de audio y video')
+    {
+      return manipulacionAudioVideo;
+    }
+         if(nombreCurso=='Desarrollo de aplicaciones interactivas II')
+    {
+      return desarrolloAppInteractivasII;
+    }
+             if(nombreCurso=='Ingeniería de aplicaciones interactivas')
+    {
+      return ingenieriaAplicacionesInteractivas;
+    }
+
+   
+
+
 
     /*******************CUARTO AÑO**************************/
               /**********I SEMESTRE**************/

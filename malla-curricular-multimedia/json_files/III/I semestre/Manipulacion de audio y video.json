@@ -1,0 +1,236 @@
+[
+{
+  "siglas": "TM-5200",
+  "nombre": "Manipulación de audio y video",
+  "descripcion": "Este curso le dará al o la estudiante los principios para manipular audio y video así como su edición para ser usados en algún medio.Se abordarán temas de sonido tanto análogo como digital, características, tipos y formatos, digitalización y efectos. También se verá el video análogo así como el digital, sus características, tipos y formatos, digitalización y efectos. Se analizarán los equipos usados como las grabadoras, las cámaras de video y la digitalización.Se usará algún software para editar, modificar, aplicar filtros, usar transiciones, e inclusive la adición de títulos para obtener videos de calidad, la postproducción, la composición, la línea de tiempo, capas y diferentes efectos.",
+  "objetivosGenerales": [
+    "Que el o la estudiante sea capaz de manipular videos existentes o crear videos con o sin audio.",
+    "Que el o la estudiante sea capaz de manipular videos existentes o crear videos con o sin audio."
+  ],
+  "objetivosEspecificos": [
+    "Conocer aspectos básicos sobre el sonido tanto análogo como digital.",
+    "Conocer aspectos básicos sobre el video tanto análogo como digital.",
+    "Crear videos a partir de secuencias fotográficas o dibujos.",
+    "Agregar o modificar pistas de audio a un video existente."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Sonido digital.",
+      "temas": [
+        "¿Qué es el sonido?",
+        "Características del sonido.",
+        "El sonido analógico.",
+        "Conceptos y tipos de sonidos digitales.",
+        "Formatos.",
+        "Digitalización del sonido.",
+        "Efectos simples sobre la amplitud y la frecuencia.",
+        "Efectos de retardo.",
+        "Los filtros.",
+        "Formatos de salida y codecs de compresión.",
+        "Trabajo con software para la edición de audio. (propuesta: Audacity)",
+        "Mezcla",
+        "Teoría básica de la música aplicada al curso.",
+        "Elementos básicos de composición aplicados al curso."
+      
+        
+      ]
+    },
+    {
+      "titulo": "Vídeo digital.",
+      "temas": [
+        "Tecnología del vídeo.",
+        "Vídeo analógico.",
+        "Vídeo digital.",
+"Código de tiempos SMPTE",
+"Normas de control.",
+"Conexiones",
+"Grabadoras de vídeo y formatos.",
+"Cámaras de vídeo."
+      ]
+    },
+    {
+      "titulo": "Software para Video y audio",
+      "temas": [
+        
+         "Interficie y filosofía de trabajo.",
+        "Técnicas de edición.",
+        "Visualización preliminar de una película",
+        "Usar transiciones",
+        "Usar filtros",
+        "Sobreimpresiones y títulos",
+        "Compilación",
+        "Digitalización de vídeo."
+        
+   ]
+    },
+    {
+      "titulo": ". Conceptos Generales de Postproducción .",
+      "temas": [
+        "Introducción a la Teoría de Video",
+        "La edición no lineal",
+        "Características de los programas de postproducción y forma de trabajar (After Effects)",
+        "Formatos de archivos"
+       
+      ]
+    },
+    {
+      "titulo": "Nociones sobre la interfaz .",
+      "temas": [
+        "El espacio de Trabajo",
+        "Manejo de ventanas y paneles"
+       
+       ]
+    },
+    {
+      "titulo": "Creación de proyectos.",
+      "temas": [
+        "Configuraciones de proyectos",
+        "Importación de medios",
+"Manejo de archivos con canales alpha"
+      ]
+    },
+    {
+      "titulo": "Composiciones.",
+      "temas": [
+        "Creación de composiciones",
+        "Importaciones de medios a la composición",
+        "Los archivos de PhotoShop como composiciones",
+        "Creación de composiciones a partir de secuencias"
+       ]
+    },
+    {
+      "titulo": "La línea de tiempo, fotogramas clave y animaciones.",
+      "temas": [
+        "Configuración de la duración de los objetos",
+        "Nociones básicas de los fotogramas clave",
+        "Animación de posición",
+        "Otras propiedades de transformación",
+        "Copiar y pegar fotogramas clave",
+        "Animación del punto de ancla",
+        "Uso de la herramienta de paneo posterior",
+        "Animaciones con recorridos simples y complejo",
+"Edición de fotogramas con el editor gráfico",
+"Uso de predeterminados de animación, edición y guardado"
+       
+      ]
+    },
+    {
+      "titulo": "Optimización del trabajo con fotogramas.",
+      "temas": [
+        "Uso del asistente de fotogramas clave",
+        "Tipos de interpolación entre fotogramas",
+        "Fotogramas clave de pausa",
+"Editor gráfico de velocidad"
+       ]
+    },
+    {
+      "titulo": "Previsualización de películas.",
+      "temas": [
+        "Modos de previsualización en RAM",
+        "Previsualización de la región de interés en el área de trabajo"
+       ]
+    },
+    {
+      "titulo": "Capas.",
+      "temas": [
+        "Nociones básicas",
+        "Manejo de capas originales de Photoshop",
+        "Isolación, bloqueo y ocultación de capas",
+        "Modos de calidad y pasterización continua",
+        "Posicionamiento y recorte de capas en la línea de tiempo",
+        "Partición de capas",
+        "Streching de tiempo y modos de fusión",
+        "El efecto de Timewarp",
+        "Capas sólidas",
+        "Alineamiento y distribución de capas",
+        "Capas y secuencias"
+     ]
+    },
+    {
+      "titulo": "Capas de Texto.",
+      "temas": [
+        "Creación y formato de las capas de texto",
+        "Animación de Texto",
+        "Selector de Rango",
+        "Efectos",
+        "Selectores y animadores múltiples",
+        "Animación de texto en recorrido",
+        "Modos predeterminados de animación"
+        ]
+    },
+    {
+      "titulo": "Efectos.",
+      "temas": [
+        "Aplicación de filtros",
+        "Efectos de animación",
+        "Sombras",
+        "Transiciones y barridos",
+        "Desenfoque de lente",
+        "Ajustes y corrección de color",
+        "Efectos como ajustes de capa",
+        "Precomposición de efectos",
+        "Guardado de parámetros en los efectos"
+       ]
+    },
+    {
+      "titulo": "Emparentar Capas y objetos.",
+      "temas": [
+        "Animación de personaje",
+        "Uso de un Objeto Neutro “Null” como Padre."
+      
+     ]
+    },
+    {
+      "titulo": "Pintura.",
+      "temas": [
+        "Pintado y edición de Vectores",
+        "Trazados de pintura en el tiempo",
+        "Uso de paleta de pintura como Matte",
+        "La herramienta de clonado"
+        
+      ]
+    },
+    {
+      "titulo": "Máscaras.",
+      "temas": [
+        "Creación de máscaras simples",
+        "Máscaras precisas con la herramienta pluma",
+        "Máscaras para efectos de texto",
+        "Modos de máscara",
+        "Animación y transformación de máscaras",
+        "Conversión de un canal alpha en máscara con auto-trazado auto-trace",
+        "Simulación de pintura con el efecto Scribble"
+    ]
+    },
+    {
+      "titulo": "Mattes de seguimiento y canales alpha.",
+      "temas": [
+        "Creación de Mattes de seguimiento",
+        "Mattes de recorrido basados en la luz",
+        "Mattes de texto animado con efectos"
+      ]
+    },
+    {
+      "titulo": "Remover fondos con Color clave.",
+      "temas": [
+        "Elección de color clave",
+        "Fijación y ajuste de color clave",
+        "Varios colores clave",
+        "Uso de claves “LUMA” en entornos sin pantalla monocromática",
+        "La herramienta “keylight”"
+       
+     ]
+    },
+    {
+      "titulo": "Capas en 3d.",
+      "temas": [
+        "Creación de capas 3d en la línea de tiempo",
+        "Adición de luces en 3d",
+        "Inserción y movimiento de cámara",
+        "Auto orientación de Objetos"
+       
+      ]
+    }
+  ]
+}
+]

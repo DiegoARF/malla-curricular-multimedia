@@ -1,0 +1,93 @@
+[
+{
+  "siglas": "TM-6101",
+  "nombre": "Optativa I (Manejo de bases de datos)",
+  "descripcion": "En este curso los y las estudiantes amplían sus conocimientos en bases de datos, enfocándose en la adecuada administración de los datos y apoyados mediante una herramienta especializada (Sistema Gestor de Bases de datos). Durante el curso se utilizan diferentes SGBD que apoyan a la práctica de las teorías de administración de datos que se ven en el desarrollo del curso. Primero los y las estudiantes conocen las principales tareas que apoyan a la administración de los datos en una estructura de bases de datos. Luego conocen sobre los diversos peligros de seguridad que puede enfrentar una base de datos y las medidas correctivas para evitar o disminuir el impacto de esos peligros. Seguidamente el y la estudiante conocen técnicas para probar la eficiencia de la base de datos, y realizar tareas de optimización para obtener una base de datos que responda  a las exigencias de las aplicaciones disponibles en la web.",
+  "objetivosGenerales": [
+    "Dotar a los  y las estudiantes de los conocimientos necesarios para que pueda administrar adecuadamente los datos de una empresa, aplicando conceptos esenciales de la administración de bases de datos como seguridad, integridad, eficiencia, y oportunidad."
+  ],
+  "objetivosEspecificos": [
+    "Analizar las diferentes tareas de un administrador de bases de datos, para distinguirlas de las tareas de un programador de sistemas.",
+   "Identificar adecuadamente los diversos tipos de usuarios de una base de datos, para definir los roles de usuarios adecuados.",
+   "Conocer los diversos peligros de seguridad que puede tener una base de datos, para establecer medidas de seguridad.",
+   "Conocer las medidas de seguridad y gestión que permitan la disponibilidad de los datos, para crear rutinas de gestión de datos en la empresa.",
+   "Crear una bases de datos con medidas de seguridad, para practicar los conceptos vistos.",
+   "Realizar pruebas de seguridad a una base de datos, para  aprender a determinar fallas de seguridad en una base de datos.",
+   "Realizar pruebas de rendimiento a una base de datos, para realizar acciones de optimización a la base de datos.",
+   "Realizar tareas de optimización a una base de datos, para practicar las tareas de optimización vistas.",
+   "Analizar las implicaciones de una base de datos en la web, para establecer medidas de seguridad."
+
+  ],
+ "contenidos": [
+    {
+      "titulo": "Introducción",
+      "temas": [
+        "El enfoque de la administración de los datos.",
+"Responsabilidad en la administración de los datos.",
+"El DBA y sus responsabilidade.",
+"Herramientas para los DBA "
+ ]
+    },
+    {
+      "titulo": "Organización física de archivos .",
+      "temas": [
+        "Medios físicos de almacenamiento",
+        "Otras arquitecturas de almacenamiento de datos ",
+        "Organizaciones primarias de archivos",
+        "Estructuras de indexación para ficheros (índices del SQL)"
+         ]
+    },
+    {
+      "titulo": "Seguridad de los datos",
+      "temas": [
+        "Definición de la seguridad de datos ( logins, usuarios, roles, grupos en SQL)",
+        "Control basado en privilegios",
+        "Seguridad multinivel",
+        "Criptografía "
+       ]
+    },
+    {
+      "titulo": "Control de concurrencia.",
+      "temas": [
+        "Conceptos de procesamiento de transacciones procedimientos y triggers) ",
+        "Planes y recuperabilidad",
+        "Seriabilidad de los planes",
+        "Técnicas de control de concurrencia basadas en bloqueos",
+        "Técnicas basadas en marca de tiempo",
+        "Técnicas para control de multiversión",
+        "Técnicas para el control de validación"
+      ]
+    },
+    {
+      "titulo": "Recuperación de caídas del sistema.",
+      "temas": [
+        "Conceptos de recuperación (backup, restore, rollback y commit)",
+        "Técnicas de recuperación con actualización diferida",
+        "Técnicas de recuperación con actualización inmediata",
+        "Paginación de sombra",
+        "Recuperación de múltiples bases de datos"
+       ]
+    },
+    {
+      "titulo": "Evaluación del rendimiento",
+      "temas": [
+        "Empleo de la heurística en la optimización de consultas ",
+      "Algoritmos para estimación del costo en la optimización ",
+      "Optimización semántica (refinamiento de consultas en SQL)"
+       ]
+    },
+    {
+      "titulo": "Bases de datos distribuidas.",
+      "temas": [
+        "Introducción a los sistemas distribuidos (Arquitectura y Diseño de las bases de datos distribuidas)",
+        "Tipos de sistemas de bases de datos distribuidas",
+        "Procesamiento de consultas, control de concurrencia",
+        "Recuperación de bases de datos distribuidas ",
+        "Bases de datos en la web"
+        
+       
+      ]
+    }
+  ]
+}
+]

@@ -1,0 +1,114 @@
+[
+{
+  "siglas": "TM-5400",
+  "nombre": "Ingeniería de aplicaciones interactivas",
+  "descripcion": "Este curso le permite al o la estudiante aprender los principios fundamentales de la ingeniería de software para aplicarlos al desarrollo de aplicaciones interactivas. Se le introducirá en los conceptos, herramientas y metodologías de la ingeniería de software, con el propósito de que ponga sus conocimientos en práctica al elaborar un proyecto de desarrollo de software.",
+  "objetivosGenerales": [
+    "Dotar al o la estudiante con los conocimientos necesarios de la ingeniería de software para que pueda desarrollar software de alta calidad y que cumpla con las expectativas del usuario."
+  ],
+  "objetivosEspecificos": [
+    "Capacitar al estudiante en el proceso de requerimientos de software.",
+    "Brindar al estudiante los conocimientos para desarrollar un buen diseño de software.",
+    "Dar al estudiante las herramientas necesarias para llevar a cabo el proceso de pruebas de software.",
+    "Conocer los conceptos necesarios para llevar de manera adecuada la gestión de la calidad de software."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Introducción ingeniería de software.",
+      "temas": [
+        "Conceptos generales"
+      
+        
+      ]
+    },
+    {
+      "titulo": "El desarrollo hipermedia y web como proceso de ingeniería.",
+      "temas": [
+        "Las fases del ciclo de vida del desarrollo hipermedia.",
+        "Modelos de procesos para el desarrollo multimedia.",
+        "Características del desarrollo de los sistemas hipermedia y web",
+"Métodos de desarrollo de sistemas hipermedia y web"
+      ]
+    },
+    {
+      "titulo": "Diseño de hipermedia y web con adm.",
+      "temas": [
+        
+         "Introducción.",
+        "Características de Ariadne Development Method (ADM)",
+        "Fases y productos de ADM"
+        
+   ]
+    },
+    {
+      "titulo": "Requerimientos de software .",
+      "temas": [
+        "Fundamentos de requerimientos",
+        "Procesos de requerimientos",
+        "Obtención de requerimientos",
+        "Análisis de requerimientos",
+        "Especificación de requerimientos",
+        "Validación de requerimientos"
+       
+      ]
+    },
+    {
+      "titulo": "Diseño de software.",
+      "temas": [
+        "Fundamentos de diseño",
+        "Aspectos clave en diseño",
+        "Arquitectura de software",
+        "Análisis y evaluación de la calidad del diseño",
+        "Notación de diseño software",
+        "Estrategias y métodos de diseño"
+       
+       ]
+    },
+    {
+      "titulo": "Construcción de software.",
+      "temas": [
+        "Fundamentos de construcción",
+        "Gestión de construcción"
+      ]
+    },
+    {
+      "titulo": "Pruebas de software.",
+      "temas": [
+        "Fundamentos de pruebas",
+        "Niveles de pruebas",
+        "Técnicas de pruebas",
+        "Medidas relacionadas con pruebas",
+        "Procesos de pruebas"
+       ]
+    },
+    {
+      "titulo": "Gestión de configuración de software.",
+      "temas": [
+        "Gestión proceso configuración",
+        "Identificación configuración",
+        "Control configuración",
+        "Estado configuración",
+        "Auditoria configuración",
+        "Gestión software entregable"
+       
+      ]
+    },
+    {
+      "titulo": "Gestión de ingeniería de software.",
+      "temas": [
+        "Definición inicial y alcances",
+        "Planificación proyectos",
+        "Revisión y evaluación",
+"Cierre proyectos"
+       ]
+    },
+    {
+      "titulo": "Calidad en ingeniería de software.",
+      "temas": [
+        "Fundamentos calidad",
+        "Procesos gestión calidad"
+      ]
+    }
+  ]
+}
+]

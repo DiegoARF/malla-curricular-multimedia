@@ -1,0 +1,69 @@
+[
+{
+  "siglas": "TM-5500",
+  "nombre": "Diseño de sitios Web",
+  "descripcion": " Este curso se fundamenta en los conocimientos adquiridos en cursos anteriores relacionados con el diseño, manejo de la imagen, fotografía y los cursos del área de programación. El curso inicia analizando los principales problemas que se presentan en el momento de articular el diseño presentado por un diseñador gráfico y la programación del sitio, luego se enseñan a los y las estudiantes los componentes base para todo sitio web, así como las técnicas necesarias para lograr una adecuada distribución del espacio, que tendrá cada una de las páginas que componen el sitio web. En este punto es importante que los y las estudiantes comprendan cuáles son los niveles de profundidad adecuados para un sitio. De forma paralela los y las estudiantes analizan las tareas comunes de programación, que se realizan dentro de un sitio con el fin de no caer en el diseño de sitios muy elegantes pero difíciles de mantener. El diseño de sitios web estará apoyado por el uso de una herramienta que facilite el diseño y permita probar la funcionalidad del sitio. Como última etapa del curso los estudiantes desarrollan un proyecto web donde se utilicen todo los conocimientos adquiridos durante el curso.",
+  "objetivosGenerales": [
+    "Abordar el diseño de sitios web desde la perspectiva del diseñador gráfico y desde la perspectiva de un programador, con el fin de obtener sitios web que logren el equilibrio entre eficiencia, eficacia y belleza."
+  ],
+  "objetivosEspecificos": [
+    "Conocer las implicaciones de separar el diseño de la programación del sitio web.",
+    "Analizar los diferentes componentes que requieren las páginas web.",
+    "Analizar las diferentes distribuciones para el diseño de un sitio web.",
+    "Analizar las tareas de mantenimiento y administración que requiere un sitio web.",
+    "Esquematizar el diseño de un sitio web",
+    "Desarrollar el diseño completo para un proyecto web aplicado a una empresa, o institución."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Introducción.",
+      "temas": [
+        "Conceptos básicos.",
+        "Diferencias entre el diseño web y la programación web.",
+        "Problemas presentados entre el diseño y la programación de sitios web.",
+         "La importancia de un buen diseño.",
+        "La importancia de una adecuada programación."
+      ]
+    },
+    {
+      "titulo": "Diseño de sitios web ",
+      "temas": [
+        "Introducción",
+        "Etapas para el desarrollo de un sitio web ",
+        "Etapas para el diseño de un sitio web.",
+        "Consideraciones antes de iniciar a diseñar un sitio web.",
+        "Recolección de información para el diseño de un sitio web.",
+        "Elementos importantes en un sitio web.",
+        "Distribución de espacio en una página web.",
+"Profundidad en los niveles de navegación del sitio"
+
+
+      ]
+    },
+    {
+      "titulo": "Personalizando el diseño de un sitio web.",
+      "temas": [
+        
+        "Introducción",
+        "Colores",
+        "Fuentes",
+        "Uso de elementos multimedia (imágenes, sonidos, vídeo, animaciones, entre otros)",
+        "Hojas de estilo"
+      ]
+    },
+    {
+      "titulo": "Implicaciones en el diseño de sitios web.",
+      "temas": [
+        "Introducción",
+        "Resoluciones de las pantallas",
+        "Diversidad de Navegadores",
+        "Sitios web dinámicos ",
+        "Internacionalización de los sitios web.",
+        "Eficiencia del sitio y su desempeño en la web"
+        
+      ]
+    }
+  ]
+}
+]
+   

@@ -1,0 +1,60 @@
+[
+{
+  "siglas": "TM5300",
+  "nombre": "Lectura en Inglés para Informática",
+  "descripcion": "Este es un curso de naturaleza práctica, de dificultad media que pretende brindar a los y las estudiantes de la carrera de Informática y Tecnología Multimedia, la oportunidad de acercarse a textos escritos en Inglés que además contengan información relacionada a su campo de estudio. Por otra parte, se pretende instruir a los y las estudiantes en aspectos relacionados a diferentes estrategias de lectura que faciliten el proceso de comprensión de textos en inglés.",
+  "objetivosGenerales": [
+    "Comprender y analizar textos escritos en inglés para poder abstraer información de ellos y ser capaces de resolver diferentes tipos de ejercicios de comprensión de lectura."
+  ],
+  "objetivosEspecificos": [
+    "Interactuar activamente con textos de contenidos relacionados a la informática.",
+    "Aplicar  diversas destrezas de comprensión de lectura en los textos dados.",
+    "Adquirir nuevo vocabulario relacionado al campo de la computación.",
+    "Identificar elementos e ideas centrales de un texto dado.",
+    "Trabajar en ejercicios variados en lo que corresponde a compresión de lectura de textos dados."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Estrategias de lectura.",
+      "temas": [
+        "Adivinar por contexto.",
+        "Discernir el significado de las palabras en un contexto.",
+        "Ignorar estructuras.",
+        "Visualizar (imaginar) el contenido textual.",
+        "Identificar los patrones retóricos",
+        "Aplicar la técnica del vistazo",
+        "Aplicar la técnica del detalle",
+        "Párrafos: temas e ideas centrales."
+      
+        
+      ]
+    },
+    {
+      "titulo": "Esquema básico del proceso fotográfico.",
+      "temas": [
+        "Factores cuantitativos (técnicos).",
+        "Factores cualitativos (históricos y estéticos)."
+      ]
+    },
+    {
+      "titulo": "Contenidos de Informática.",
+      "temas": [
+        
+         "La Historia de la computación.",
+        "¿Cómo funciona una computadora?",
+        "Lenguajes de programación.",
+        "Las computadoras hoy en día.",
+        "Dispositivos de entrada y salida",
+        "Dispositivos de almacenamiento.",
+        "Softwares básicos",
+        "El Internet",
+        "Softwares creativos",
+        "La computación respondiendo a las necesidades especiales",
+        "Programación",
+        "Las  computadoras en la vida cotidiana",
+        "Las computadoras del mañana"
+    ]
+    }
+  ]
+}
+]

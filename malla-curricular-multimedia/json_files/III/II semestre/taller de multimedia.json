@@ -1,0 +1,37 @@
+[
+{
+  "siglas": "TM-6100",
+  "nombre": "Taller de multimedia",
+  "descripcion": "Este es un curso teórico-práctico que busca integrar mediante el desarrollo de proyectos específicos las dos principales áreas de la formación que ha recibido el estudiantado, la Informática y el Diseño Gráfico. Aquí el estudiante tiene la oportunidad de proponer soluciones a necesidades de los usuarios, antes de realizar su Práctica Profesional, permitiéndole que posteriormente escoja los cursos electivos que completen su formación académica de acuerdo al área de interés.Además se estudian metodologías ágiles de desarrollo de software, que el estudiantado debe utilizar en el desarrollo de su proyecto.La entrega del proyecto se llevará a cabo por etapas. Para la entrega final del proyecto, se formará un tribunal de especialistas conformado por un profesor o profesora de cada área de estudio de la carrera, el estudiantado debe exponer el proyecto terminado a dicho tribunal de manera que reciba aportes desde diferentes perspectivas con miras al desarrollo de su proyecto final  en el curso de Práctica Profesional.",
+  "objetivosGenerales": [
+    "Correlacionar mediante un proyecto práctico las principales área de formación profesional que el estudiante ha recibido en sus años de estudio universitario."
+  ],
+  "objetivosEspecificos": [
+    "Conocer la teoría relacionada a la Administración de Proyectos.",
+    "Analizar las diferentes metodologías para desarrollo ágil de software para aplicarlas en un proyecto práctico.",
+    "Integrar en un proyecto de desarrollo de software los elementos de diseño e informática vistos en los ciclos anteriores."
+
+  ],
+ "contenidos": [
+    {
+      "titulo": "Fundamentos de la administración de proyectos",
+      "temas": [
+        "Metodologías ágiles de desarrollo de software",
+        "Adaptive Software Development (ASD)",
+        "Agile UnifiedProcess (AUP)",
+        "Crystal Clear",
+        "EssentialUnifiedProcess (EssUP)",
+        "FeatureDrivenDevelopment (FDD)",
+        "Learn Software Development (LSD)",
+        "Kanban",
+        "Open Unified Process (Open UP)",
+        "Extreme Programming (XP)",
+        "Method Dynamic Systems Development (DSDM)Scrum"
+        
+    
+    
+      ]
+    }
+  ]
+}
+]

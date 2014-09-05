@@ -1,0 +1,70 @@
+[
+{
+  "siglas": "TM5100",
+  "nombre": "Desarrollo de aplicaciones interactivas II",
+  "descripcion": "El curso está orientado al desarrollo de aplicaciones interactivas mediante el uso de un lenguaje de programación orientado a objetos. El curso inicia analizando el paradigma de programación orientado a objetos incorporando la utilización de la arquitectura n-capas dentro del desarrollo de aplicaciones web interactivas. Al mismo tiempo, el y la estudiante aprenden a representar los objetos mediante un lenguaje de modelado de objetos. Un punto importante en el desarrollo de niveles de programación es que el estudiante puede seleccionar de forma adecuada la ubicación de los diferentes objetos que intervienen en la solución, y ubicarlos en el nivel correspondiente a su función. Al finalizar el curso el estudiante será capaz de desarrollar una aplicación web interactiva completa utilizando un lenguaje de programación orientado a objetos. El y la estudiante deben desarrollar un proyecto final, donde se realiza un proyecto orientado al web utilizando los conocimientos adquiridos en el curso y en cursos anteriores.",
+  "objetivosGenerales": [
+    "Utilizar técnicas fotográficas en la toma de imágenes para su optimización.",
+    "Que el o la estudiante pueda imaginar escenarios para luego crearlos por medio de imágenes del medio que lo rodea."
+  ],
+  "objetivosEspecificos": [
+    "Conocer la historia y los tipos de fotografía.",
+    "Conocer los principios básicos para que una fotografía sea útil a sus necesidades.",
+    "Conocer las características de la cámara digital.",
+    "Dar tratamiento a las imágenes digitales tanto para corregir imperfecciones como para hacer una fotografía útil."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Introducción.",
+      "temas": [
+        "Desarrollo de aplicaciones web interactivas.",
+        "Lenguajes de programación Orientados a Objetos.",
+        "Situación del desarrollo de aplicaciones web interactivas en Costa Rica.",
+         "Situación del desarrollo de aplicaciones web interactivas en Costa Rica.",
+        "Interfaz humano - computador."
+      ]
+    },
+    {
+      "titulo": "Modelo Vista Controlador MVC",
+      "temas": [
+        "Introducción",
+        "Modelo ",
+        "Vista ",
+        "Controlador",
+        "Ciclo de vida de las páginas web en el MVC.",
+        "Requerimientos del lenguaje orientado a Objetos para la utilización del MVC"
+
+      ]
+    },
+    {
+      "titulo": "Programación web interactiva Orientada a Objetos.",
+      "temas": [
+        
+        "Introducción",
+        "Requerimientos del lenguaje de programación",
+        "Estructura básica del lenguaje de programación ",
+        "Manejo del MVC con el lenguaje de programación",
+        "Componentes de programación que ofrece el lenguaje",
+        "Definición de la Vista de la aplicación mediante el lenguaje ",
+        "Control de los eventos provenientes de la aplicación web interactiva",
+        "Validación de datos ",
+        "Seguridad de los datos ",
+        "Integración de la aplicación web con el servidor de aplicaciones web"
+      ]
+    },
+    {
+      "titulo": "Integración de la aplicación con la base de datos.",
+      "temas": [
+        "Introducción",
+        "Componentes para la conexión con la base de datos",
+        "Administración de la conexión con la base de datos",
+        "Optimización de la conexión con la base de datos",
+        "Sistemas de iluminación.",
+        "Control de la concurrencia con la bases de datos "
+        
+      ]
+    }
+  ]
+}
+]
+   

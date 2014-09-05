@@ -1,0 +1,69 @@
+[
+{
+  "siglas": "TM-6200",
+  "nombre": "Desarrollo empresarial",
+  "descripcion": "Este curso pretende dar a conocer los aspectos básicos que el o la estudiante deberá tener en cuenta para fundar una pequeña empresa así como para crear las condiciones que promuevan que esta sea exitosa. Contempla información sobre aspectos fundamentales de la contabilidad y finanzas, el plan de negocios y su desarrollo y algunos aspectos legales a tener en cuenta tanto para el correcto funcionamiento de la empresa así como para su permanencia en el tiempo.",
+  "objetivosGenerales": [
+    "Dar los conocimientos por los que el empresario y su personal adquieren o fortalecen habilidades y destrezas, que favorecen el manejo eficiente y eficaz de los recursos de su empresa, la innovación de productos y procesos, de tal manera, que coadyuve al crecimiento sostenible de la empresa."
+  ],
+  "objetivosEspecificos": [
+    "Enseñar las consideraciones a tomar en cuenta para fundar una pequeña empresa.",
+    "Conocer los aspectos fundamentales de la contabilidad.",
+    "Conocer los aspectos fundamentales de las finanzas.",
+    "Saber qué es un plan de negocios y promover su desarrollo.",
+    "Considerar aspectos legales a tener en cuenta tanto para el correcto funcionamiento de la empresa así como para su sostenibilidad."
+
+  ],
+ "contenidos": [
+    {
+      "titulo": "Introducción a la contabilidad.",
+      "temas": [
+        ""
+        
+      ]
+    },
+    {
+      "titulo": "Introducción a las finanzas.",
+      "temas": [
+        ""
+      ]
+    },
+    {
+      "titulo": "El plan de negocios",
+      "temas": [
+        
+         "Contenidos del Plan de negocios.",
+        "El o la estudiante analiza las diferentes ideas y define su propia idea",
+        "Cada grupo presenta  tres nuevas ideas de negocio. Se utiliza la plantilla de selección de ideas de negocios.",
+        " Conferencia: Elaboración de planes de negocios"
+      ]
+    },
+    {
+      "titulo": " Las finanzas en un plan de negocios",
+      "temas": [
+        "Análisis de variables macroeconómicas, proyecciones financieras, estado de ganancias y perdidas",
+        "Revisión del flujo de efectivo acorde con las características del proyecto",
+        "Conferencia: Creatividad e Innovación en los Negocios",
+        "Análisis de financiamiento y valoración de los proyectos, inversiones necesarias TIR y VAN",
+        "Avance y desarrollo de estudios financieros."
+        
+      ]
+    },
+    {
+      "titulo": "Aspectos legales e impositivos",
+      "temas": [
+        "Leyes, normas y reglamentos, que afectan el plan de negocios"
+
+      ]
+    },
+    {
+      "titulo": "Desarrollo integral del plan de negocios",
+      "temas": [
+       "El plan de negocios con el propósito de realizar los ajustes pertinentes siguiendo la guía entregada al inicio del seminario."
+        
+    
+      ]
+    }
+  ]
+}
+]

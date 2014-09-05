@@ -1,0 +1,97 @@
+[
+{
+  "siglas": "TM-6102",
+  "nombre": "Optativa I (Programación avanzada con ASP.net)",
+  "descripcion": "Este curso tiene como propósito enseñar a los y las estudiantes el desarrollo de aplicaciones Web con acceso a bases de datos.  Los y las estudiantes  aprenderán los conceptos fundamentales de la programación Web mediante el uso de la arquitectura .NET.  También se crearan y manipularan los Servicios Web XML, utilizando los elementos que le permitan crear controles de usuario y componentes. Finalizando se introducirá al desarrollo de aplicaciones para dispositivos móviles  ASP.NET",
+  "objetivosGenerales": [
+    "Dotar al estudiante de conocimientos avanzados que le permitan crear aplicaciones dinámicas y multicapas de la programación orientada a objetos, por eventos y basada en componentes, utilizando la plataforma Visual Studio.NET."
+  ],
+  "objetivosEspecificos": [
+    "Desarrollar aplicaciones Web basadas en la tecnología ASP.NET como herramienta de programación en la creación de contenidos dinámicos.",
+    "Diseñar páginas web con estructuras claras, inteligentes y accesibles, que le proporcionen al usuario una interacción sencilla y eficiente con el sistema, en la introducción de datos usando los servicios Web.",
+    "Implementar Servicios Web XML para la integración de funcionalidades entre aplicaciones Web."
+
+  ],
+ "contenidos": [
+    {
+      "titulo": "Introducción a ASP.NET",
+      "temas": [
+        "Conceptos básicos.",
+        "Plataforma .NET",
+        "Funcionamiento de ASP.NET.",
+        "CLR, CTS, CLS",
+        "Jerarquía de clases en .NET",
+        "Eventos de una página web",
+        "CODE-BEHIND"
+ ]
+    },
+    {
+      "titulo": "Introducción a los WEB FORMS y Controles HTM.",
+      "temas": [
+        "WEB FORMS",
+        "Controles ASP.NET ",
+        "Controles HTML",
+        "Equivalencia entre controles HTML y etiquetas HTML"
+         ]
+    },
+    {
+      "titulo": "Controles web intrínsecos",
+      "temas": [
+        "Introducción a los controles web intrínsecos",
+        "Controles web intrínsecos",
+        "Estilos a los controles web",
+        "Equivalencia entre controles web intrínsecos y etiquetas HTML"
+       ]
+    },
+    {
+      "titulo": "Controles de validación del servidor.",
+      "temas": [
+        "Controles de validación del servidor ",
+        "Relación de controles de validación del servidor",
+        "RequiredFielValidator",
+        "RangeValidator",
+        "CompareValidator",
+        "RegularExpressionValidator",
+        "Expresiones regulares",
+        "ValidationSummary"
+      ]
+    },
+    {
+      "titulo": "Tema V: Accesando a los datos con ADO.NET.",
+      "temas": [
+        "Modelo de objetos de ADO.NET",
+        "Arquitectura de datos desconectados",
+        "Bases de datos conectadas",
+        "Espacios de nombres relacionados con ADO.NET",
+        "Objeto Command",
+        "Enlazado de datos (Data Binding)",
+        "Enlazado simple",
+        "Enlazado complejo"
+       ]
+    },
+    {
+      "titulo": "Creación de servicios web",
+      "temas": [
+        "Servicios Web ",
+      "Elementos para la creación de un servicio Web ",
+      "Creando los métodos del servicio Web",
+      "Creando un Proxy para un servicio Web",
+      "Utilización de servicios Web"
+       ]
+    },
+    {
+      "titulo": "Aplicaciones con dispositivos móviles.",
+      "temas": [
+        "Particularidades del cómputo móvil",
+        "Tecnologías .NET para cómputo móvil",
+        "Creación de una página de formulario Web móvil",
+        "Paginación",
+        "Relación de controles Web móvil",
+        "Consejos para una aplicación móvil efectiva"
+        
+       
+      ]
+    }
+  ]
+}
+]
