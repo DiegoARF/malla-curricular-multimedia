@@ -18,14 +18,21 @@
     {
       "titulo": "Introducción a la contabilidad.",
       "temas": [
-        ""
-        
-      ]
+       " El comercio, la actividad comercial, diferentes tipos de comerciantes (personas físicas y jurídicas), la empresa, tipos de empresas, la contabilidad (definiciones) y su importancia, función del contador, artículos del Código de Comercio del 368 al 374.",
+       "Los documentos comerciales más importantes (vale, recibo, factura, cheque, boleta de depósito bancario, nota de débito, nota de crédito, pagaré, prenda, letra de cambio, hipoteca, bonos, certificado de inversión o de depósito bancario, acciones) y sus principales características.",
+       "Propósitos fundamentales de la contabilidad, aspectos legales en Costa Rica (artículos 251-252 del código de comercio).  Diferentes tipos de contabilidad: financiera, administrativa, fiscal.",
+       "Sistemas de contabilidad (partida simple y partida doble), importancia del sistema de partida doble. La ecuación contable básica, definición de los principales conceptos contables (activo, pasivo, capital, ingresos, gastos, dividendos o retiros), la cuenta, partes de una cuenta y su saldo normal, el asiento de diario, tipos de asientos (simple y compuesto), partes de un asiento",
+       "El libro diario, sus características y ventajas; el libro mayor, características del mayor, relación entre el diario y el mayor (control cruzado).  Libro de inventarios y balances, su función.  El catálogo de cuentas.  El ciclo de la contabilidad en forma general, registro de operaciones para una empresa de servicios que incluya el ciclo contable.",
+       "Uso de signos, ceros, guiones y rayas en los asientos y estados financieros. Localización de errores.  Asientos de ajuste básicos para una empresa de servicios. Estados financieros para una empresa de servicios, incluyendo los asientos de cierre y balance posterior al cierre. Marco conceptual para la preparación y presentación de los Estados Financieros. (Norma Internacional de Contabilidad 1)"   
+       ]
     },
     {
       "titulo": "Introducción a las finanzas.",
       "temas": [
-        ""
+        "Las finanzas y sus áreas principales. Función de las finanzas para la administración y su relación con la economía y la contabilidad. Explicar el objetivo principal del gerente de finanzas.",
+        "El ambiente de la empresa (entorno): Principales participantes en las transacciones financieras y sus actividades básicas. Relación entre las instituciones financieras y los mercados, así como la función y la operación básica del mercado de dinero. Fundamentos de las tasas de interés y de los rendimientos requeridos: inflación, primas de riesgo, rendimiento y riesgo. ",
+        "Valor del Dinero en el tiempo: La función del valor del dinero en el tiempo en las finanzas y los apoyos de cálculo que se utilizan para simplificar su aplicación. El concepto de valor futuro, su cálculo para una cantidad individual y el impacto que produce en él el hecho de efectuar la composición con una frecuencia mayor a la anual. Valor futuro de una anualidad. Valor presente, su cálculo para una cantidad individual y su relación con el valor futuro. Calcular el valor presente de una corriente mixta de flujos de efectivo, una anualidad y una perpetuidad. Describir los procedimientos que participan en: 1) el cálculo de los depósitos para acumular una suma futura, 2) la amortización de préstamos y 3) la determinación de las Tasas de interés o de crecimiento. El Valor Actual Neto a determinada tasa de descuento y la Tasa Interna de Retorno de una corriente de fondos.",
+        "Análisis e Interpretación de Estados Financieros: Las partes interesadas en llevar a cabo el análisis de razones financieras y los tipos comunes de comparación de razones. Precauciones que se deben tomar al efectuar el análisis de razones financieras. Utilización las razones más conocidas para evaluar la liquidez y la actividad del inventario, las cuentas por cobrar, las cuentas por pagar y los activos totales de una empresa. La relación entre la deuda y el apalancamiento financiero y las razones que se emplean para evaluar el grado de endeudamiento de la empresa y su capacidad para cumplir con los pagos de intereses relacionados con la deuda. Evaluación la rentabilidad de una empresa en relación con sus ventas, inversión en activos e inversión en el capital contable por parte de los propietarios."
       ]
     },
     {

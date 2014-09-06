@@ -38,6 +38,15 @@ var manipulacionAudioVideo;
 var desarrolloAppInteractivasII;
 var disenoSitiosWeb;
 var ingenieriaAplicacionesInteractivas;
+        //II semestre
+var comunicacionEscrita;
+var desarrolloEmpresarial;
+var gramaticaComposicionInglesaI;
+var tallerMultimedia;
+//optativas
+var manejoBasesDatos;
+var programacionAvanzadaASP;
+
 //cuarto año*****************
 
         //I semestre
@@ -142,6 +151,7 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
         $scope.medDD = info;
         mediosDigitalesDiseno=info;
     });
+    
 
 
   
@@ -221,7 +231,32 @@ $http.get('json_files/I/ISemestre/taller_de_experimentacion.json').success(funct
         $scope.ingAppInt= info;
         ingenieriaAplicacionesInteractivas=info;
      });  
-
+                                  /****************II SEMESTRE****************/
+        $http.get('json_files/III/II semestre/comunicacion escrita.json').success(function (info) {
+        $scope.comEscr= info;
+        comunicacionEscrita=info;
+     });
+             $http.get('json_files/III/II semestre/desarrollo empresarial.json').success(function (info) {
+        $scope.desEmpr= info;
+        desarrolloEmpresarial=info;
+     });
+             $http.get('json_files/III/II semestre/gramatica y composicion inglesa I.json').success(function (info) {
+        $scope.graComIngI= info;
+        gramaticaComposicionInglesaI=info;
+     });                                      
+            $http.get('json_files/III/II semestre/taller de multimedia.json').success(function (info) {
+        $scope.tallMult = info;
+        tallerMultimedia=info;
+      });
+                                  /*************OPTATIVAS****************/
+           $http.get('json_files/III/II semestre/optativas/programacion avanzada con ASP.NET.json').success(function (info) {
+        $scope.manBD = info;
+        programacionAvanzadaASP=info;
+      });
+                      $http.get('json_files/III/II semestre/optativas/manejo de base de datos.json').success(function (info) {
+        $scope.prAvASP= info;
+        manejoBasesDatos=info;
+      });
 
 
 
@@ -343,17 +378,18 @@ $('.up-left').click(function(event) { /*************************************DESC
    crearDescripcion(curso, nombreCurso);
    $('#descripcion').foundation('reveal', 'open');
   }
-
+  else{
+        $('#optativas').attr('data','false');
   if(nombreCurso=="OPT-1")
   {
-      
-  }
+      crearOptativasI();
+        }
 
   if(nombreCurso=="OPT-2")
   {
-    $('#optativas').attr('data','false');
-      crearOptativasII();
-      $('#optativas').foundation('reveal', 'open');
+   crearOptativasII();
+  }
+       $('#optativas').foundation('reveal', 'open');
 
       $('.opt').click(function(event) {
             nombreCurso=$(this).attr('data');
@@ -365,8 +401,8 @@ $('.up-left').click(function(event) { /*************************************DESC
            $('#descripcion').foundation('reveal', 'open');
 
       });
-  }
 
+}
 
 });
 
@@ -382,17 +418,18 @@ $('.up-right').click(function(event) { /*************************************OBJ
     crearObjetivos(curso,nombreCurso);
     $('#objetivos').foundation('reveal', 'open');
   }
+  else{
+            $('#optativas').attr('data','false');
+          if(nombreCurso=="OPT-1")
+          {
+              crearOptativasI();
+          }
 
-      if(nombreCurso=="OPT-1")
-  {
-      
-  }
-
-  if(nombreCurso=="OPT-2")
-  {
-    $('#optativas').attr('data','false');
-      crearOptativasII();
-      $('#optativas').foundation('reveal', 'open');
+          if(nombreCurso=="OPT-2")
+          {
+              crearOptativasII();
+         }
+       $('#optativas').foundation('reveal', 'open');
 
       $('.opt').click(function(event) {
             nombreCurso=$(this).attr('data');
@@ -402,9 +439,8 @@ $('.up-right').click(function(event) { /*************************************OBJ
               $('#optativas').attr('data', 'true');
               activarObjetivos=true;
            $('#objetivos').foundation('reveal', 'open');
-
-      });
-  }
+       });
+    }
 });
 
 //esquina inferior izquierda contenidos del curso
@@ -418,18 +454,18 @@ $('.down-left').click(function(event) {/*************************************CON
    crearContenidos(curso,nombreCurso);
     $('#contenidos').foundation('reveal', 'open');
  }
-
-
+else{
+   $('#optativas').attr('data','false');
   if(nombreCurso=="OPT-1")
   {
-      
+      crearOptativasI();
   }
 
   if(nombreCurso=="OPT-2")
   {
-    $('#optativas').attr('data','false');
-      crearOptativasII();
-      $('#optativas').foundation('reveal', 'open');
+     crearOptativasII();
+   }
+$('#optativas').foundation('reveal', 'open');
 
       $('.opt').click(function(event) {
             nombreCurso=$(this).attr('data');
@@ -450,11 +486,7 @@ $('.down-left').click(function(event) {/*************************************CON
              });
 
       });
-
-   
-    }
-
-
+}
       $('.punto').click(function(event) {/***********PUNTOS CONTENIDOS***************/
           /* Act on the event */
             var posContenido=$(this).attr('data');
@@ -615,11 +647,13 @@ function crearPuntos (curso, nombreCurso,posContenido) {
 ***************************************************************************************************************************************************************/
 function crearOptativasI()
 {
-    var optativas="<div class='row'><div class='small-8 column'>"+
+    var optativas="<div class='row cursoOPT'><div class='small-8 column'>"+
     "<ul>"+
-    "<li><a></></li>"+
-    "<li><a></></li>"+
+      "<li><a class='opt' data='"+manejoBasesDatos[0].nombre+"'>"+manejoBasesDatos[0].nombre+"</></li>"+
+      "<li><a class='opt' data='"+programacionAvanzadaASP[0].nombre+"'>"+programacionAvanzadaASP[0].nombre+"</></li>"+
+
     "</ul></div></div>";
+        $('#optativas').append(optativas);
 }
 function crearOptativasII()
 {
@@ -782,7 +816,32 @@ function getCurso(nombreCurso)
     {
       return ingenieriaAplicacionesInteractivas;
     }
-
+            /************II SEMESTE*****************/
+           if(nombreCurso=='Comunicación Escrita')
+    {
+      return comunicacionEscrita;
+    }       
+    if(nombreCurso=='Desarrollo empresarial')
+    {
+      return desarrolloEmpresarial;
+    }                 
+    if(nombreCurso=='Gramática y Composición Inglesa I')
+    {
+      return gramaticaComposicionInglesaI;
+    }
+    if(nombreCurso=='Taller de multimedia')
+    {
+      return tallerMultimedia;
+    }
+    //OPTATIVAS
+     if(nombreCurso=='Optativa I (Programación avanzada con ASP.net)')
+    {
+      return programacionAvanzadaASP;
+    }
+     if(nombreCurso=='Optativa I (Manejo de bases de datos)')
+    {
+      return manejoBasesDatos;
+    }
    
 
 
