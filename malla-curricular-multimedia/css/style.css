@@ -217,6 +217,15 @@ border: 0px solid #000000;
 
 }
 
+.two-lines{
+	margin-top: 16px;
+}
+.three-lines{
+	margin-top: 9px;
+}
+.four-lines{
+	
+}
 canvas{
 	position: absolute;
 }
@@ -244,3 +253,4 @@ canvas{
 .close{
 	padding: 0;
 }
+
