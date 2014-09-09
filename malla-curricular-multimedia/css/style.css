@@ -22,31 +22,44 @@ background-repeat: no-repeat;
 }
 .box{
 	display: block;
-	height: 62px;
+	height: 64px;
 	border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 0px solid #000000;
 	overflow: hidden;
-
-	
-
 }
 
 .box-shadow{
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
 
 }
 
+p, a{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
 .box p{
-	font-size: 10px;
+	
 	text-align: center;
-	font-family: sans-serif;
+
 	color: #FFF;
 	font-weight: bold;
 
+
+}
+
+
+
+.siglas{
+	font-size: 9px;
+}
+
+.nombre-curso{
+font-size: 10.5px;
 }
 
 
@@ -93,7 +106,10 @@ header{
 .space{
 margin-bottom: 10px;
 }
+body{
+	font-family: 'Open Sans', sans-serif;
 
+}
 
 .head{
 
@@ -115,11 +131,21 @@ border-radius: 15px 15px 0 0;
 -webkit-border-radius: 15px 15px 0 0;
 border: 0px solid #000000;
 
-text-align: center;
-color: #FFF;
 padding-top: 6px;
+margin-top: -5px;
 }
 
+.head p{
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+color: #FFF;
+}
+
+.conten{
+	font-size: 1rem;
+}
 .head-notVisible{
 display: block;
 	height: 30px;	

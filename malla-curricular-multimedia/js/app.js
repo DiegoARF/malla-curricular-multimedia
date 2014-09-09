@@ -572,7 +572,7 @@ $('#optativas').foundation('reveal', 'open');
 function crearDescripcion(curso, nombreCurso)
 {
     
-        var descripcion="<div class='row descripcion-cont'><h3 class='text-left small-8 column'>"+curso[0].nombre+"</h3><h4 class='small-8 column'><small>"+curso[0].siglas+"</small></h4></div><div class='row descripcion-cont'><p class='small-8 column'>"+curso[0].descripcion+"</p></div>";
+        var descripcion="<div class='row descripcion-cont'><h3 class='text-left small-8 column'>"+curso[0].nombre+"</h3><h4 class='small-8 column'><small>"+curso[0].siglas+"</small></h4></div><div class='row descripcion-cont'><p class='small-8 column conten'>"+curso[0].descripcion+"</p></div>";
        $('#descripcion').append(descripcion);
    
 }
