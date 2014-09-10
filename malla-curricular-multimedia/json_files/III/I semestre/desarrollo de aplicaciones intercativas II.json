@@ -4,14 +4,13 @@
   "nombre": "Desarrollo de aplicaciones interactivas II",
   "descripcion": "El curso está orientado al desarrollo de aplicaciones interactivas mediante el uso de un lenguaje de programación orientado a objetos. El curso inicia analizando el paradigma de programación orientado a objetos incorporando la utilización de la arquitectura n-capas dentro del desarrollo de aplicaciones web interactivas. Al mismo tiempo, el y la estudiante aprenden a representar los objetos mediante un lenguaje de modelado de objetos. Un punto importante en el desarrollo de niveles de programación es que el estudiante puede seleccionar de forma adecuada la ubicación de los diferentes objetos que intervienen en la solución, y ubicarlos en el nivel correspondiente a su función. Al finalizar el curso el estudiante será capaz de desarrollar una aplicación web interactiva completa utilizando un lenguaje de programación orientado a objetos. El y la estudiante deben desarrollar un proyecto final, donde se realiza un proyecto orientado al web utilizando los conocimientos adquiridos en el curso y en cursos anteriores.",
   "objetivosGenerales": [
-    "Utilizar técnicas fotográficas en la toma de imágenes para su optimización.",
-    "Que el o la estudiante pueda imaginar escenarios para luego crearlos por medio de imágenes del medio que lo rodea."
+  "Integrar el paradigma de programación orientada a objetos en el desarrollo de aplicaciones web interactivas, con el fin de que los y las estudiantes dominen un lenguaje de programación orientada a objetos para desarrollar sus aplicaciones."
   ],
   "objetivosEspecificos": [
-    "Conocer la historia y los tipos de fotografía.",
-    "Conocer los principios básicos para que una fotografía sea útil a sus necesidades.",
-    "Conocer las características de la cámara digital.",
-    "Dar tratamiento a las imágenes digitales tanto para corregir imperfecciones como para hacer una fotografía útil."
+    "Conocer los aspectos fundamentas utilizados en la programación orientada a objetos.",
+    "Utilizar un lenguaje de programación orientado a objetos para el desarrollo de aplicaciones web interactivas.",
+    "Conocer los diferentes componentes para brindar seguridad a las aplicaciones web interactivas realizadas mediante el lenguaje de programación utilizado.",
+    "Desarrollar un proyecto web interactivo mediante el uso de un lenguaje de programación orientado a objetos."
   ],
   "contenidos": [
     {

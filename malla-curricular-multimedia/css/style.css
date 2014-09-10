@@ -22,7 +22,7 @@ background-repeat: no-repeat;
 }
 .box{
 	display: block;
-	height: 64px;
+	height: 65px;
 	border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
@@ -42,10 +42,11 @@ p, a{
 	
 }
 
-.box p{
+.inf p{
 	
-	text-align: center;
-
+	display: table-cell;
+vertical-align: middle;
+text-align: center;
 	color: #FFF;
 	font-weight: bold;
 
@@ -88,14 +89,19 @@ background-color: #315965;
 }
 
 .sede{
-	height: 81px;
-	width: 55px;
+	height: 74px;
+	width: 50px;
 	}
 
 .multimedia-logo{
 	height: 55px;
 	width: 349px;
 	
+}
+
+.ucr{
+	height: 75px;
+	width: 86px;
 }
 header{
 	display: block;
@@ -114,7 +120,7 @@ body{
 .head{
 
 	display: block;
-	height: 30px;
+	height: 26px;
 	/*gradiente*/
 	background: -moz-linear-gradient(top,  rgba(0,0,14,1) 0%, rgba(2,53,92,0) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,14,1)), color-stop(100%,rgba(2,53,92,0))); /* Chrome,Safari4+ */
@@ -160,6 +166,7 @@ display: block;
 	opacity: 0.2;
 	cursor: pointer;
 	transition: width .6s;
+	z-index: 200;
 
 }
 
@@ -221,13 +228,22 @@ border: 0px solid #000000;
 	margin-top: 16px;
 }
 .three-lines{
-	margin-top: 9px;
+	margin-top: 8px;
 }
 .four-lines{
 	
 }
 canvas{
 	position: absolute;
+}
+
+.inf{
+	position: relative;
+
+
+height: 64px;
+width: 100%;
+display: table;
 }
 
 .info{

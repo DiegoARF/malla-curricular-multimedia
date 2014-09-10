@@ -984,8 +984,8 @@ ctx.beginPath();
 
 inicio=$('#TM-1100').offset();
 fin=$('#TM-1500').offset();
-ctx.moveTo(inicio.left+65,inicio.top+23);
-ctx.lineTo(fin.left+65,fin.top+23);
+ctx.moveTo(inicio.left+(widthBox/2),inicio.top+23);
+ctx.lineTo(inicio.left+(widthBox/2),fin.top+23);
 ctx.strokeStyle="#FFF";
 ctx.stroke();
 ctx.beginPath();
@@ -994,7 +994,7 @@ inicio=$('#TM-1100').offset();
 fin=$('#OPT-2').offset();
 ctx.moveTo(inicio.left,inicio.top+23);
 ctx.lineTo(fin.left+widthBox+10,fin.top+23);
-ctx.lineTo(fin.left+widthBox+10,fin.top+80);
+ctx.lineTo(fin.left+widthBox+10,fin.top+84);
 fin=$('#TM-8100').offset();
 ctx.lineTo(fin.left,fin.top+8);
 
