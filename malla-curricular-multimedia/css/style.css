@@ -10,6 +10,8 @@ background: linear-gradient(to bottom, #013e6b 0%,#022d50 40%,#000011 100%); /* 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#013e6b', endColorstr='#000011',GradientType=0 ); /* IE6-9 */
 background-repeat: no-repeat;
     background-attachment: fixed;
+
+ 
 }
 
 
@@ -53,11 +55,6 @@ text-align: center;
 
 }
 
-
-
-.siglas{
-	font-size: 9px;
-}
 
 .nombre-curso{
 font-size: 10.5px;
@@ -224,15 +221,7 @@ border: 0px solid #000000;
 
 }
 
-.two-lines{
-	margin-top: 16px;
-}
-.three-lines{
-	margin-top: 8px;
-}
-.four-lines{
-	
-}
+
 canvas{
 	position: absolute;
 }
